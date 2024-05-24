@@ -47,6 +47,7 @@ if __name__ == "__main__":
             else:
                 color = Color.END
             for file_path in file_paths:
-                print(f"File: {color}{file_path}{Color.END} | SHA256 Hash: {file_hash}")
+                id = file_path.split('/')[-1]
+                print(f"File: {color}{id}{Color.END} | SHA256 Hash: {file_hash}")
     else:
         print("Invalid folder path.")
