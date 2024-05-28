@@ -31,7 +31,34 @@ drwxr-xr-x  6 james james  4096 May 26 15:58 output
 
 ## Cmake
 
-`./Makefile` BR2_EXTERNAL=$(PWD)/general
+running make without specifying a target, make will run the first target in the Makefile which is `make all`, consist the following actions:
+
+```c
+all
+{
+    build
+    {
+        defconfig (preparing the build configuration)
+        {
+            prepare{
+                see if buildroot-${BR_VER} exist, if not, do wget for tar file.
+            }
+            // runs defconfig again in build root with config file path ${BR2_DEFCONwill FIG}
+        }
+        // runs make all again in the build root
+    }
+    repack
+    {
+        packs firmware
+    }
+    timer
+    {
+        shows execution time
+    }
+}
+```    
+
+`./Makefile` BR2_EXTERNAL=$(PWD)/general    
 `./Makefile` BR2_DEFCONFIG=$(PWD)/$(CONFIG) defconfig
 
 `./general/external.mk` OPENIPC_TOOLCHAIN -> latest/$(shell $(BR2_EXTERNAL)/scripts/show_toolchains.sh $(BR2_DEFCONFIG))
