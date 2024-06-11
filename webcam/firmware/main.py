@@ -38,7 +38,7 @@ def generate_sha256_for_files_in_folder(folder_path):
 
 if __name__ == "__main__":
     # folder_path = input("Enter the path of the folder: ")
-    folder_path = "/home/james/projects/pythonProjects/hash_check/test_data/1"
+    folder_path = f"{os.getcwd()}/test_data/1"
     if os.path.isdir(folder_path):
         file_hashes = generate_sha256_for_files_in_folder(folder_path)
         for file_hash, file_paths in file_hashes.items():
