@@ -58,6 +58,8 @@ all
 }
 ```    
 
+BR2_DEFCONFIG is ./br-ext-chip-sigmastar/configs/msc313e_lite_defconfig in this case
+
 `./Makefile` BR2_EXTERNAL=$(PWD)/general    
 `./Makefile` BR2_DEFCONFIG=$(PWD)/$(CONFIG) defconfig
 
