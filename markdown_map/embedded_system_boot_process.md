@@ -1,4 +1,4 @@
-# embedded system
+# embedded system boot process
 
 ## **Initial Program Load (IPL):**
 
