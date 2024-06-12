@@ -3,7 +3,7 @@
 ## **Initial Program Load (IPL):**
 
 - The boot process starts with the IPL, which initializes the system and verifies checksums.
-- The IPL loads from NOR flash memory and finds the Memory Expansion (MXP) block at offset `0x0000f000`.
+- The IPL loads from NOR flash memory and finds the Memory Expansion ([MXP](MXP.md)) block at offset `0x0000f000`.
 
 ## **U-Boot Initialization:**
 
