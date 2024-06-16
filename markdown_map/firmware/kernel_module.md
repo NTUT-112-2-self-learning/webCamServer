@@ -6,3 +6,16 @@
 - rmmod
 - modinfo
 - depmod
+  - generates 
+    - module dependency files
+      - modules.dep
+        - lists the dependencies for each module. When modprobe is used to load a module, it consults modules.dep to determine which other modules need to be loaded first
+    - Map and Alias Files
+      - modules.alias
+      - modules.symbols
+    - Device Map Files
+      - modules.devname
+      - modules.softdep
+    - Module Information Files
+      - modules.builtin
+    - modules.\*.bin is binary version of modules.\*
