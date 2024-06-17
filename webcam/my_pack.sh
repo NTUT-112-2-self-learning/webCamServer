@@ -7,7 +7,13 @@ uboot=u-boot-$chip-nor.bin
 uImage=uImage.$chip
 rootfs=rootfs.squashfs.$chip
 
-release=openipc-$chip-nor-$variant.bin
+release=$chip-nor-$variant_flavor.bin
+
+if [ -f "u-boot_downloaded/$uboot" ] && [ -f "$flavor/$uImage" ] && [ -f "$flavor/$rootfs" ]; then
+    echo "U-Boot, uImage, and rootfs images exist."
+else
+    echo "One or more of the images is missing."
+fi
 
 dd if=/dev/zero bs=1K count=8192 status=none | tr '\000' '\377' > $release
 dd if=u-boot_downloaded/$uboot of=$release bs=1K seek=0 conv=notrunc status=none
