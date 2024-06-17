@@ -1,13 +1,12 @@
 #!/bin/sh
 chip=ssc325
-variant=lite
 flavor=with_mt76
 
 uboot=u-boot-$chip-nor.bin
 uImage=uImage.$chip
 rootfs=rootfs.squashfs.$chip
 
-release=$chip-nor-$variant_flavor.bin
+release=$chip-$flavor.bin
 
 if [ -f "u-boot_downloaded/$uboot" ] && [ -f "$flavor/$uImage" ] && [ -f "$flavor/$rootfs" ]; then
     echo "U-Boot, uImage, and rootfs images exist."
@@ -23,7 +22,7 @@ dd if=$flavor/$rootfs of=$release bs=1K seek=2368 conv=notrunc status=none
 echo "Created: $release"
 
 
-CONFIG_MT7601U=m
+# CONFIG_MT7601U=m
 
 
 # BR2_PACKAGE_MT7601U_OPENIPC=y
