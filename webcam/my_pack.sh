@@ -1,17 +1,29 @@
 #!/bin/sh
+#ssc333 or ssc325
 chip=ssc325
+# flavor=origin_firmware_generated
 flavor=with_mt76
 
 uboot=u-boot-$chip-nor.bin
 uImage=uImage.$chip
 rootfs=rootfs.squashfs.$chip
 
-release=$chip-$flavor.bin
+
+release=image/$chip-$flavor.bin
+if [ -f "$release" ]; then
+    echo "removing $release..."
+    rm $release
+    echo "removed. Generating $release ..."
+else
+    echo "$release does not exist. Generating..."
+fi
+
 
 if [ -f "u-boot_downloaded/$uboot" ] && [ -f "$flavor/$uImage" ] && [ -f "$flavor/$rootfs" ]; then
     echo "U-Boot, uImage, and rootfs images exist."
 else
     echo "One or more of the images is missing."
+    exit 1
 fi
 
 dd if=/dev/zero bs=1K count=8192 status=none | tr '\000' '\377' > $release
