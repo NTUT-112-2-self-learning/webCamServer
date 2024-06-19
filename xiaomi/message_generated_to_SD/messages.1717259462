@@ -1,0 +1,1420 @@
+Jun  1 23:40:03 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:40:03 perp: [2024-06-01 23:40:03 D] seq:1400, len:179
+Jun  1 23:40:08 perp: [2024-06-01 23:40:08 D] PPCS_Listen error: -3
+Jun  1 23:40:08 perp: [2024-06-01 23:40:08 D] seq:1500, len:210
+Jun  1 23:40:09 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:40:09 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:40:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:40:12 perp: [2024-06-01 23:40:12 W] miss session: 0, list: 0, last connect time:1717256385, check vendor later!
+Jun  1 23:40:13 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:40:13 perp: [2024-06-01 23:40:13 D] seq:1600, len:147
+Jun  1 23:40:18 perp: [2024-06-01 23:40:18 D] seq:1700, len:365
+Jun  1 23:40:23 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:40:23 perp: [2024-06-01 23:40:23 D] seq:1800, len:305
+Jun  1 23:40:25 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:40:25 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:40:28 perp: [2024-06-01 23:40:28 D] seq:1900, len:154
+Jun  1 23:40:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:40:33 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:40:33 perp: [2024-06-01 23:40:33 D] seq:2000, len:155
+Jun  1 23:40:38 perp: [2024-06-01 23:40:38 D] seq:2100, len:145
+Jun  1 23:40:41 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:40:41 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:40:43 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:40:43 perp: [2024-06-01 23:40:43 D] seq:2200, len:183
+Jun  1 23:40:48 perp: [2024-06-01 23:40:48 D] seq:2300, len:185
+Jun  1 23:40:53 perp: [2024-06-01 23:40:53 D] seq:2400, len:148
+Jun  1 23:40:54 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  1 23:40:54 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003557
+Jun  1 23:40:54 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:40:57 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:40:57 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:40:58 perp: [2024-06-01 23:40:58 D] seq:2500, len:147
+Jun  1 23:41:00 crond[223]: USER root pid 618 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:41:03 perp: [2024-06-01 23:41:03 D] seq:2600, len:161
+Jun  1 23:41:04 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:41:04 miio_client[185]: [I] ots: -->sync sent.
+Jun  1 23:41:04 miio_client[185]: [I] ots: <--sync ack.
+Jun  1 23:41:08 perp: [2024-06-01 23:41:08 D] PPCS_Listen error: -3
+Jun  1 23:41:08 perp: [2024-06-01 23:41:08 D] seq:2700, len:144
+Jun  1 23:41:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:41:12 perp: [2024-06-01 23:41:12 W] miss session: 0, list: 0, last connect time:1717256445, check vendor later!
+Jun  1 23:41:13 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:41:13 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:41:13 perp: [2024-06-01 23:41:13 D] seq:2800, len:171
+Jun  1 23:41:14 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:41:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:41:18 perp: [2024-06-01 23:41:18 D] seq:2900, len:178
+Jun  1 23:41:23 perp: [2024-06-01 23:41:23 D] seq:3000, len:140
+Jun  1 23:41:24 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:41:28 perp: [2024-06-01 23:41:28 D] seq:3100, len:142
+Jun  1 23:41:29 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:41:29 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:41:33 perp: [2024-06-01 23:41:33 D] seq:3200, len:167
+Jun  1 23:41:34 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:41:38 perp: [2024-06-01 23:41:38 D] seq:3300, len:139
+Jun  1 23:41:43 perp: [2024-06-01 23:41:43 D] seq:3400, len:219
+Jun  1 23:41:44 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:41:45 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:41:45 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:41:48 perp: [2024-06-01 23:41:48 D] seq:3500, len:234
+Jun  1 23:41:53 perp: [2024-06-01 23:41:53 D] seq:3600, len:274
+Jun  1 23:41:54 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003554
+Jun  1 23:41:54 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003554
+Jun  1 23:41:54 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:41:58 perp: [2024-06-01 23:41:58 D] seq:3700, len:355
+Jun  1 23:42:00 crond[223]: USER root pid 658 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:42:01 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:42:01 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:42:03 perp: [2024-06-01 23:42:03 D] seq:3800, len:149
+Jun  1 23:42:04 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:42:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:42:08 perp: [2024-06-01 23:42:08 D] PPCS_Listen error: -3
+Jun  1 23:42:08 perp: [2024-06-01 23:42:08 D] seq:3900, len:143
+Jun  1 23:42:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:42:12 perp: [2024-06-01 23:42:12 W] miss session: 0, list: 0, last connect time:1717256505, check vendor later!
+Jun  1 23:42:13 perp: [2024-06-01 23:42:13 D] seq:4000, len:157
+Jun  1 23:42:15 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:42:17 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:42:17 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:42:18 perp: [2024-06-01 23:42:18 D] seq:4100, len:191
+Jun  1 23:42:23 perp: [2024-06-01 23:42:23 D] seq:4200, len:159
+Jun  1 23:42:25 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:42:28 perp: [2024-06-01 23:42:28 D] seq:4300, len:164
+Jun  1 23:42:33 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:42:33 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:42:33 perp: [2024-06-01 23:42:33 D] seq:4400, len:178
+Jun  1 23:42:35 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:42:38 perp: [2024-06-01 23:42:38 D] seq:4500, len:179
+Jun  1 23:42:43 perp: [2024-06-01 23:42:43 D] seq:4600, len:142
+Jun  1 23:42:45 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:42:48 perp: [2024-06-01 23:42:48 D] seq:4700, len:223
+Jun  1 23:42:49 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:42:49 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:42:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:42:53 perp: [2024-06-01 23:42:53 D] seq:4800, len:158
+Jun  1 23:42:54 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003553
+Jun  1 23:42:54 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003552
+Jun  1 23:42:55 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:42:58 perp: [2024-06-01 23:42:58 D] seq:4900, len:140
+Jun  1 23:43:00 crond[223]: USER root pid 698 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:43:03 perp: [2024-06-01 23:43:03 D] seq:5000, len:163
+Jun  1 23:43:05 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:43:05 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:43:06 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:43:08 perp: [2024-06-01 23:43:08 D] seq:5100, len:159
+Jun  1 23:43:09 perp: [2024-06-01 23:43:09 D] PPCS_Listen error: -3
+Jun  1 23:43:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:43:12 perp: [2024-06-01 23:43:12 W] miss session: 0, list: 0, last connect time:1717256565, check vendor later!
+Jun  1 23:43:12 miio_client[185]: [I] ots: -->sync sent.
+Jun  1 23:43:12 miio_client[185]: [I] ots: <--sync ack.
+Jun  1 23:43:13 perp: [2024-06-01 23:43:13 D] seq:5200, len:151
+Jun  1 23:43:15 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:43:18 perp: [2024-06-01 23:43:18 D] seq:5300, len:399
+Jun  1 23:43:22 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:43:22 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:43:23 perp: [2024-06-01 23:43:23 D] seq:5400, len:312
+Jun  1 23:43:25 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:43:28 perp: [2024-06-01 23:43:28 D] seq:5500, len:168
+Jun  1 23:43:33 perp: [2024-06-01 23:43:33 D] seq:5600, len:164
+Jun  1 23:43:36 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:43:38 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:43:38 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:43:38 perp: [2024-06-01 23:43:38 D] seq:5700, len:154
+Jun  1 23:43:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:43:43 perp: [2024-06-01 23:43:43 D] seq:5800, len:146
+Jun  1 23:43:46 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:43:48 perp: [2024-06-01 23:43:48 D] seq:5900, len:153
+Jun  1 23:43:53 perp: [2024-06-01 23:43:53 D] seq:6000, len:174
+Jun  1 23:43:53 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003550
+Jun  1 23:43:53 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003550
+Jun  1 23:43:54 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:43:54 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:43:56 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:43:57 miio_algo[183]: u32EV:48
+Jun  1 23:43:57 miio_algo[183]: u32Luma:38
+Jun  1 23:43:57 miio_algo[183]: u32ExposureTime: 50001
+Jun  1 23:43:57 miio_algo[183]: u32AnalogGain: 2175
+Jun  1 23:43:57 miio_algo[183]: u32DGain: 1024
+Jun  1 23:43:57 miio_algo[183]: rg_gain: -5991.739258
+Jun  1 23:43:57 miio_algo[183]: bg_gain: -2552.332031
+Jun  1 23:43:58 perp: [2024-06-01 23:43:58 D] seq:6100, len:135
+Jun  1 23:44:00 crond[223]: USER root pid 738 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:44:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  1 23:44:03 perp: [2024-06-01 23:44:03 D] seq:6200, len:160
+Jun  1 23:44:06 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:44:08 perp: [2024-06-01 23:44:08 D] seq:6300, len:134
+Jun  1 23:44:09 perp: [2024-06-01 23:44:09 D] PPCS_Listen error: -3
+Jun  1 23:44:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:44:12 perp: [2024-06-01 23:44:12 W] miss session: 0, list: 0, last connect time:1717256625, check vendor later!
+Jun  1 23:44:13 perp: [2024-06-01 23:44:13 D] seq:6400, len:124
+Jun  1 23:44:14 miio_cloud[201]: MemTotal:61156  MemFree:1040  MemAvailable:15532  Buffers:1156 Cached:14292
+Jun  1 23:44:16 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:44:18 perp: [2024-06-01 23:44:18 D] seq:6500, len:175
+Jun  1 23:44:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:44:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:44:23 perp: [2024-06-01 23:44:23 D] seq:6600, len:154
+Jun  1 23:44:26 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:44:28 perp: [2024-06-01 23:44:28 D] seq:6700, len:157
+Jun  1 23:44:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:44:33 perp: [2024-06-01 23:44:33 D] seq:6800, len:139
+Jun  1 23:44:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:44:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:44:36 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:44:38 perp: [2024-06-01 23:44:38 D] seq:6900, len:140
+Jun  1 23:44:43 perp: [2024-06-01 23:44:43 D] seq:7000, len:222
+Jun  1 23:44:47 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:44:48 perp: [2024-06-01 23:44:48 D] seq:7100, len:398
+Jun  1 23:44:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:44:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:44:53 perp: [2024-06-01 23:44:53 D] seq:7200, len:274
+Jun  1 23:44:53 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  1 23:44:53 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003555
+Jun  1 23:44:57 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:44:58 perp: [2024-06-01 23:44:58 D] seq:7300, len:154
+Jun  1 23:45:00 crond[223]: USER root pid 778 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:45:03 perp: [2024-06-01 23:45:03 D] seq:7400, len:153
+Jun  1 23:45:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:45:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:45:07 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:45:08 perp: [2024-06-01 23:45:08 D] seq:7500, len:161
+Jun  1 23:45:09 perp: [2024-06-01 23:45:09 D] PPCS_Listen error: -3
+Jun  1 23:45:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:45:12 perp: [2024-06-01 23:45:12 W] miss session: 0, list: 0, last connect time:1717256685, check vendor later!
+Jun  1 23:45:13 perp: [2024-06-01 23:45:13 D] seq:7600, len:146
+Jun  1 23:45:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:45:17 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:45:18 perp: [2024-06-01 23:45:18 D] seq:7700, len:674
+Jun  1 23:45:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:45:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:45:23 perp: [2024-06-01 23:45:23 D] seq:7800, len:206
+Jun  1 23:45:27 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:45:28 perp: [2024-06-01 23:45:28 D] seq:7900, len:186
+Jun  1 23:45:33 perp: [2024-06-01 23:45:33 D] seq:8000, len:159
+Jun  1 23:45:37 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:45:38 perp: [2024-06-01 23:45:38 D] seq:8100, len:207
+Jun  1 23:45:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:45:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:45:43 perp: [2024-06-01 23:45:43 D] seq:8200, len:185
+Jun  1 23:45:47 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:45:48 perp: [2024-06-01 23:45:48 D] seq:8300, len:157
+Jun  1 23:45:53 perp: [2024-06-01 23:45:53 D] seq:8400, len:142
+Jun  1 23:45:53 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003552
+Jun  1 23:45:54 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.986901
+Jun  1 23:45:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:45:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:45:58 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:45:58 perp: [2024-06-01 23:45:58 D] seq:8500, len:139
+Jun  1 23:46:00 crond[223]: USER root pid 818 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:46:03 perp: [2024-06-01 23:46:03 D] seq:8600, len:166
+Jun  1 23:46:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:46:08 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:46:08 perp: [2024-06-01 23:46:08 D] seq:8700, len:147
+Jun  1 23:46:10 perp: [2024-06-01 23:46:10 D] PPCS_Listen error: -3
+Jun  1 23:46:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:46:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:46:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:46:12 perp: [2024-06-01 23:46:12 W] miss session: 0, list: 0, last connect time:1717256745, check vendor later!
+Jun  1 23:46:13 perp: [2024-06-01 23:46:13 D] seq:8800, len:287
+Jun  1 23:46:18 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:46:18 perp: [2024-06-01 23:46:18 D] seq:8900, len:395
+Jun  1 23:46:23 perp: [2024-06-01 23:46:23 D] seq:9000, len:1104
+Jun  1 23:46:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:46:27 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:46:28 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:46:29 perp: [2024-06-01 23:46:29 D] seq:9100, len:2887
+Jun  1 23:46:34 perp: [2024-06-01 23:46:34 D] seq:9200, len:2537
+Jun  1 23:46:38 kernel: [SCLIRQ]chang time :52963
+Jun  1 23:46:38 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:46:40 perp: [2024-06-01 23:46:40 D] seq:9300, len:886
+Jun  1 23:46:43 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:46:43 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:46:45 perp: [2024-06-01 23:46:45 D] seq:9400, len:188
+Jun  1 23:46:48 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:46:50 perp: [2024-06-01 23:46:50 D] seq:9500, len:381
+Jun  1 23:46:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:46:55 perp: [2024-06-01 23:46:55 D] seq:9600, len:1756
+Jun  1 23:46:55 fetch_av[178]: video_stream_thread(),video chn 1, fps: 19.451119
+Jun  1 23:46:55 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.451114
+Jun  1 23:46:58 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:46:59 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:46:59 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:47:00 crond[223]: USER root pid 858 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:47:00 perp: [2024-06-01 23:47:00 D] seq:9700, len:155
+Jun  1 23:47:06 kernel: [SCLIRQ]chang time :46095
+Jun  1 23:47:06 perp: [2024-06-01 23:47:06 D] seq:9800, len:6261
+Jun  1 23:47:09 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:47:10 perp: [2024-06-01 23:47:10 D] PPCS_Listen error: -3
+Jun  1 23:47:11 perp: [2024-06-01 23:47:11 D] seq:9900, len:1445
+Jun  1 23:47:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:47:12 perp: [2024-06-01 23:47:12 W] miss session: 0, list: 0, last connect time:1717256805, check vendor later!
+Jun  1 23:47:15 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:47:15 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:47:16 perp: [2024-06-01 23:47:16 D] seq:10000, len:406
+Jun  1 23:47:19 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:47:21 perp: [2024-06-01 23:47:21 D] seq:10100, len:180
+Jun  1 23:47:26 perp: [2024-06-01 23:47:26 D] seq:10200, len:268
+Jun  1 23:47:28 miio_client[185]: [I] ots: -->sync sent.
+Jun  1 23:47:28 miio_client[185]: [I] ots: <--sync ack.
+Jun  1 23:47:29 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:47:31 perp: [2024-06-01 23:47:31 D] seq:10300, len:160
+Jun  1 23:47:31 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:47:32 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:47:36 perp: [2024-06-01 23:47:36 D] seq:10400, len:575
+Jun  1 23:47:39 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:47:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:47:41 kernel: [SCLIRQ]chang time :52961
+Jun  1 23:47:43 perp: [2024-06-01 23:47:43 D] seq:10500, len:4950
+Jun  1 23:47:48 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:47:48 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:47:48 perp: [2024-06-01 23:47:48 D] seq:10600, len:1321
+Jun  1 23:47:49 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:47:53 perp: [2024-06-01 23:47:53 D] seq:10700, len:307
+Jun  1 23:47:58 perp: [2024-06-01 23:47:58 D] seq:10800, len:159
+Jun  1 23:47:58 fetch_av[178]: video_stream_thread(),video chn 1, fps: 19.193626
+Jun  1 23:47:58 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.193627
+Jun  1 23:47:59 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:48:00 crond[223]: USER root pid 898 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:48:03 perp: [2024-06-01 23:48:03 D] seq:10900, len:158
+Jun  1 23:48:04 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:48:04 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:48:08 perp: [2024-06-01 23:48:08 D] seq:11000, len:179
+Jun  1 23:48:10 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:48:11 perp: [2024-06-01 23:48:11 D] PPCS_Listen error: -3
+Jun  1 23:48:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:48:12 perp: [2024-06-01 23:48:12 W] miss session: 0, list: 0, last connect time:1717256865, check vendor later!
+Jun  1 23:48:13 perp: [2024-06-01 23:48:13 D] seq:11100, len:173
+Jun  1 23:48:18 perp: [2024-06-01 23:48:18 D] seq:11200, len:238
+Jun  1 23:48:20 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:48:20 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:48:20 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:48:23 perp: [2024-06-01 23:48:23 D] seq:11300, len:275
+Jun  1 23:48:28 perp: [2024-06-01 23:48:28 D] seq:11400, len:194
+Jun  1 23:48:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:48:30 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:48:33 perp: [2024-06-01 23:48:33 D] seq:11500, len:1017
+Jun  1 23:48:36 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:48:36 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:48:38 perp: [2024-06-01 23:48:38 D] seq:11600, len:2614
+Jun  1 23:48:40 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:48:40 kernel: [SCLIRQ]chang time :51009
+Jun  1 23:48:44 perp: [2024-06-01 23:48:44 D] seq:11700, len:1023
+Jun  1 23:48:50 perp: [2024-06-01 23:48:50 D] seq:11800, len:3737
+Jun  1 23:48:50 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:48:52 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:48:52 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:48:55 perp: [2024-06-01 23:48:55 D] seq:11900, len:1354
+Jun  1 23:49:00 fetch_av[178]: video_stream_thread(),video chn 1, fps: 19.340230
+Jun  1 23:49:00 perp: [2024-06-01 23:49:00 D] seq:12000, len:194
+Jun  1 23:49:00 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.340224
+Jun  1 23:49:00 crond[223]: USER root pid 938 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:49:00 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:49:00 miio_algo[183]: u32EV:43
+Jun  1 23:49:00 miio_algo[183]: u32Luma:36
+Jun  1 23:49:00 miio_algo[183]: u32ExposureTime: 50001
+Jun  1 23:49:00 miio_algo[183]: u32AnalogGain: 2941
+Jun  1 23:49:00 miio_algo[183]: u32DGain: 1024
+Jun  1 23:49:00 miio_algo[183]: rg_gain: -6218.000977
+Jun  1 23:49:00 miio_algo[183]: bg_gain: -2589.126953
+Jun  1 23:49:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  1 23:49:05 perp: [2024-06-01 23:49:05 D] seq:12100, len:211
+Jun  1 23:49:10 perp: [2024-06-01 23:49:10 D] seq:12200, len:482
+Jun  1 23:49:11 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:49:11 perp: [2024-06-01 23:49:11 D] PPCS_Listen error: -3
+Jun  1 23:49:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:49:12 perp: [2024-06-01 23:49:12 W] miss session: 0, list: 0, last connect time:1717256925, check vendor later!
+Jun  1 23:49:15 miio_cloud[201]: MemTotal:61156  MemFree:1636  MemAvailable:15932  Buffers:464 Cached:13860
+Jun  1 23:49:15 perp: [2024-06-01 23:49:15 D] seq:12300, len:445
+Jun  1 23:49:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:49:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:49:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:49:20 perp: [2024-06-01 23:49:20 D] seq:12400, len:474
+Jun  1 23:49:21 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:49:25 perp: [2024-06-01 23:49:25 D] seq:12500, len:400
+Jun  1 23:49:30 perp: [2024-06-01 23:49:30 D] seq:12600, len:624
+Jun  1 23:49:31 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:49:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:49:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:49:35 perp: [2024-06-01 23:49:35 D] seq:12700, len:352
+Jun  1 23:49:40 perp: [2024-06-01 23:49:40 D] seq:12800, len:173
+Jun  1 23:49:41 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:49:45 perp: [2024-06-01 23:49:45 D] seq:12900, len:539
+Jun  1 23:49:50 perp: [2024-06-01 23:49:50 D] seq:13000, len:779
+Jun  1 23:49:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:49:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:49:51 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:49:55 perp: [2024-06-01 23:49:55 D] seq:13100, len:513
+Jun  1 23:50:00 perp: [2024-06-01 23:50:00 D] seq:13200, len:532
+Jun  1 23:50:00 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003549
+Jun  1 23:50:00 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003561
+Jun  1 23:50:00 crond[223]: USER root pid 978 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:50:01 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:50:05 perp: [2024-06-01 23:50:05 D] seq:13300, len:557
+Jun  1 23:50:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:50:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:50:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:50:10 perp: [2024-06-01 23:50:10 D] seq:13400, len:470
+Jun  1 23:50:11 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:50:11 perp: [2024-06-01 23:50:11 D] PPCS_Listen error: -3
+Jun  1 23:50:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:50:12 perp: [2024-06-01 23:50:12 W] miss session: 0, list: 0, last connect time:1717256985, check vendor later!
+Jun  1 23:50:15 perp: [2024-06-01 23:50:15 D] seq:13500, len:623
+Jun  1 23:50:20 perp: [2024-06-01 23:50:20 D] seq:13600, len:373
+Jun  1 23:50:22 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:50:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:50:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:50:25 perp: [2024-06-01 23:50:25 D] seq:13700, len:277
+Jun  1 23:50:30 perp: [2024-06-01 23:50:30 D] seq:13800, len:1047
+Jun  1 23:50:32 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:50:36 perp: [2024-06-01 23:50:36 D] seq:13900, len:3118
+Jun  1 23:50:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:50:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:50:41 perp: [2024-06-01 23:50:41 D] seq:14000, len:169
+Jun  1 23:50:42 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:50:46 perp: [2024-06-01 23:50:46 D] seq:14100, len:223
+Jun  1 23:50:51 perp: [2024-06-01 23:50:51 D] seq:14200, len:147
+Jun  1 23:50:52 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:50:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:50:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:50:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:50:56 perp: [2024-06-01 23:50:56 D] seq:14300, len:851
+Jun  1 23:51:00 crond[223]: USER root pid 1018 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:51:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 19.739994
+Jun  1 23:51:01 perp: [2024-06-01 23:51:01 D] seq:14400, len:692
+Jun  1 23:51:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.739991
+Jun  1 23:51:02 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:51:06 perp: [2024-06-01 23:51:06 D] seq:14500, len:2230
+Jun  1 23:51:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:51:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:51:11 perp: [2024-06-01 23:51:11 D] seq:14600, len:2836
+Jun  1 23:51:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:51:12 perp: [2024-06-01 23:51:12 D] PPCS_Listen error: -3
+Jun  1 23:51:12 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:51:12 perp: [2024-06-01 23:51:12 W] miss session: 0, list: 0, last connect time:1717257045, check vendor later!
+Jun  1 23:51:16 perp: [2024-06-01 23:51:16 D] miss_cmd_process: 0x103, status: 3
+Jun  1 23:51:16 miio_miss[210]: miss_on_cmd sesson:0x56480, cmd:259, len:2
+Jun  1 23:51:16 miio_miss[210]: IOTYPE_USER_IPCAM_STOP
+Jun  1 23:51:16 perp: [2024-06-01 23:51:16 D] miss_statistics_set frame info, framecount:14414, dropFrame:0, byteSize:13071653, duration:0
+Jun  1 23:51:16 perp: [2024-06-01 23:51:16 D] report frame msg:{"head":{"did":"253159114","model":"chuangmi.camera.ipc009","sdkType":"device","version":"3.0.8"},"frames":[{"frameCount":14414,"dropFrame":0,"byteSize":13071653,"cost":0,"common":{"vendor
+Jun  1 23:51:16 perp: [20240601 23:51:16] [INFO] U:new id:9, old_id:7453413, fd:7: len: 387
+Jun  1 23:51:16 miio_miss[210]: rpc_report_send: {"id":7453413,"method":"_sync.camera_perf_data","params":{"data":"{\"head\":{\"did\":\"253159114\",\"model\":\"chuangmi.camera.ipc009\",\"sdkType\":\"device\",\"version\":\"3.0.8\"},\"frames\":[{\"frame
+Jun  1 23:51:16 perp: [2024-06-01 23:51:16 D] cs2_local_status clear send ring buffer!
+Jun  1 23:51:17 miio_client[185]: [I] miio_client_func: Up-report msg, id:9, fd:7, len=387
+Jun  1 23:51:17 miio_client[185]: [I] miio_instance: miio_ext_rpc_hook_default called
+Jun  1 23:51:17 miio_client[185]: [I] miio_instance: ext rpc [id=2383]
+Jun  1 23:51:17 perp: [20240601 23:51:17] [INFO] S:cmd,fd:11, len:87
+Jun  1 23:51:17 perp: [20240601 23:51:17] [INFO] U:ACK,fd:11, len:35
+Jun  1 23:51:17 miio_client[185]: [I] miio_client_func: Up-ack msg, id:2383, fd:7, len=35
+Jun  1 23:51:17 miio_client[185]: [I] miio_client_func: report_msg_general_callback() recv down-ack msg fd = 7, id = 9, data_len = 22
+Jun  1 23:51:17 perp: [20240601 23:51:17] [INFO] S:ACK, new_id:9, old_id:7453413, fd:7,length: 28
+Jun  1 23:51:17 miio_miss[210]: otd_recv_handler_block(), sockfd: 9, msg: {"result":null,"id":7453413}, length: 28 bytes
+Jun  1 23:51:17 miio_miss[210]: msg_dispatcher, msg: {"result":null,"id":7453413}, strlen: 28, len: 28
+Jun  1 23:51:21 miio_client[185]: [I] miio_instance: miio_ext_rpc_hook_default called
+Jun  1 23:51:21 miio_client[185]: [I] miio_instance: ext rpc [id=2384]
+Jun  1 23:51:21 perp: [20240601 23:51:21] [INFO] S:cmd,fd:11, len:112
+Jun  1 23:51:21 perp: [20240601 23:51:21] [INFO] U:ACK,fd:11, len:40
+Jun  1 23:51:21 miio_client[185]: [I] miio_client_func: Up-ack msg, id:2384, fd:7, len=40
+Jun  1 23:51:22 miio_miss[210]: miss_on_cmd sesson:0x56480, cmd:258, len:2
+Jun  1 23:51:22 miio_miss[210]: length:2, msg:{}
+Jun  1 23:51:22 miio_miss[210]: IOTYPE_USER_IPCAM_START, SID:0 msg: {}
+Jun  1 23:51:22 miio_miss[210]: handle_ioctrl_cmd_ipcam_start---
+Jun  1 23:51:22 miio_miss[210]: ForceKeyFrame msg send, chn: 0, time 1717257082
+Jun  1 23:51:22 miio_miss[210]: check app phone match start 
+Jun  1 23:51:22 miio_miss[210]: -----imeibuf len = 0----------------
+Jun  1 23:51:22 perp: [2024-06-01 23:51:22 D] miss_cmd_process: 0x102, status: 3
+Jun  1 23:51:22 perp: [2024-06-01 23:51:22 D] miss_cmd_process: 0x109, status: 3
+Jun  1 23:51:22 miio_miss[210]: miss_on_cmd sesson:0x56480, cmd:265, len:18
+Jun  1 23:51:22 miio_miss[210]: IOTYPE_USER_IPCAM_SETSTREAMCTRL_REQ, content: {"videoquality":0}
+Jun  1 23:51:22 perp: [2024-06-01 23:51:22 D] miss_cmd_send, cmd: 0x10a
+Jun  1 23:51:22 perp: [2024-06-01 23:51:22 D] cs2_write result: 0
+Jun  1 23:51:22 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:51:26 perp: [2024-06-01 23:51:26 D] seq:14900, len:1875
+Jun  1 23:51:31 perp: [2024-06-01 23:51:31 D] seq:15000, len:2624
+Jun  1 23:51:33 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:51:33 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:51:33 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:51:36 perp: [2024-06-01 23:51:36 D] seq:15100, len:1727
+Jun  1 23:51:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:51:41 perp: [2024-06-01 23:51:41 D] seq:15200, len:851
+Jun  1 23:51:43 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:51:46 perp: [2024-06-01 23:51:46 D] seq:15300, len:262
+Jun  1 23:51:49 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:51:49 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:51:51 perp: [2024-06-01 23:51:51 D] seq:15400, len:469
+Jun  1 23:51:53 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:51:56 perp: [2024-06-01 23:51:56 D] seq:15500, len:339
+Jun  1 23:52:00 crond[223]: USER root pid 1058 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:52:01 perp: [2024-06-01 23:52:01 D] seq:15600, len:440
+Jun  1 23:52:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 19.696477
+Jun  1 23:52:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.696476
+Jun  1 23:52:03 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:52:05 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:52:05 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:52:06 perp: [2024-06-01 23:52:06 D] seq:15700, len:354
+Jun  1 23:52:11 perp: [2024-06-01 23:52:11 D] seq:15800, len:319
+Jun  1 23:52:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:52:12 perp: [2024-06-01 23:52:12 D] PPCS_Listen error: -3
+Jun  1 23:52:12 perp: [2024-06-01 23:52:12 W] miss session: 0, list: 0, last connect time:1717257105, check vendor later!
+Jun  1 23:52:13 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:52:16 perp: [2024-06-01 23:52:16 D] seq:15900, len:656
+Jun  1 23:52:21 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:52:21 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:52:21 perp: [2024-06-01 23:52:21 D] seq:16000, len:458
+Jun  1 23:52:23 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:52:26 perp: [2024-06-01 23:52:26 D] seq:16100, len:193
+Jun  1 23:52:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:52:31 perp: [2024-06-01 23:52:31 D] seq:16200, len:509
+Jun  1 23:52:33 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:52:36 perp: [2024-06-01 23:52:36 D] seq:16300, len:379
+Jun  1 23:52:37 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:52:37 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:52:41 perp: [2024-06-01 23:52:41 D] seq:16400, len:838
+Jun  1 23:52:43 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:52:46 perp: [2024-06-01 23:52:46 D] seq:16500, len:3458
+Jun  1 23:52:51 perp: [2024-06-01 23:52:51 D] seq:16600, len:700
+Jun  1 23:52:53 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:52:53 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:52:54 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:52:56 perp: [2024-06-01 23:52:56 D] seq:16700, len:269
+Jun  1 23:53:00 crond[223]: USER root pid 1098 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:53:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003560
+Jun  1 23:53:01 perp: [2024-06-01 23:53:01 D] seq:16800, len:473
+Jun  1 23:53:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003553
+Jun  1 23:53:04 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:53:06 perp: [2024-06-01 23:53:06 D] seq:16900, len:1137
+Jun  1 23:53:09 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:53:09 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:53:11 perp: [2024-06-01 23:53:11 D] seq:17000, len:452
+Jun  1 23:53:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:53:12 perp: [2024-06-01 23:53:12 W] miss session: 0, list: 0, last connect time:1717257165, check vendor later!
+Jun  1 23:53:13 perp: [2024-06-01 23:53:13 D] PPCS_Listen error: -3
+Jun  1 23:53:14 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:53:16 perp: [2024-06-01 23:53:16 D] seq:17100, len:240
+Jun  1 23:53:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:53:21 perp: [2024-06-01 23:53:21 D] seq:17200, len:608
+Jun  1 23:53:24 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:53:25 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:53:25 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:53:26 perp: [2024-06-01 23:53:26 D] seq:17300, len:235
+Jun  1 23:53:31 perp: [2024-06-01 23:53:31 D] seq:17400, len:206
+Jun  1 23:53:34 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:53:36 perp: [2024-06-01 23:53:36 D] seq:17500, len:534
+Jun  1 23:53:41 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:53:41 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:53:41 perp: [2024-06-01 23:53:41 D] seq:17600, len:184
+Jun  1 23:53:44 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:53:46 perp: [2024-06-01 23:53:46 D] seq:17700, len:403
+Jun  1 23:53:51 perp: [2024-06-01 23:53:51 D] seq:17800, len:177
+Jun  1 23:53:55 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:53:56 perp: [2024-06-01 23:53:56 D] seq:17900, len:160
+Jun  1 23:53:57 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:53:57 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:54:00 crond[223]: USER root pid 1138 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:54:01 perp: [2024-06-01 23:54:01 D] seq:18000, len:404
+Jun  1 23:54:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003552
+Jun  1 23:54:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  1 23:54:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  1 23:54:04 miio_algo[183]: u32EV:45
+Jun  1 23:54:04 miio_algo[183]: u32Luma:35
+Jun  1 23:54:04 miio_algo[183]: u32ExposureTime: 50001
+Jun  1 23:54:04 miio_algo[183]: u32AnalogGain: 2512
+Jun  1 23:54:04 miio_algo[183]: u32DGain: 1024
+Jun  1 23:54:04 miio_algo[183]: rg_gain: -6168.049805
+Jun  1 23:54:04 miio_algo[183]: bg_gain: -2679.046875
+Jun  1 23:54:05 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:54:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:54:06 perp: [2024-06-01 23:54:06 D] seq:18100, len:213
+Jun  1 23:54:11 perp: [2024-06-01 23:54:11 D] seq:18200, len:290
+Jun  1 23:54:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:54:12 perp: [2024-06-01 23:54:12 W] miss session: 0, list: 0, last connect time:1717257225, check vendor later!
+Jun  1 23:54:13 perp: [2024-06-01 23:54:13 D] PPCS_Listen error: -3
+Jun  1 23:54:15 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:54:16 miio_cloud[201]: MemTotal:61156  MemFree:1244  MemAvailable:15612  Buffers:360 Cached:14276
+Jun  1 23:54:16 perp: [2024-06-01 23:54:16 D] seq:18300, len:485
+Jun  1 23:54:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:54:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:54:21 perp: [2024-06-01 23:54:21 D] seq:18400, len:298
+Jun  1 23:54:25 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:54:26 perp: [2024-06-01 23:54:26 D] seq:18500, len:203
+Jun  1 23:54:31 perp: [2024-06-01 23:54:31 D] seq:18600, len:800
+Jun  1 23:54:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:54:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:54:35 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:54:36 perp: [2024-06-01 23:54:36 D] seq:18700, len:949
+Jun  1 23:54:41 perp: [2024-06-01 23:54:41 D] seq:18800, len:611
+Jun  1 23:54:45 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:54:46 perp: [2024-06-01 23:54:46 D] seq:18900, len:238
+Jun  1 23:54:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:54:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:54:51 perp: [2024-06-01 23:54:51 D] seq:19000, len:210
+Jun  1 23:54:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:54:56 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:54:56 perp: [2024-06-01 23:54:56 D] seq:19100, len:148
+Jun  1 23:55:00 crond[223]: USER root pid 1178 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:55:01 perp: [2024-06-01 23:55:01 D] seq:19200, len:222
+Jun  1 23:55:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003554
+Jun  1 23:55:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003557
+Jun  1 23:55:06 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:55:06 perp: [2024-06-01 23:55:06 D] seq:19300, len:257
+Jun  1 23:55:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:55:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:55:11 perp: [2024-06-01 23:55:11 D] seq:19400, len:155
+Jun  1 23:55:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:55:12 perp: [2024-06-01 23:55:12 W] miss session: 0, list: 0, last connect time:1717257285, check vendor later!
+Jun  1 23:55:13 perp: [2024-06-01 23:55:13 D] PPCS_Listen error: -3
+Jun  1 23:55:16 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:55:16 perp: [2024-06-01 23:55:16 D] seq:19500, len:1502
+Jun  1 23:55:21 perp: [2024-06-01 23:55:21 D] seq:19600, len:890
+Jun  1 23:55:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:55:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:55:26 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:55:26 perp: [2024-06-01 23:55:26 D] seq:19700, len:1011
+Jun  1 23:55:31 perp: [2024-06-01 23:55:31 D] seq:19800, len:1169
+Jun  1 23:55:36 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:55:36 perp: [2024-06-01 23:55:36 D] seq:19900, len:933
+Jun  1 23:55:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:55:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:55:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:55:41 perp: [2024-06-01 23:55:41 D] seq:20000, len:1014
+Jun  1 23:55:46 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:55:46 perp: [2024-06-01 23:55:46 D] seq:20100, len:1085
+Jun  1 23:55:51 perp: [2024-06-01 23:55:51 D] seq:20200, len:809
+Jun  1 23:55:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:55:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:55:56 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:55:56 perp: [2024-06-01 23:55:56 D] seq:20300, len:920
+Jun  1 23:56:00 crond[223]: USER root pid 1218 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:56:00 miio_client[185]: [I] ots: -->sync sent.
+Jun  1 23:56:00 miio_client[185]: [I] ots: <--sync ack.
+Jun  1 23:56:01 perp: [2024-06-01 23:56:01 D] seq:20400, len:847
+Jun  1 23:56:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003549
+Jun  1 23:56:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003553
+Jun  1 23:56:06 perp: [2024-06-01 23:56:06 D] seq:20500, len:677
+Jun  1 23:56:07 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:56:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:56:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:56:11 perp: [2024-06-01 23:56:11 D] seq:20600, len:821
+Jun  1 23:56:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:56:12 perp: [2024-06-01 23:56:12 W] miss session: 0, list: 0, last connect time:1717257345, check vendor later!
+Jun  1 23:56:13 perp: [2024-06-01 23:56:13 D] PPCS_Listen error: -3
+Jun  1 23:56:16 perp: [2024-06-01 23:56:16 D] seq:20700, len:809
+Jun  1 23:56:17 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:56:21 perp: [2024-06-01 23:56:21 D] seq:20800, len:444
+Jun  1 23:56:26 perp: [2024-06-01 23:56:26 D] seq:20900, len:655
+Jun  1 23:56:27 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:56:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:56:27 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:56:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:56:31 perp: [2024-06-01 23:56:31 D] seq:21000, len:614
+Jun  1 23:56:36 perp: [2024-06-01 23:56:36 D] seq:21100, len:679
+Jun  1 23:56:37 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:56:41 perp: [2024-06-01 23:56:41 D] seq:21200, len:635
+Jun  1 23:56:43 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:56:43 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:56:46 perp: [2024-06-01 23:56:46 D] seq:21300, len:522
+Jun  1 23:56:47 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:56:50 miio_miss[210]: miss_on_cmd sesson:0x56480, cmd:259, len:2
+Jun  1 23:56:50 miio_miss[210]: IOTYPE_USER_IPCAM_STOP
+Jun  1 23:56:50 perp: [2024-06-01 23:56:50 D] miss_cmd_process: 0x103, status: 3
+Jun  1 23:56:50 perp: [2024-06-01 23:56:50 D] miss_statistics_set frame info, framecount:6567, dropFrame:0, byteSize:7426082, duration:0
+Jun  1 23:56:50 perp: [2024-06-01 23:56:50 D] report frame msg:{"head":{"did":"253159114","model":"chuangmi.camera.ipc009","sdkType":"device","version":"3.0.8"},"frames":[{"frameCount":6567,"dropFrame":0,"byteSize":7426082,"cost":0,"common":{"vendorIt
+Jun  1 23:56:50 perp: [20240601 23:56:50] [INFO] U:new id:10, old_id:236217, fd:7: len: 386
+Jun  1 23:56:50 miio_client[185]: [I] miio_client_func: Up-report msg, id:10, fd:7, len=386
+Jun  1 23:56:50 miio_miss[210]: rpc_report_send: {"id":236217,"method":"_sync.camera_perf_data","params":{"data":"{\"head\":{\"did\":\"253159114\",\"model\":\"chuangmi.camera.ipc009\",\"sdkType\":\"device\",\"version\":\"3.0.8\"},\"frames\":[{\"frameC
+Jun  1 23:56:50 perp: [2024-06-01 23:56:50 D] cs2_local_status clear send ring buffer!
+Jun  1 23:56:50 miio_client[185]: [I] miio_client_func: report_msg_general_callback() recv down-ack msg fd = 7, id = 10, data_len = 23
+Jun  1 23:56:50 perp: [20240601 23:56:50] [INFO] S:ACK, new_id:10, old_id:236217, fd:7,length: 27
+Jun  1 23:56:50 miio_miss[210]: otd_recv_handler_block(), sockfd: 9, msg: {"result":null,"id":236217}, length: 27 bytes
+Jun  1 23:56:50 miio_miss[210]: msg_dispatcher, msg: {"result":null,"id":236217}, strlen: 27, len: 27
+Jun  1 23:56:57 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:57:00 crond[223]: USER root pid 1258 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:57:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003560
+Jun  1 23:57:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003555
+Jun  1 23:57:06 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:57:06 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:57:07 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:57:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:57:12 perp: [2024-06-01 23:57:12 W] miss session: 0, list: 0, last connect time:1717257405, check vendor later!
+Jun  1 23:57:14 perp: [2024-06-01 23:57:14 D] PPCS_Listen error: -3
+Jun  1 23:57:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:57:17 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:57:22 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:57:22 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:57:27 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:57:38 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:57:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:57:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:57:48 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:57:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:57:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:57:58 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:58:00 crond[223]: USER root pid 1298 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:58:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003552
+Jun  1 23:58:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003553
+Jun  1 23:58:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:58:08 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:58:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:58:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:58:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:58:12 perp: [2024-06-01 23:58:12 W] miss session: 0, list: 0, last connect time:1717257465, check vendor later!
+Jun  1 23:58:14 perp: [2024-06-01 23:58:14 D] PPCS_Listen error: -3
+Jun  1 23:58:18 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:58:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:58:27 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:58:28 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:58:38 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:58:43 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:58:43 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:58:48 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:58:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:58:55 miio_devicekit[203]: ircut_report count is 0, don't need report!
+Jun  1 23:58:58 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:58:59 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:58:59 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:59:00 crond[223]: USER root pid 1338 cmd /mnt/data/bin/log2tf.sh
+Jun  1 23:59:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003555
+Jun  1 23:59:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003551
+Jun  1 23:59:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] ...channel = 1. error = -13, rlen = 0, r_count = 0
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 E] cs2_read channel(1) PPCS_Read error: -13
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] CS2 PPCS_Read close by TIMEOUT.
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] session status: 3, cs2_recv_function 1 exit1.
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] cs2_recv_function 1 exit.
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] ...channel = 3. error = -13, rlen = 0, r_count = 0
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 E] cs2_read channel(3) PPCS_Read error: -13
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] CS2 PPCS_Read close by TIMEOUT.
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] session status: 4, cs2_recv_function 3 exit1.
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] cs2_recv_function 3 exit.
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] ...channel = 0. error = -13, rlen = 0, r_count = 0
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 E] cs2_read channel(0) PPCS_Read error: -13
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] PPCS_Close sid:2
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] cs2_send_thread(), 573, session ID: -1
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] cs2_send_thread exit. -1241267120
+Jun  1 23:59:05 miio_miss[210]: miss_on_disconnect: 0x56480
+Jun  1 23:59:05 miio_miss[210]: get sessionnum succeed. sessionnum = 0, session = 0x56480
+Jun  1 23:59:05 miio_miss[210]: porting pthread_rwlock_wrlock ret 0 sid 0
+Jun  1 23:59:05 miio_miss[210]: porting pthread_rwlock_unlock
+Jun  1 23:59:05 miio_miss[210]: Online clients num: 1, Sids:  idx:0, benalbevideo:0
+Jun  1 23:59:05 miio_miss[210]: Online clients num: 0, Sids: 
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] cs2_session_destroy........... IN
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] cs2_session_destroy........... OUT
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] session close command_recv_thread_id detach
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 D] free miss session
+Jun  1 23:59:05 miio_miss[210]: pthread_rwlock_destroy ret :0
+Jun  1 23:59:05 miio_miss[210]: DeInitSessionInfo, sessionnum: 0
+Jun  1 23:59:05 miio_miss[210]: miss_on_disconnect: successfully for session 0
+Jun  1 23:59:05 miio_miss[210]: GetLiveSessionNum: 0
+Jun  1 23:59:05 perp: [2024-06-01 23:59:05 I] command_recv_thread_end.
+Jun  1 23:59:07 miio_algo[183]: u32EV:45
+Jun  1 23:59:07 miio_algo[183]: u32Luma:35
+Jun  1 23:59:07 miio_algo[183]: u32ExposureTime: 50001
+Jun  1 23:59:07 miio_algo[183]: u32AnalogGain: 2512
+Jun  1 23:59:07 miio_algo[183]: u32DGain: 1024
+Jun  1 23:59:07 miio_algo[183]: rg_gain: -6223.768555
+Jun  1 23:59:07 miio_algo[183]: bg_gain: -2652.097656
+Jun  1 23:59:08 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:59:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  1 23:59:12 miio_miss[210]: rpc_msg_send: {"id":2451060,"method":"_sync.miss_get_vendor","params":{"public_key":"0d23a388efffd69f9e3ace581121e05d4b69fa5901988a7f0efc2960ae970f65","token":"64775667703837415274783975355234","support_vendors":"TUTK_C
+Jun  1 23:59:12 perp: [2024-06-01 23:59:12 D] miss_rpc_send: {"public_key":"0d23a388efffd69f9e3ace581121e05d4b69fa5901988a7f0efc2960ae970f65", "token":"64775667703837415274783975355234","support_vendors":"TUTK_CS2"}
+Jun  1 23:59:12 miio_client[185]: [I] miio_client_func: Up-report msg, id:11, fd:7, len=205
+Jun  1 23:59:12 perp: [20240601 23:59:12] [INFO] U:new id:11, old_id:2451060, fd:7: len: 205
+Jun  1 23:59:13 miio_client[185]: [I] miio_client_func: report_msg_general_callback() recv down-ack msg fd = 7, id = 11, data_len = 246
+Jun  1 23:59:13 perp: [20240601 23:59:13] [INFO] S:ACK, new_id:11, old_id:2451060, fd:7,length: 251
+Jun  1 23:59:13 miio_miss[210]: otd_recv_handler_block(), sockfd: 9, msg: {"result":{"vendor":4,"vendor_params":{"p2p_id":"XMSYSGG-965710-FBLVK","license":"HDEYXB","crc_key":"NAQLZB","init_string":"EIHGFOBCKIIMGMJBECHIFNEGGOJLGOMEGEAMEDDCEJJGLKKOGFAOD
+Jun  1 23:59:13 miio_miss[210]: msg_dispatcher, msg: {"result":{"vendor":4,"vendor_params":{"p2p_id":"XMSYSGG-965710-FBLVK","license":"HDEYXB","crc_key":"NAQLZB","init_string":"EIHGFOBCKIIMGMJBECHIFNEGGOJLGOMEGEAMEDDCEJJGLKKOGFAODKKDGAKONDLOFFINLMHBKB
+Jun  1 23:59:13 perp: [2024-06-01 23:59:13 D] miss_rpc_process IN, rpc_id:0xb6f5fa9c
+Jun  1 23:59:13 perp: [2024-06-01 23:59:13 D] vendor = 4
+Jun  1 23:59:13 perp: [2024-06-01 23:59:13 D] vendor = 4, force = 0
+Jun  1 23:59:13 perp: [2024-06-01 23:59:13 D] old vendor:4, new vendor:4 is same!
+Jun  1 23:59:13 perp: [2024-06-01 23:59:13 D] miss_rpc_process OUT
+Jun  1 23:59:15 perp: [2024-06-01 23:59:15 D] PPCS_Listen error: -3
+Jun  1 23:59:17 miio_cloud[201]: MemTotal:61156  MemFree:1168  MemAvailable:16008  Buffers:484 Cached:14908
+Jun  1 23:59:18 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:59:29 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:59:29 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:59:29 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:59:39 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:59:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  1 23:59:45 miio_client[185]: [I] ots: -->kplv sent.
+Jun  1 23:59:45 miio_client[185]: [I] ots: <--kplv ack.
+Jun  1 23:59:49 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  1 23:59:59 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:00:00 crond[223]: USER root pid 1378 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:00:01 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:00:01 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:00:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003553
+Jun  2 00:00:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003557
+Jun  2 00:00:09 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:00:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:00:15 perp: [2024-06-02 00:00:15 D] PPCS_Listen error: -3
+Jun  2 00:00:17 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:00:17 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:00:19 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:00:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:00:29 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:00:33 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:00:33 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:00:39 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:00:49 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:00:49 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:00:49 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:00:59 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:01:00 crond[223]: USER root pid 1418 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:01:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003556
+Jun  2 00:01:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  2 00:01:05 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:01:05 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:01:09 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:01:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:01:15 perp: [2024-06-02 00:01:15 D] PPCS_Listen error: -3
+Jun  2 00:01:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:01:19 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:01:21 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:01:21 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:01:30 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:01:37 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:01:37 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:01:40 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:01:50 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:01:53 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:01:53 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:02:00 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:02:00 crond[223]: USER root pid 1458 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:02:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003545
+Jun  2 00:02:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003541
+Jun  2 00:02:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:02:09 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:02:09 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:02:10 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:02:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:02:15 perp: [2024-06-02 00:02:15 D] PPCS_Listen error: -3
+Jun  2 00:02:20 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:02:25 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:02:26 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:02:30 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:02:40 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:02:42 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:02:42 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:02:50 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:02:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:02:58 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:02:58 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:03:00 crond[223]: USER root pid 1498 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:03:00 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:03:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003559
+Jun  2 00:03:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003565
+Jun  2 00:03:10 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:03:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:03:14 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:03:14 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:03:16 perp: [2024-06-02 00:03:16 D] PPCS_Listen error: -3
+Jun  2 00:03:20 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:03:30 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:03:30 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:03:31 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:03:41 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:03:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:03:46 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:03:46 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:03:51 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:04:00 crond[223]: USER root pid 1538 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:04:01 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:04:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003559
+Jun  2 00:04:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  2 00:04:02 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:04:02 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:04:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  2 00:04:10 miio_algo[183]: u32EV:45
+Jun  2 00:04:10 miio_algo[183]: u32Luma:35
+Jun  2 00:04:10 miio_algo[183]: u32ExposureTime: 50001
+Jun  2 00:04:10 miio_algo[183]: u32AnalogGain: 2512
+Jun  2 00:04:10 miio_algo[183]: u32DGain: 1024
+Jun  2 00:04:10 miio_algo[183]: rg_gain: -6242.843750
+Jun  2 00:04:10 miio_algo[183]: bg_gain: -2664.695312
+Jun  2 00:04:11 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:04:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:04:16 perp: [2024-06-02 00:04:16 D] PPCS_Listen error: -3
+Jun  2 00:04:18 miio_cloud[201]: MemTotal:61156  MemFree:1784  MemAvailable:16504  Buffers:424 Cached:14316
+Jun  2 00:04:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:04:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:04:21 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:04:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:04:31 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:04:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:04:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:04:41 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:04:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:04:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:04:51 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:05:00 crond[223]: USER root pid 1578 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:05:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003555
+Jun  2 00:05:01 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:05:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003554
+Jun  2 00:05:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:05:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:05:11 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:05:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:05:16 perp: [2024-06-02 00:05:16 D] PPCS_Listen error: -3
+Jun  2 00:05:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:05:22 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:05:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:05:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:05:32 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:05:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:05:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:05:42 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:05:52 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:05:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:05:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:06:00 crond[223]: USER root pid 1618 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:06:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003549
+Jun  2 00:06:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003555
+Jun  2 00:06:02 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:06:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:06:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:06:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:06:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:06:12 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:06:16 perp: [2024-06-02 00:06:16 D] PPCS_Listen error: -3
+Jun  2 00:06:22 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:06:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:06:27 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:06:32 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:06:42 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:06:43 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:06:43 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:06:52 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:06:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:06:59 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:06:59 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:07:00 crond[223]: USER root pid 1658 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:07:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003553
+Jun  2 00:07:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003549
+Jun  2 00:07:02 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:07:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:07:13 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:07:15 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:07:15 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:07:17 perp: [2024-06-02 00:07:17 D] PPCS_Listen error: -3
+Jun  2 00:07:23 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:07:31 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:07:32 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:07:33 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:07:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:07:43 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:07:48 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:07:48 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:07:53 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:08:00 crond[223]: USER root pid 1698 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:08:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003552
+Jun  2 00:08:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003555
+Jun  2 00:08:03 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:08:04 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:08:04 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:08:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:08:13 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:08:17 perp: [2024-06-02 00:08:17 D] PPCS_Listen error: -3
+Jun  2 00:08:20 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:08:20 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:08:23 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:08:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:08:34 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:08:36 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:08:36 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:08:44 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:08:48 miio_client[185]: [I] miio_monitor: get_mem refresh, VmPeak: 7264, VmSize: 6612, VmRSS: 2440, MemFree: 1380
+Jun  2 00:08:52 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:08:52 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:08:54 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:09:00 crond[223]: USER root pid 1738 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:09:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003562
+Jun  2 00:09:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003555
+Jun  2 00:09:02 miio_client[185]: [I] miio_instance: miio_info_kvs_hook_default called
+Jun  2 00:09:02 miio_client[185]: [I] miio_net: miio_net_info_kvs_hook(): VmPeak: 7264, VmSize: 6612, VmRSS: 2544, MemFree: 1340
+Jun  2 00:09:02 miio_client[185]: [I] miio_ot: -->info(ots).
+Jun  2 00:09:02 miio_client[185]: [I] miio_ot: <--info ack(ots).
+Jun  2 00:09:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  2 00:09:04 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:09:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:09:12 perp: [20240602 00:09:12] [INFO] U:new id:12, old_id:3924812, fd:11: len: 51
+Jun  2 00:09:12 miio_client[185]: [I] internal: recv local cmd
+Jun  2 00:09:12 miio_client[185]: [I] internal: handle_local_msg_time:{"id":12,"method":"local.time","params":1717258152}
+Jun  2 00:09:12 miio_devicekit[203]: Set system time success: Sun Jun  2 00:09:12 2024
+Jun  2 00:09:12 perp: [20240602 00:09:12] [INFO] S:cmd,fd:11, len:51
+Jun  2 00:09:13 miio_algo[183]: u32EV:45
+Jun  2 00:09:13 miio_algo[183]: u32Luma:35
+Jun  2 00:09:13 miio_algo[183]: u32ExposureTime: 50001
+Jun  2 00:09:13 miio_algo[183]: u32AnalogGain: 2512
+Jun  2 00:09:13 miio_algo[183]: u32DGain: 1024
+Jun  2 00:09:13 miio_algo[183]: rg_gain: -6167.726562
+Jun  2 00:09:13 miio_algo[183]: bg_gain: -2713.839844
+Jun  2 00:09:14 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:09:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:09:17 perp: [2024-06-02 00:09:17 D] PPCS_Listen error: -3
+Jun  2 00:09:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:09:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:09:19 miio_cloud[201]: MemTotal:61156  MemFree:1216  MemAvailable:16216  Buffers:368 Cached:14868
+Jun  2 00:09:24 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:09:34 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:09:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:09:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:09:44 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:09:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:09:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:09:54 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:10:00 crond[223]: USER root pid 1778 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:10:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003554
+Jun  2 00:10:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  2 00:10:04 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:10:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:10:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:10:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:10:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:10:15 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:10:18 perp: [2024-06-02 00:10:18 D] PPCS_Listen error: -3
+Jun  2 00:10:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:10:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:10:25 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:10:35 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:10:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:10:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:10:45 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:10:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:10:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:10:55 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:10:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:11:00 crond[223]: USER root pid 1818 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:11:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003553
+Jun  2 00:11:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003551
+Jun  2 00:11:05 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:11:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:11:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:11:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:11:15 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:11:18 perp: [2024-06-02 00:11:18 D] PPCS_Listen error: -3
+Jun  2 00:11:25 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:11:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:11:27 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:11:35 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:11:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:11:43 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:11:43 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:11:46 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:11:56 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:11:59 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:11:59 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:12:00 crond[223]: USER root pid 1858 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:12:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003549
+Jun  2 00:12:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  2 00:12:06 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:12:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:12:15 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:12:15 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:12:16 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:12:18 perp: [2024-06-02 00:12:18 D] PPCS_Listen error: -3
+Jun  2 00:12:26 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:12:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:12:31 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:12:31 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:12:36 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:12:47 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:12:48 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:12:48 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:12:57 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:13:00 crond[223]: USER root pid 1898 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:13:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003560
+Jun  2 00:13:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003557
+Jun  2 00:13:04 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:13:04 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:13:04 miio_client[185]: [I] ots: -->sync sent.
+Jun  2 00:13:04 miio_client[185]: [I] ots: <--sync ack.
+Jun  2 00:13:07 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:13:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:13:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:13:17 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:13:18 perp: [2024-06-02 00:13:18 D] PPCS_Listen error: -3
+Jun  2 00:13:20 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:13:20 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:13:27 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:13:36 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:13:36 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:13:37 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:13:47 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:13:52 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:13:52 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:13:57 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:14:00 crond[223]: USER root pid 1938 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:14:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003553
+Jun  2 00:14:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003554
+Jun  2 00:14:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  2 00:14:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:14:07 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:14:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:14:16 miio_algo[183]: u32EV:45
+Jun  2 00:14:16 miio_algo[183]: u32Luma:35
+Jun  2 00:14:16 miio_algo[183]: u32ExposureTime: 50001
+Jun  2 00:14:16 miio_algo[183]: u32AnalogGain: 2512
+Jun  2 00:14:16 miio_algo[183]: u32DGain: 1024
+Jun  2 00:14:16 miio_algo[183]: rg_gain: -6163.752930
+Jun  2 00:14:16 miio_algo[183]: bg_gain: -2709.507812
+Jun  2 00:14:18 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:14:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:14:18 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:14:19 perp: [2024-06-02 00:14:19 D] PPCS_Listen error: -3
+Jun  2 00:14:20 miio_cloud[201]: MemTotal:61156  MemFree:940  MemAvailable:15924  Buffers:368 Cached:15096
+Jun  2 00:14:28 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:14:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:14:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:14:38 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:14:48 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:14:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:14:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:14:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:14:58 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:15:00 crond[223]: USER root pid 1978 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:15:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003553
+Jun  2 00:15:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003554
+Jun  2 00:15:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:15:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:15:08 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:15:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:15:18 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:15:19 perp: [2024-06-02 00:15:19 D] PPCS_Listen error: -3
+Jun  2 00:15:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:15:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:15:29 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:15:39 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:15:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:15:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:15:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:15:49 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:15:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:15:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:15:59 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:16:00 crond[223]: USER root pid 2018 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:16:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003552
+Jun  2 00:16:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  2 00:16:09 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:16:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:16:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:16:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:16:19 perp: [2024-06-02 00:16:19 D] PPCS_Listen error: -3
+Jun  2 00:16:19 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:16:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:16:27 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:16:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:16:29 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:16:39 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:16:43 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:16:43 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:16:50 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:16:59 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:16:59 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:17:00 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:17:00 crond[223]: USER root pid 2058 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:17:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003561
+Jun  2 00:17:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003546
+Jun  2 00:17:10 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:17:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:17:15 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:17:15 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:17:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:17:19 perp: [2024-06-02 00:17:19 D] PPCS_Listen error: -3
+Jun  2 00:17:20 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:17:30 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:17:31 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:17:31 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:17:40 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:17:48 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:17:48 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:17:51 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:18:00 crond[223]: USER root pid 2094 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:18:01 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:18:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003553
+Jun  2 00:18:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  2 00:18:04 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:18:04 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:18:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:18:11 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:18:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:18:20 perp: [2024-06-02 00:18:20 D] PPCS_Listen error: -3
+Jun  2 00:18:20 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:18:20 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:18:21 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:18:31 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:18:36 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:18:36 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:18:41 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:18:51 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:18:52 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:18:52 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:18:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:18:55 miio_devicekit[203]: ircut_report count is 0, don't need report!
+Jun  2 00:19:00 crond[223]: USER root pid 2120 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:19:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003556
+Jun  2 00:19:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003561
+Jun  2 00:19:02 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:19:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  2 00:19:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:19:12 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:19:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:19:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:19:20 perp: [2024-06-02 00:19:20 D] PPCS_Listen error: -3
+Jun  2 00:19:20 miio_algo[183]: u32EV:45
+Jun  2 00:19:20 miio_algo[183]: u32Luma:35
+Jun  2 00:19:20 miio_algo[183]: u32ExposureTime: 50001
+Jun  2 00:19:20 miio_algo[183]: u32AnalogGain: 2512
+Jun  2 00:19:20 miio_algo[183]: u32DGain: 1024
+Jun  2 00:19:20 miio_algo[183]: rg_gain: -6158.107422
+Jun  2 00:19:20 miio_algo[183]: bg_gain: -2685.208008
+Jun  2 00:19:21 miio_cloud[201]: MemTotal:61156  MemFree:1556  MemAvailable:16396  Buffers:328 Cached:14492
+Jun  2 00:19:22 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:19:32 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:19:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:19:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:19:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:19:42 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:19:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:19:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:19:52 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:20:00 crond[223]: USER root pid 2160 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:20:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003549
+Jun  2 00:20:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003553
+Jun  2 00:20:02 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:20:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:20:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:20:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:20:12 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:20:20 perp: [2024-06-02 00:20:20 D] PPCS_Listen error: -3
+Jun  2 00:20:23 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:20:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:20:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:20:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:20:33 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:20:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:20:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:20:43 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:20:53 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:20:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:20:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:21:00 crond[223]: USER root pid 2200 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:21:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003560
+Jun  2 00:21:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003553
+Jun  2 00:21:03 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:21:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:21:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:21:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:21:13 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:21:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:21:22 perp: [2024-06-02 00:21:22 D] PPCS_Listen error: -3
+Jun  2 00:21:23 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:21:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:21:27 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:21:33 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:21:43 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:21:43 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:21:44 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:21:54 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:21:59 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:21:59 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:22:00 crond[223]: USER root pid 2240 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:22:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003547
+Jun  2 00:22:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003555
+Jun  2 00:22:04 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:22:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:22:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:22:14 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:22:15 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:22:15 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:22:23 perp: [2024-06-02 00:22:23 D] PPCS_Listen error: -3
+Jun  2 00:22:24 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:22:31 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:22:31 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:22:34 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:22:44 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:22:47 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:22:48 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:22:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:22:54 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:23:00 crond[223]: USER root pid 2280 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:23:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003559
+Jun  2 00:23:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003550
+Jun  2 00:23:04 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:23:04 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:23:04 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:23:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:23:15 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:23:20 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:23:20 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:23:23 perp: [2024-06-02 00:23:23 D] PPCS_Listen error: -3
+Jun  2 00:23:25 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:23:35 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:23:36 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:23:36 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:23:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:23:45 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:23:52 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:23:52 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:23:55 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:24:00 crond[223]: USER root pid 2320 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:24:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003550
+Jun  2 00:24:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003558
+Jun  2 00:24:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  2 00:24:05 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:24:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:24:15 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:24:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:24:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:24:22 miio_cloud[201]: MemTotal:61156  MemFree:1184  MemAvailable:16084  Buffers:336 Cached:14804
+Jun  2 00:24:23 miio_algo[183]: u32EV:45
+Jun  2 00:24:23 miio_algo[183]: u32Luma:35
+Jun  2 00:24:23 miio_algo[183]: u32ExposureTime: 50001
+Jun  2 00:24:23 miio_algo[183]: u32AnalogGain: 2512
+Jun  2 00:24:23 miio_algo[183]: u32DGain: 1024
+Jun  2 00:24:23 miio_algo[183]: rg_gain: -6232.664062
+Jun  2 00:24:23 miio_algo[183]: bg_gain: -2662.827148
+Jun  2 00:24:23 perp: [2024-06-02 00:24:23 D] PPCS_Listen error: -3
+Jun  2 00:24:26 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:24:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:24:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:24:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:24:36 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:24:46 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:24:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:24:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:24:56 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:25:00 crond[223]: USER root pid 2360 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:25:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003561
+Jun  2 00:25:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003556
+Jun  2 00:25:06 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:25:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:25:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:25:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:25:16 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:25:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:25:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:25:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:25:23 perp: [2024-06-02 00:25:23 D] PPCS_Listen error: -3
+Jun  2 00:25:26 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:25:37 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:25:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:25:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:25:47 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:25:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:25:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:25:57 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:26:00 crond[223]: USER root pid 2400 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:26:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003548
+Jun  2 00:26:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003548
+Jun  2 00:26:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:26:07 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:26:11 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:26:11 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:26:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:26:17 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:26:24 perp: [2024-06-02 00:26:24 D] PPCS_Listen error: -3
+Jun  2 00:26:27 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:26:27 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:26:28 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:26:37 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:26:44 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:26:46 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:26:48 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:26:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:26:58 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:27:00 crond[223]: USER root pid 2440 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:27:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003559
+Jun  2 00:27:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003561
+Jun  2 00:27:02 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:27:02 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:27:08 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:27:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:27:18 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:27:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:27:18 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:27:24 perp: [2024-06-02 00:27:24 D] PPCS_Listen error: -3
+Jun  2 00:27:28 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:27:34 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:27:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:27:38 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:27:41 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:27:48 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:27:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:27:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:27:58 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:28:00 crond[223]: USER root pid 2480 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:28:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003552
+Jun  2 00:28:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003552
+Jun  2 00:28:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:28:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:28:09 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:28:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:28:19 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:28:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:28:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:28:26 perp: [2024-06-02 00:28:26 D] PPCS_Listen error: -3
+Jun  2 00:28:29 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:28:29 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:28:30 miio_client[185]: [I] miio_instance: miio_ext_rpc_hook_default called
+Jun  2 00:28:30 miio_client[185]: [I] miio_instance: ext rpc [id=662586]
+Jun  2 00:28:30 perp: [20240602 00:28:30] [INFO] S:cmd,fd:11, len:90
+Jun  2 00:28:30 perp: [20240602 00:28:30] [INFO] U:ACK,fd:11, len:36
+Jun  2 00:28:30 miio_client[185]: [I] miio_client_func: Up-ack msg, id:662586, fd:7, len=36
+Jun  2 00:28:39 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:28:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:28:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:28:49 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:28:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:28:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:28:59 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:29:00 crond[223]: USER root pid 2520 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:29:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 19.937097
+Jun  2 00:29:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.920553
+Jun  2 00:29:02 miio_client[185]: [I] miio_ot: -->pull ip list sent.
+Jun  2 00:29:10 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:29:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:29:17 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:29:18 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:29:19 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:29:20 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:29:23 miio_cloud[201]: MemTotal:61156  MemFree:864  MemAvailable:15764  Buffers:636 Cached:14764
+Jun  2 00:29:26 miio_algo[183]: u32EV:46
+Jun  2 00:29:26 miio_algo[183]: u32Luma:37
+Jun  2 00:29:26 miio_algo[183]: u32ExposureTime: 50001
+Jun  2 00:29:26 miio_algo[183]: u32AnalogGain: 2568
+Jun  2 00:29:26 miio_algo[183]: u32DGain: 1024
+Jun  2 00:29:26 miio_algo[183]: rg_gain: -6162.485352
+Jun  2 00:29:26 miio_algo[183]: bg_gain: -2699.360352
+Jun  2 00:29:27 perp: [2024-06-02 00:29:27 D] PPCS_Listen error: -3
+Jun  2 00:29:30 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:29:35 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:29:35 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:29:40 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:29:50 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:29:51 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:29:51 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:30:00 crond[223]: USER root pid 2560 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:30:00 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:30:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003555
+Jun  2 00:30:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 19.986894
+Jun  2 00:30:05 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:30:07 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:30:07 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:30:11 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:30:12 miio_sdcard[218]: refresh sdcard state due to New Record
+Jun  2 00:30:21 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:30:23 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:30:23 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:30:27 perp: [2024-06-02 00:30:27 D] PPCS_Listen error: -3
+Jun  2 00:30:31 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:30:39 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:30:39 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:30:41 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:30:51 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...
+Jun  2 00:30:53 fetch_av[178]: fetch_aduio_thread(), fps: 25.000000
+Jun  2 00:30:55 miio_client[185]: [I] ots: -->kplv sent.
+Jun  2 00:30:55 miio_client[185]: [I] ots: <--kplv ack.
+Jun  2 00:31:00 crond[223]: USER root pid 2600 cmd /mnt/data/bin/log2tf.sh
+Jun  2 00:31:01 fetch_av[178]: video_stream_thread(),video chn 1, fps: 20.003557
+Jun  2 00:31:01 fetch_av[178]: video_stream_thread(),video chn 0, fps: 20.003561
+Jun  2 00:31:01 kernel: RtmpUSBNullFrameKickOut - Send NULL Frame @24 Mbps...

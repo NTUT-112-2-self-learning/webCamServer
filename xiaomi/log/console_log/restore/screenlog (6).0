@@ -1,0 +1,3736 @@
+3:25), Build: jenkins-ipc009_4.0MAC address from net device
+
+_[sdmmc_0] Card Detect Fail! 
+** Bad device mmc 0 **
+there's no sdcard, ignore dfu 
+[NetUpgraDetected nor0 with total size 1600000000
+atags:0x20000000
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x #1 PREEMPT Tue Aug 29 09:53:12 g on.  Total pages: 16256
+Kernel command line: console=ttyS0,115200n8r init=/linuxrc rootfstype=squashfs root=/dev/mtdblock2 rws)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytesMstar-ehci-1: irq 95, io mem 0xfe] uart port 0 use MUX_PM_UART
+tform Devices...(Ret:0) 
+infinit=0xC2C60000 size=0xB400
+AWB BaClockRate=288000000
+MSYS: DMEM request: [BDMA_FSP_WBUFF]:0x000000
+[FSP] Flash is detected (0x0 c4bcd9a0!
+RTMP_TimerListAdd: add timer obj c4bcd9d0!
+
+IPL gd156225
+D-01.
+
+HW Reset
+64MB
+
+BIST0_0001-OK
+
+[NOR]
+offset:00010000
+
+size:7fc8 chks:5551a134 ok
+
+IPL_CUST gbf16da4
+
+MXP found at 0x00020000
+
+  decomp_size=0x0004ad64
+
+
+U-Boot 2015.01 (Sep 17 2020 - 11:43:25), Build: jenkins-ipc009_4.0.9_0408-4
+
+Version: I3g1e30514
+DEVINFO: 313E
+[WDT] Enalbe WATCHDOG 60s
+       Watchdog enabled
+I2C:   ready
+DRAM:  64 MiB
+gpio[100] is 1
+WARNING: Caches not enabled
+MMC:   MStar SD/MMC: 0
+nor_flash_mxp allocated success!!
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+MXP found at mxp_offset[1]=0x00020000, size=0x1000
+env_offset=0x4F000 env_size=0x1000
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   MAC Address 00:30:1B:BA:02:DB
+Auto-Negotiation...
+AN failLink Status Speed:10 Full-duplex:0
+Status Error!
+mstar_emac
+Warning: mstar_emac using MAC address from net device
+
+** Unrecognized filesystem type **
+there's no sdcard, ignore dfu 
+[NetUpgrade] ts_1st=0x10b9
+[NetUpgrade] Get Device MacAddr(00:30:1b:ba:02:db)
+NetUpgrade Timeout
+[NetUpgrade] ts_1st=0x10b9, ts_2nd=0x14a6, delt_ts=0x3ed
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+SF: 2490368 bytes @ 0x50000 Read: OK
+##  Booting kernel from Legacy Image at 21000000 ...
+   Image Name:   MVX2##I3ga0c1303KL_LX318####[BR:
+   Image Type:   ARM Linux Kernel Image (lzma compressed)
+   Data Size:    1723184 Bytes = 1.6 MiB
+   Load Address: 20008000
+   Entry Point:  20008000
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... 
+[XZ] !!!reserved 0x21000000 length=0x 1000000 for xz!!
+   XZ: uncompressed size=0x36c9e0, ret=7
+OK
+ERR: Can't find KIMG header and initrd address, 0x00000000
+atags:0x20000000
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x0
+Linux version 3.18.30 (ubuntu@a1d17a412712) (gcc version 4.9.4 (Buildroot 2017.08-gf8e1e38) ) #1 PREEMPT Tue Aug 29 09:53:12 CST 2023
+CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=50c53c7d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+early_atags_to_fdt() success
+Machine model: INFINITY3 MSC000A-S03A-64M
+Reserved memory: created CMA memory pool at 0x22c00000, size 20 MiB
+Reserved memory: initialized node cma0, compatible id shared-dma-pool
+Memory policy: Data cache writeback
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: console=ttyS0,115200n8r init=/linuxrc rootfstype=squashfs root=/dev/mtdblock2 rw isp_flag=0x0
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Memory: 40592K/65536K available (2155K kernel code, 234K rwdata, 1032K rodata, 84K init, 146K bss, 24944K reserved)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xffe00000   (2048 kB)
+    vmalloc : 0xc4800000 - 0xff000000   ( 936 MB)
+    lowmem  : 0xc0000000 - 0xc4000000   (  64 MB)
+    modules : 0xbf800000 - 0xc0000000   (   8 MB)
+      .text : 0xc0008000 - 0xc0324ecc   (3188 kB)
+      .init : 0xc0325000 - 0xc033a000   (  84 kB)
+      .data : 0xc033a000 - 0xc03749e0   ( 235 kB)
+       .bss : 0xc03749e0 - 0xc0399578   ( 147 kB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Preemptible hierarchical RCU implementation.
+	Dump stacks of tasks blocking RCU-preempt GP.
+NR_IRQS:16 nr_irqs:16 16
+Find CLK_cpupll_clk, hook ms_cpuclk_ops
+[ms_cpuclk_init] get dvfs gpio  vid_1
+Architected cp15 timer(s) running at 6.00MHz (virt).
+sched_clock: 56 bits at 6MHz, resolution 166ns, wraps every 2863311527936ns
+Switching to timer-based delay loop, resolution 166ns
+console [ttyS0] enabled
+Calibrating delay loop (skipped), value calculated using timer frequency.. 12.50 BogoMIPS (lpj=20000)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+CPU: Testing write buffer coherency: ok
+Setting up static identity map for 0x20204d90 - 0x20204dc0
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+
+
+Version : MVX2##I3ga0c1303KL_LX318####[BR:HEAD]#XVM
+
+GPIO: probe end[OTG] Mstar_otg_device_init
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+MSYS:  INIT DONE. TICK=0x05052D19
+Advanced Linux Sound Architecture Driver Initialized.
+Switched to clocksource arch_sys_counter
+cfg80211: Calling CRDA to update world regulatory domain
+NET: Registered protocol family 2
+TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+TCP bind hash table entries: 1024 (order: 2, 20480 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+TCP: reno registered
+UDP hash table entries: 256 (order: 1, 12288 bytes)
+UDP-Lite hash table entries: 256 (order: 1, 12288 bytes)
+NET: Registered protocol family 1
+futex hash table entries: 256 (order: 0, 7168 bytes)
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+jffs2: version 2.2. © 2001-2006 Red Hat, Inc.
+msgmni has been set to 119
+io scheduler noop registered
+io scheduler deadline registered (default)
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mstar_ehc_init version:20150512
+Mstar-ehci-2 H.W init
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd286400
+BC disable 
+[USB] soc:Mstar-ehci-2 irq --> 119
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: EHCI Host Controller
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: new USB bus registered, assigned bus number 1
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: irq 119, io mem 0xfd286400
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 3.18.30 ehci_hcd
+usb usb1: SerialNumber: mstar
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Mstar-ehci-1 H.W init
+CHIP_FUNCTION SET. ID=4, param=1
+Can't get power-enable-pad from DTS, set default GPIO(1)
+[mstar_usb_vbus_control] Enable USB VBUS GPIO(81)
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd284800
+BC disable 
+[USB] soc:Mstar-ehci-1 irq --> 95
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: EHCI Host Controller
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: new USB bus registered, assigned bus number 2
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: irq 95, io mem 0xfd284800
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: EHCI Host Controller
+usb usb2: Manufacturer: Linux 3.18.30 ehci_hcd
+usb usb2: SerialNumber: mstar
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+i2c /dev entries driver
+logger: created 256K log 'log_main'
+[ms_uart_probe] uart port 0 use MUX_PM_UART
+1f221000.uart0: ttyS0 at MMIO 0x0 (irq = 98, base_baud = 10750000) is a unknown
+[ms_uart_probe] uart port 1 use MUX_UART1
+1f221200.uart1: ttyS1 at MMIO 0x0 (irq = 99, base_baud = 10750000) is a unknown
+>> [sdmmc] ms_sdmmc Driver Initializing... 
+>> [sdmmc] ms_sdmmc_probe 
+>> [sdmmc_0] Int CDZ use Ext GPIO IRQ: (151)
+>> [sdmmc_0] Get CD => (1)
+>> [sdmmc_0] Probe Platform Devices...(Ret:0) 
+infinity-audio soc:sound: ASoC: CODEC DAI infinity-codec-dai-main not registered
+platform soc:sound: Driver infinity-audio requests probe deferral
+infinity-audio infinity-codec: ASoC: CODEC DAI infinity-codec-dai-main not registered
+platform infinity-codec: Driver infinity-audio requests probe deferral
+netif_napi_add() called with weight 128 on device eth%d
+MSYS: DMEM request: [EMAC_BUFF]:0x00002000
+==20150512==> hub_port_init 1 #0
+Plug in USB Port1
+[EMAC]Init EMAC success! (add delay in reset)
+[HVSP]u32Dropmode on/n
+[VIP]gu32CMDQmode off/nMSYS: DMEM request: [VIP_CMDQ]:0x00004000
+[SCL] SCL init success
+mload_size = 35040
+mload_virt_addr = c2c50000
+mload_dma_addr = 0x22c50000
+>> [sdmmc_0] Set IOS => Clk=48000000 (Real=48000000)
+MSYS: DMEM request: [ISP_base]:0x0001B120
+mmc0: new high speed SDHC card at address 0001
+ShareData_Meminfo phyaddr:0x224ab740, viraddr:0xc24ab740, len:0x38
+mmcblk0: mmc0:0001 SD32G 29.1 GiB 
+AE Base: virt=0xC2C60000 size=0xB400
+ mmcblk0: p1
+AWB Base: virt=0xC2C6B400 size=0x8700
+AF Base: virt=0xC2C73B00 size=0xF0
+HISTO Base: virt=0xC2C73BF0 size=0x2F0
+MOT Base: virt=0xC2C73EE0 size=0x6E40
+RGBIR Base: virt=0xC2C7AD20 size=0x400
+[ISP] register driver success
+[CSI] register driver success[SAR] infinity_sar_probe 
+[JPE, JpeProbe] set base=0xfd264000 irq=93, nClockRate=288000000
+MSYS: DMEM request: [BDMA_FSP_WBUFF]:0x00000100
+[Ser flash] phys=0x22c49000, virt=0xc2c49000, bus=0x02c49000
+[FSP] Flash is detected (0x0709, 0xEF, 0x40, 0x18) ver1.1
+[FSP] 1-2-2 2xIO_READ MODE
+mtd .name = NOR_FLASH, .size = 0x01000000 (16MiB)
+ .erasesize = 0x00010000 .numeraseregions = 0
+MXP_PARTS!!
+usb 2-1: new high-speed USB device number 2 using soc:Mstar-ehci-1
+MXP found at mxp_offset[1]=0x00020000, size=0x1000
+Creating 6 MTD partitions on "NOR_FLASH":
+0x000000000000-0x000000050000 : "BOOT"
+0x000000050000-0x000000260000 : "KERNEL"
+0x000000260000-0x0000009b0000 : "ROOTFS"
+0x0000009b0000-0x000000fe0000 : "DATA"
+0x000000fe0000-0x000000ff0000 : "CONFIG"
+0x000000ff0000-0x000001000000 : "FACTORY"
+MSYS: DMEM request: [AESDMA_ENG]:0x00001000
+MSYS: DMEM request: [AESDMA_ENG1]:0x00001000
+infinity_aes soc:aesdma: MSTAR AES engine enabled.
+cryptodev: driver aesdmadev loaded.
+[ms_cpufreq_init] cpu current clk=796917760
+ms_pwm->pad_ctrl[0]=16
+ms_pwm->pad_ctrl[1]=70
+ms_pwm->pad_ctrl[2]=255
+ms_pwm->pad_ctrl[3]=255
+ms_pwm->pad_ctrl[4]=53
+ms_pwm->pad_ctrl[5]=255
+ms_pwm->pad_ctrl[6]=255
+ms_pwm->pad_ctrl[7]=56
+mstar-i3pwm 1f003400.pwm: probe successful
+mstar notify driver install successfully
+TCP: cubic registered
+NET: Registered protocol family 17
+ThumbEE CPU extension supported.
+MSYS: DMEM request: [pcmC0D0p]:0x00018000
+MSYS: DMEM request: [pcmC0D0c]:0x00014000
+infinity-audio soc:sound: infinity-codec-dai-main <-> infinity-cpu-dai mapping ok
+ALSA device list:
+  #0: infinity_snd_machine
+VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+devtmpfs: mounted
+Freeing unused kernel memory: 84K (c0325000 - c033a000)
+usb 2-1: New USB device found, idVendor=148f, idProduct=7601
+usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
++ source /etc/hooks/pre-init
++ exec chroot . /bin/busybox linuxrc
+devpts: called with bogus options
+mkdir: can't create directory '/system': Read-only file system
+ln: /system/bin: No such file or directory
+ln: /system/etc: No such file or directory
+ln: /system/lib: No such file or directory
+random: property_servic urandom read with 2 bits of entropy available
+init: property_service started...
+init: minit[MVX2####g348e306CM_MINIT#####XVM]
+MSYS: DMEM request: [VENC-49]:0x0001E000
+PHYS=0x22CC0000,KVIRT=0xC2CC0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-48]:0x0001E000
+000
+PHYS=0x22CE0000,KVIRT=0xC2CE0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-32]:0x000CC000
+000
+PHYS=0x22D00000,KVIRT=0xC2D00000, LENGTH=0x000CCMSYS: DMEM request: [S1:VENCDMP1]:0x00069AE0
+000
+PHYS=0x22DD0000,KVIRT=0xC2DD0000, LENGTH=0x00069MSYS: DMEM request: [S1:VENCDMP0]:0x00069AE0
+AE0
+PHYS=0x22E40000,KVIRT=0xC2E40000, LENGTH=0x00069AE0
+MSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+PHYS=0x22EB0000,KVIRT=0xC2EB0000, LENGTH=0x0000AMSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+100
+PHYS=0x22EC0000,KVIRT=0xC2EC0000, LENGTH=0x0007FMSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+800
+PHYS=0x22F40000,KVIRT=0xC2F40000, LENGTH=0x0007FMSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+800
+PHYS=0x22FC0000,KVIRT=0xC2FC0000, LENGTH=0x0000A800
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+PHYS=0x22FD0000,KVIRT=0xC2FD0000, LENGTH=0x00016MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+800
+PHYS=0x22FF0000,KVIRT=0xC2FF0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+000
+PHYS=0x23050000,KVIRT=0xC3050000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+000
+PHYS=0x230B0000,KVIRT=0xC30B0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+000
+PHYS=0x23110000,KVIRT=0xC3110000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B1]:0x0005A000
+000
+PHYS=0x23170000,KVIRT=0xC3170000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B0]:0x0005A000
+000
+PHYS=0x231D0000,KVIRT=0xC31D0000, LENGTH=0x0005AMSYS: DMEM request: [MS-01]:0x00357000
+000
+PHYS=0x23230000,KVIRT=0xC3230000, LENGTH=0x00357000
+MSYS: DMEM request: [MS-00]:0x00357000
+PHYS=0x23590000,KVIRT=0xC3590000, LENGTH=0x00357000
+MSYS: DMEM request: [SCL_MCNR_M]:0x000FF000
+PHYS=0x238F0000,KVIRT=0xC38F0000, LENGTH=0x000FFMSYS: DMEM request: [SCL_MCNR_YC]:0x003FC000
+000
+PHYS=0x239F0000,KVIRT=0xC39F0000, LENGTH=0x003FC000
+MSYS: fix_dmem enabled
+[FB]Set 68
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):8000 
+DNRR OFF
+[FB]Set 57
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):100 
+UNLOCK
+net.ipv4.ip_local_reserved_ports = 54322,54321,54320
+Starting logging: OK
+04:CF:8C:CA:51:69
+mtprealloc: module license 'unspecified' taints kernel.
+Disabling lock debugging due to kernel taint
+==>[0]:PreBuff:0xc2034000, DmaAddr:0x22034000
+==>[1]:PreBuff:0xc2068000, DmaAddr:0x22068000
+==>[2]:PreBuff:0xc203c000, DmaAddr:0x2203c000
+==>[3]:PreBuff:0xc207c000, DmaAddr:0x2207c000
+==>[4]:PreBuff:0xc2080000, DmaAddr:0x22080000
+==>[5]:PreBuff:0xc2084000, DmaAddr:0x22084000
+==>[6]:PreBuff:0xc2088000, DmaAddr:0x22088000
+==>[7]:PreBuff:0xc208c000, DmaAddr:0x2208c000
+==>[8]:PreBuff:0xc2090000, DmaAddr:0x22090000
+==>[9]:PreBuff:0xc2094000, DmaAddr:0x22094000
+==>[10]:PreBuff:0xc2098000, DmaAddr:0x22098000
+==>[11]:PreBuff:0xc209c000, DmaAddr:0x2209c000
+==>[12]:PreBuff:0xc20a0000, DmaAddr:0x220a0000
+==>[13]:PreBuff:0xc20a4000, DmaAddr:0x220a4000
+==>[14]:PreBuff:0xc20a8000, DmaAddr:0x220a8000
+==>[15]:PreBuff:0xc20ac000, DmaAddr:0x220ac000
+==>[16]:PreBuff:0xc20b0000, DmaAddr:0x220b0000
+==>[17]:PreBuff:0xc20b4000, DmaAddr:0x220b4000
+==>[18]:PreBuff:0xc20b8000, DmaAddr:0x220b8000
+==>[19]:PreBuff:0xc20bc000, DmaAddr:0x220bc000
+==>[20]:PreBuff:0xc20c0000, DmaAddr:0x220c0000
+==>[21]:PreBuff:0xc20c4000, DmaAddr:0x220c4000
+==>[22]:PreBuff:0xc20c8000, DmaAddr:0x220c8000
+==>[23]:PreBuff:0xc20cc000, DmaAddr:0x220cc000
+==>[24]:PreBuff:0xc20d0000, DmaAddr:0x220d0000
+==>[25]:PreBuff:0xc20d4000, DmaAddr:0x220d4000
+==>[26]:PreBuff:0xc20d8000, DmaAddr:0x220d8000
+==>[27]:PreBuff:0xc20dc000, DmaAddr:0x220dc000
+==>[28]:PreBuff:0xc20e0000, DmaAddr:0x220e0000
+==>[29]:PreBuff:0xc20e4000, DmaAddr:0x220e4000
+==>[30]:PreBuff:0xc20e8000, DmaAddr:0x220e8000
+==>[31]:PreBuff:0xc20ec000, DmaAddr:0x220ec000
+==>[32]:PreBuff:0xc20f0000, DmaAddr:0x220f0000
+==>[33]:PreBuff:0xc20f4000, DmaAddr:0x220f4000
+==>[34]:PreBuff:0xc20f8000, DmaAddr:0x220f8000
+==>[35]:PreBuff:0xc20fc000, DmaAddr:0x220fc000
+==>[36]:PreBuff:0xc2100000, DmaAddr:0x22100000
+==>[37]:PreBuff:0xc2104000, DmaAddr:0x22104000
+==>[38]:PreBuff:0xc2108000, DmaAddr:0x22108000
+==>[39]:PreBuff:0xc210c000, DmaAddr:0x2210c000
+==>[40]:PreBuff:0xc2110000, DmaAddr:0x22110000
+==>[41]:PreBuff:0xc2114000, DmaAddr:0x22114000
+==>[42]:PreBuff:0xc2118000, DmaAddr:0x22118000
+==>[43]:PreBuff:0xc211c000, DmaAddr:0x2211c000
+==>[44]:PreBuff:0xc2120000, DmaAddr:0x22120000
+==>[45]:PreBuff:0xc2124000, DmaAddr:0x22124000
+==>[46]:PreBuff:0xc2128000, DmaAddr:0x22128000
+==>[47]:PreBuff:0xc212c000, DmaAddr:0x2212c000
+==>[48]:PreBuff:0xc2130000, DmaAddr:0x22130000
+==>[49]:PreBuff:0xc2134000, DmaAddr:0x22134000
+==>[50]:PreBuff:0xc2138000, DmaAddr:0x22138000
+==>[51]:PreBuff:0xc213c000, DmaAddr:0x2213c000
+==>[52]:PreBuff:0xc2140000, DmaAddr:0x22140000
+==>[53]:PreBuff:0xc2144000, DmaAddr:0x22144000
+==>[54]:PreBuff:0xc2148000, DmaAddr:0x22148000
+==>[55]:PreBuff:0xc214c000, DmaAddr:0x2214c000
+==>[56]:PreBuff:0xc2150000, DmaAddr:0x22150000
+==>[57]:PreBuff:0xc2154000, DmaAddr:0x22154000
+==>[58]:PreBuff:0xc2158000, DmaAddr:0x22158000
+==>[59]:PreBuff:0xc215c000, DmaAddr:0x2215c000
+==>[60]:PreBuff:0xc2160000, DmaAddr:0x22160000
+==>[61]:PreBuff:0xc2164000, DmaAddr:0x22164000
+==>[62]:PreBuff:0xc2168000, DmaAddr:0x22168000
+==>[63]:PreBuff:0xc216c000, DmaAddr:0x2216c000
+==>[64]:PreBuff:0xc2170000, DmaAddr:0x22170000
+==>[65]:PreBuff:0xc2174000, DmaAddr:0x22174000
+==>[66]:PreBuff:0xc2178000, DmaAddr:0x22178000
+==>[67]:PreBuff:0xc217c000, DmaAddr:0x2217c000
+==>[68]:PreBuff:0xc2180000, DmaAddr:0x22180000
+==>[69]:PreBuff:0xc2184000, DmaAddr:0x22184000
+==>[70]:PreBuff:0xc25d8000, DmaAddr:0x225d8000
+==>[71]:PreBuff:0xc25da000, DmaAddr:0x225da000
+==>[72]:PreBuff:0xc2188000, DmaAddr:0x22188000
+==>[73]:PreBuff:0xc2190000, DmaAddr:0x22190000
+==>[74]:PreBuff:0xc2198000, DmaAddr:0x22198000
+==>[75]:PreBuff:0xc21a0000, DmaAddr:0x221a0000
+==>[76]:PreBuff:0xc21a8000, DmaAddr:0x221a8000
+==>[77]:PreBuff:0xc21b0000, DmaAddr:0x221b0000
+==>[78]:PreBuff:0xc21b8000, DmaAddr:0x221b8000
+==>[79]:PreBuff:0xc21c0000, DmaAddr:0x221c0000
+==>[80]:PreBuff:0xc2002800, DmaAddr:0x22002800
+install prealloc ok
+rtusb init rt2870 --->
+
+
+=== pAd = c4a4f000, size = 1585200 ===
+
+allocate tx ringidx 0 
+RTMPQMemAddr[0]
+allocate tx ringidx 1 
+RTMPQMemAddr[1]
+allocate tx ringidx 2 
+RTMPQMemAddr[2]
+allocate tx ringidx 3 
+RTMPQMemAddr[3]
+allocate tx ringidx 4 
+RTMPQMemAddr[4]
+allocate tx ringidx 5 
+RTMPQMemAddr[5]
+allocate tx ringidx 6 
+RTMPQMemAddr[6]
+allocate tx ringidx 7 
+RTMPQMemAddr[7]
+allocate tx ringidx 8 
+RTMPQMemAddr[8]
+allocate tx ringidx 9 
+RTMPQMemAddr[9]
+allocate tx ringidx 10 
+RTMPQMemAddr[10]
+allocate tx ringidx 11 
+RTMPQMemAddr[11]
+allocate tx ringidx 12 
+RTMPQMemAddr[12]
+allocate tx ringidx 13 
+RTMPQMemAddr[13]
+allocate tx ringidx 0 
+RTMPQMemAddr[14]
+allocate tx ringidx 1 
+RTMPQMemAddr[15]
+allocate tx ringidx 2 
+RTMPQMemAddr[16]
+allocate tx ringidx 3 
+RTMPQMemAddr[17]
+allocate tx ringidx 4 
+RTMPQMemAddr[18]
+allocate tx ringidx 5 
+RTMPQMemAddr[19]
+allocate tx ringidx 6 
+RTMPQMemAddr[20]
+allocate tx ringidx 7 
+RTMPQMemAddr[21]
+allocate tx ringidx 8 
+RTMPQMemAddr[22]
+allocate tx ringidx 9 
+RTMPQMemAddr[23]
+allocate tx ringidx 10 
+RTMPQMemAddr[24]
+allocate tx ringidx 11 
+RTMPQMemAddr[25]
+allocate tx ringidx 12 
+RTMPQMemAddr[26]
+allocate tx ringidx 13 
+RTMPQMemAddr[27]
+allocate tx ringidx 0 
+RTMPQMemAddr[28]
+allocate tx ringidx 1 
+RTMPQMemAddr[29]
+allocate tx ringidx 2 
+RTMPQMemAddr[30]
+allocate tx ringidx 3 
+RTMPQMemAddr[31]
+allocate tx ringidx 4 
+RTMPQMemAddr[32]
+allocate tx ringidx 5 
+RTMPQMemAddr[33]
+allocate tx ringidx 6 
+RTMPQMemAddr[34]
+allocate tx ringidx 7 
+RTMPQMemAddr[35]
+allocate tx ringidx 8 
+RTMPQMemAddr[36]
+allocate tx ringidx 9 
+RTMPQMemAddr[37]
+allocate tx ringidx 10 
+RTMPQMemAddr[38]
+allocate tx ringidx 11 
+RTMPQMemAddr[39]
+allocate tx ringidx 12 
+RTMPQMemAddr[40]
+allocate tx ringidx 13 
+RTMPQMemAddr[41]
+allocate tx ringidx 0 
+RTMPQMemAddr[42]
+allocate tx ringidx 1 
+RTMPQMemAddr[43]
+allocate tx ringidx 2 
+RTMPQMemAddr[44]
+allocate tx ringidx 3 
+RTMPQMemAddr[45]
+allocate tx ringidx 4 
+RTMPQMemAddr[46]
+allocate tx ringidx 5 
+RTMPQMemAddr[47]
+allocate tx ringidx 6 
+RTMPQMemAddr[48]
+allocate tx ringidx 7 
+RTMPQMemAddr[49]
+allocate tx ringidx 8 
+RTMPQMemAddr[50]
+allocate tx ringidx 9 
+RTMPQMemAddr[51]
+allocate tx ringidx 10 
+RTMPQMemAddr[52]
+allocate tx ringidx 11 
+RTMPQMemAddr[53]
+allocate tx ringidx 12 
+RTMPQMemAddr[54]
+allocate tx ringidx 13 
+RTMPQMemAddr[55]
+RTMPQMemAddr[70]
+RTMPQMemAddr[71]
+RTMPQMemAddr[72]
+RTMPQMemAddr[73]
+RTMPQMemAddr[74]
+RTMPQMemAddr[75]
+RTMPQMemAddr[76]
+RTMPQMemAddr[77]
+RTMPQMemAddr[78]
+RTMPQMemAddr[79]
+RTMPQMemAddr[80]
+<-- RTMPAllocTxRxRingMemory, Status=0
+<-- RTMPAllocAdapterBlock, Status=0
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x8
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x4
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x5
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x6
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x7
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x9
+STA Driver version-JEDI.MP1.mt7601u.v1.12.1.2
+==>WaitForAsicReady MAC_CSR0=0x76010500
+==>WaitForAsicReady MAC_CSR0=0x76010500
+NVM is EFUSE
+Endpoint(8) is for In-band Command
+Endpoint(4) is for WMM0 AC0
+Endpoint(5) is for WMM0 AC1
+Endpoint(6) is for WMM0 AC2
+Endpoint(7) is for WMM0 AC3
+Endpoint(9) is for WMM1 AC0
+Endpoint(84) is for Data-In
+Endpoint(85) is for Command Rsp
+80211> RFICType = 3
+NumOfChan ===> 58
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80211> CurTxPower = 0 dBm
+80211> TxStream = 0
+crda> requlation requestion by core: 00
+80211> CFG80211_Register
+usbcore: registered new interface driver rt2870
+[Mstar GPIO] gpio(98) to irq(152)
+[Mstar GPIO] gpio(99) to irq(153)
+[Mstar GPIO] gpio(100) to irq(154)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[gpio] Set PAD_SR_IO12 as GPIO(controlled by ISP bank)
+[Mstar GPIO] gpio(36) to irq(-1)
+Starting mdev...
+Try copy log from TF card
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /etc/init.d/S12copylog: Unable to copy log fron sdcard
+/dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+Starting watchdog...
+watchdog watchdog0: watchdog did not stop!
+read-only file system detected...done
+Starting network: OK
+Starting wifi ......
+wlan0
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+Entering service runlevel normal
+++++ ok
+ param  =  -  -  
+miio_connect_hid_ssid = 
+ enter STA_SELECT_MASTER
+encrypt old ssid & passwd
+miio_qrcode: set for deactivation
+rescan triggered for deactivation set on 1 service
+fetch_av: set for activation
+rescan triggered for activation set on 1 service
+miio_agent: set for activation
+rescan triggered for activation set on 1 service
+miio_algo: set for activation
+rescan triggered for activation set on 1 service
+miio_client: set for activation
+rescan triggered for activation set on 1 service
+miio_client_helper: set for activation
+rescan triggered for activation set on 1 service
+miio_cloud: set for activation
+rescan triggered for activation set on 1 service
+Connecting Master_ssid
+start_time:
+Thu Jan  1 08:00:07 CST 1970
+miio_devicekit: set for activation
+rescan triggered for activation set on 1 service
+miio_miss: set for activation
+rescan triggered for activation set on 1 service
+ctrl_interface=/var/run/wpa_supplicant
+update_config=1
+network={
+	ssid="alice-2.4G"
+	psk="0926621644"
+	key_mgmt=WPA-PSK
+	proto=WPA WPA2
+	scan_ssid=1
+}
+hostapd  deauth
+miio_nas: set for activation
+rescan triggered for activation set on 1 service
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+killall: udhcpc: no process killed
+killall: wpa_supplicant: no process killed
+killall: hostapd: no process killed
+killall: udhcpd: no process killed
+================> UP : RTMP_SEM_EVENT_WAIT(STA)
+1. LDO_CTR0(6c) = a64799, PMU_OCLEVEL c
+2. LDO_CTR0(6c) = a6478d, PMU_OCLEVEL 6
+==>WaitForAsicReady MAC_CSR0=0x76010500
+FW Version:0.1.00 Build:7640
+Build Time:201511182118____
+ILM Length = 52136(bytes)
+DLM Length = 0(bytes)
+Loading FW....
+miio_ota: set for activation
+rescan triggered for activation set on 1 service
+miio_record: set for activation
+rescan triggered for activation set on 1 service
+miio_sdcard: set for activation
+rescan triggered for activation set on 1 service
+mortox: set for activation
+rescan triggered for activation set on 1 service
+Starting crond...
+Start detecting tf_update.img mount sdcard agagin
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+/mnt/sdcard/tf_update.img not exist
+/mnt/sdcard/tf_all.img not exist
+/mnt/sdcard/tf_all_recovery.img not exist
+Starting netcheck...
+RTMP_TimerListAdd: add timer obj c4b776f4!
+RTMP_TimerListAdd: add timer obj c4b77724!
+RTMP_TimerListAdd: add timer obj c4b77754!
+RTMP_TimerListAdd: add timer obj c4b776c4!
+RTMP_TimerListAdd: add timer obj c4b77634!
+RTMP_TimerListAdd: add timer obj c4b77664!
+RTMP_TimerListAdd: add timer obj c4b0c06c!
+RTMP_TimerListAdd: add timer obj c4af88f0!
+RTMP_TimerListAdd: add timer obj c4af8924!
+RTMP_TimerListAdd: add timer obj c4b0c10c!
+RTMP_TimerListAdd: add timer obj c4afb2a0!
+RTMP_TimerListAdd: add timer obj c4afaae0!
+RTMP_TimerListAdd: add timer obj c4afb26c!
+RTMP_TimerListAdd: add timer obj c4afb5cc!
+RTMP_TimerListAdd: add timer obj c4afb2d4!
+RTMP_TimerListAdd: add timer obj c4afb308!
+RTMP_TimerListAdd: add timer obj c4afb33c!
+RTMP_TimerListAdd: add timer obj c4a53a1c!
+RTMP_TimerListAdd: add timer obj c4a5325c!
+RTMP_TimerListAdd: add timer obj c4a539e8!
+RTMP_TimerListAdd: add timer obj c4a53d48!
+RTMP_TimerListAdd: add timer obj c4a53c6c!
+RTMP_TimerListAdd: add timer obj c4a8ad94!
+RTMP_TimerListAdd: add timer obj c4a8a5d4!
+RTMP_TimerListAdd: add timer obj c4a8ad60!
+RTMP_TimerListAdd: add timer obj c4a8b0c0!
+RTMP_TimerListAdd: add timer obj c4a8adc8!
+RTMP_TimerListAdd: add timer obj c4a8adfc!
+RTMP_TimerListAdd: add timer obj c4a8ae30!
+RTMP_TimerListAdd: add timer obj c4b0c00c!
+RTMP_TimerListAdd: add timer obj c4b0c0dc!
+RTMP_TimerListAdd: add timer obj c4bcf9a0!
+RTMP_TimerListAdd: add timer obj c4bcf9d0!
+RTMP_TimerListAdd: add timer obj c4bcfa00!
+RTMP_TimerListAdd: add timer obj c4bcfa30!
+RTMP_TimerListAdd: add timer obj c4bcfa60!
+RTMP_TimerListAdd: add timer obj c4bcfa94!
+RTMP_TimerListAdd: add timer obj c4b77694!
+RTMP_TimerListAdd: add timer obj c4af790c!
+RTMP_TimerListAdd: add timer obj c4af78dc!
+RTMP_TimerListAdd: add timer obj c4af78ac!
+RTMP_TimerListAdd: add timer obj c4b0c03c!
+P2pGroupTabInit .  
+P2pScanChannelDefault <=== count = 3, Channels are 1, 6,11 separately   
+P2pCfgInit:: 
+WOW Enable 1, WOWFirmware 0
+==>WaitForAsicReady MAC_CSR0=0x76010500
+cfg_mode=9
+cfg_mode=9
+wmode_band_equal(): Band Equal!
+Key1Str is Invalid key length(1) or Type(0)
+Key2Str is Invalid key length(1) or Type(0)
+Key3Str is Invalid key length(1) or Type(0)
+Key4Str is Invalid key length(1) or Type(0)
+###### Force at HT20 (BW_20) mode !!! ########
+WOW_Enable = 1
+WOW_Enable = 1, GPIO = 2
+WOW_Inband = 0
+1. Phy Mode = 14
+2. Phy Mode = 14
+NVM is Efuse and its size =1d[1e0-1fc] 
+Efuse freeblock =[17] 
+ERROR!!! MT7601 E2PROM: WRONG VERSION 0xd, should be 9
+3. Phy Mode = 14
+AntCfgInit: primary/secondary ant 0/1
+---> InitFrequencyCalibration
+InitFrequencyCalibrationMode:Unknow mode = 3
+InitFrequencyCalibration: frequency offset in the EEPROM = 110(0x6e)
+<--- InitFrequencyCalibration
+RTMPSetPhyMode: channel is out of range, use first channel=1 
+MCS Set = ff 00 00 00 00
+<==== STA : rt28xx_init, Status=0
+80211> re-init bands...
+80211> RFICType = 1
+NumOfChan ===> 14
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80211> CurTxPower = 0 dBm
+80211> TxStream = 1
+0x1300 = 00064300
+RTMPDrvOpen(1):Check if PDMA is idle!
+RTMPDrvOpen(2):Check if PDMA is idle!
+<================ UP : RTMP_SEM_EVENT_UP(STA)
+MSYS: DMEM request: [ISP_MLOAD]:0x000088E0
+No connection! Set fake rssi= -80!!!
+Successfully initialized wpa_supplicant
+MSYS: DMEM request: [DLC_MEM]:0x00000400
+[DRVSCLDMA] Double Buffer Status :0
+[HVSP1] Size must be align 16, Vsize=1080, Pitch=1920
+[HVSP1] Buffer is single, Vsize=1080, Pitch=1920
+MSYS: DMEM request: [SCL_MCNR_YC]:0x003FC000
+MSYS: DMEM kept entry found: name=SCL_MCNR_YC, phys=0x239F0000, length=0x003FC000
+MSYS: DMEM request: [SCL_MCNR_M]:0x000FF000
+rfkill: Cannot oMSYS: DMEM kept entry found: name=SCL_MCNR_M, phys=0x238F0000, length=0x000FF000
+pen RFKILL control device
+80211> CFG80211_OpsPmksaFlush ==>
+[HVSP1]: MCNR YC: Phy:239f0000  Vir:c39f0000
+[HVSP1]: MCNR CIIR: Phy:0  Vir:0
+[HVSP1]: MCNR M: Phy:238f0000  Vir:c38f0000
+Successfully initialized wpa_supplicant
+MSYS: DMEM request: [VSPL-I0P0B0]:0x0005A000
+pIoctlScan->ScanType=0
+MSYS: DMEM kept entry found: name=VSPL-I0P0B0, phys=0x231D0000, length=0x0005A000
+No connection! Set fake rssi= -80!!!
+MT7601_ChipSwitchChannel: SwitchChannel#1(RF=15, 1T)
+MSYS: DMEM request: [VSPL-I0P0B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P0B1, phys=0x23170000, length=0x0005A000
+No connection! Set fake rssi= -80!!!
+H2BR@v0.0.00:vsi rq-controller
+MSYS: DMEM request: [MS-00]:0x00357000
+MSYS: DMEM kept entry found: name=MS-00, phys=0x23590000, length=0x00357000
+MSYS: DMEM request: [MS-01]:0x00357000
+MSYS: DMEM kept entry found: name=MS-01, phys=0x23230000, length=0x00357000
+MSYS: DMEM request: [VENC-32]:0x000CC000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM kept entry found: name=VENC-32, phys=0x22D00000, length=0x000CC000
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+MSYS: DMEM kept entry found: name=S0:VENCDMOUT, phys=0x22FC0000, length=0x0000A800
+MT7601_ChipSwitchChannel: SwitchChannel#2(RF=15, 1T)
+MSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+MSYS: DMEM kept entry found: name=S0:VENCDMP0, phys=0x22F40000, length=0x0007F800
+MSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+MSYS: DMEM kept entry found: name=S0:VENCDMP1, phys=0x22EC0000, length=0x0007F800
+H2BR@v0.0.00:vsi rq-controller
+rfkill: Cannot open RFKILL control device
+MSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P1B0, phys=0x23110000, length=0x0005A000
+80211> CFG80211_OpsPmksaFlush ==>
+ctrl_iface exists and seems to bMSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+e in use - cannoMSYS: DMEM kept entry found: name=VSPL-I0P1B1, phys=0x230B0000, length=0x0005A000
+t override it
+Delete '/var/run/MSYS: DMEM request: [VENC-48]:0x0001E000
+wpa_supplicant/whrqc_set_conf - skip set RQCT_CFG_SEQ
+lan0' manually ivhe-skip set RQCT_CFG_FPS(30720/1024)
+f it is not usedMSYS: DMEM kept entry found: name=VENC-48, phys=0x22CE0000, length=0x0001E000
+ anymore
+Failed to initialize chrqc_set_conf - skip set RQCT_CFG_SEQ
+ontrol interface '/var/run/wpa_sMSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+upplicant'.
+You may have anotheMSYS: DMEM kept entry found: name=S1:VENCDMOUT, phys=0x22EB0000, length=0x0000A100
+r wpa_supplicantMT7601_ChipSwitchChannel: SwitchChannel#3(RF=15, 1T)
+ process alreadyvhe-return buffer is null
+ running or the MSYS: DMEM request: [S1:VENCDMP0]:0x00069F00
+file was
+left by an unclean terMSYS: dmem realloc S1:VENCDMP0mination of wpa_supplicant in wh
+MSYS: DMEM [S1:VENCDMP0]@0x22E40000 successfully released
+ich case you will need
+to manually remove this file before starting wpa_supplicant again.
+
+nlMSYS: DMEM request: [S1:VENCDMP1]:0x00069F00
+80211: deinit ifname=wlan0 disabled_11b_rates=0
+MSYS: dmem realloc S1:VENCDMP1/mnt/data/bin/wifi_start.sh: lin
+MSYS: DMEM [S1:VENCDMP1]@0x22DD0000 successfully released
+e 573: iptables: not found
+/mnt/data/bin/wifi_start.sh: line 573: iptables: not found
+/mnt/data/bin/wifi_start.sh: line 573: iptables: not found
+MSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B0, phys=0x23050000, length=0x0005A000
+MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B1, phys=0x22FF0000, length=0x0005A000
+MT7601_ChipSwitchChannel: SwitchChannel#4(RF=15, 1T)
+vhe-return buffer is null
+MSYS: DMEM request: [VENC-49]:0x0001E000
+MSYS: DMEM kept entry found: name=VENC-49, phys=0x22CC0000, length=0x0001E000
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#5(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+[Mstar GPIO] gpio(17) to irq(-1)
+chuangmi_camera_ipc009
+MT7601_ChipSwitchChannel: SwitchChannel#7(RF=15, 1T)
+No connection! Set fake rssi= -80!!!
+udhcpc: started, v1.28.1
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#8(RF=15, 1T)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+MT7601_ChipSwitchChannel: SwitchChannel#9(RF=15, 1T)
+udhcpc: sending discover
+MT7601_ChipSwitchChannel: SwitchChannel#10(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#11(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#12(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#13(RF=15, 1T)
+No connection! Set fake rssi= -80!!!
+MT7601_ChipSwitchChannel: SwitchChannel#14(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#1(RF=15, 1T)
+80211> cfg80211_scan_done
+[1114][Debug][CFG80211OS_ScanEnd] FlgIsAborted = 0
+80211> Connect bssid 68:02:b8:ba:a2:31
+CntlOidSsidProc():CNTL - 1 BSS of 23 BSS match the desire (10)SSID - alice-2.4G
+CntlOidSsidProc: Found BSSID(68:02:b8:ba:a2:31)
+CNTL - iterate BSS 0 of 1
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+PeerBeaconAtJoinAction(): HT-CtrlChannel=6, CentralChannel=>8
+PeerBeaconAtJoinAction(): Set CentralChannel=8
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+!!!Infra LINK UP !!! 
+cfg80211: Calling CRDA to update world regulatory domain
+!!! LINK UP !!! (Density =0, )
+!!! LINK UP !!!  ClientStatusFlags=f1)
+RTMP_TimerListAdd: add timer obj c4bc78b8!
+!!! LINK UP !! (StaActive.bHtEnable =1)
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000002
+RTMP_TimerListAdd: add timer obj c4bc98d8!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc993c!
+Rcv Wcid(1) AddBAReq
+[Mstar GPIO] gpio(18) to irq(-1)
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc99a0!
+[Mstar GPIO] gpio(83) to irq(166)
+[Mstar GPIO] gpio(78) to irq(182)
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a04!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a68!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9acc!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b30!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b94!
+udhcpc: sending discover
+udhcpc: performing DHCP renew
+udhcpc: sending discover
+udhcpc: sending select for 192.168.0.27
+udhcpc: lease of 192.168.0.27 obtained, lease time 604800
+deleting routers
+adding dns 192.168.0.1
+adding dns 203.187.1.1
+adding dns 203.133.1.1
+adding dns 8.8.8.8
+get ip addr :
+192.168.0.27
+network id / ssid / bssid / flags
+0	alice-2.4G	any	[CURRENT]
+end_time:
+Thu Jan  1 08:00:16 CST 1970
+  ��  �� 
+IPL gd156225
+D-01.
+
+HW Reset
+64MB
+
+BIST0_0001-OK
+
+[NOR]
+offset:00010000
+
+size:7fc8 chks:5551a134 ok
+
+IPL_CUST gbf16da4
+
+MXP found at 0x00020000
+
+  decomp_size=0x0004ad64
+
+
+U-Boot 2015.01 (Sep 17 2020 - 11:43:25), Build: jenkins-ipc009_4.0.9_0408-4
+
+Version: I3g1e30514
+DEVINFO: 313E
+[WDT] Enalbe WATCHDOG 60s
+       Watchdog enabled
+I2C:   ready
+DRAM:  64 MiB
+gpio[100] is 1
+WARNING: Caches not enabled
+MMC:   MStar SD/MMC: 0
+nor_flash_mxp allocated success!!
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+MXP found at mxp_offset[1]=0x00020000, size=0x1000
+env_offset=0x4F000 env_size=0x1000
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   MAC Address 00:30:1B:BA:02:DB
+Auto-Negotiation...
+AN failLink Status Speed:10 Full-duplex:0
+Status Error!
+mstar_emac
+Warning: mstar_emac using MAC address from net device
+
+** Unrecognized filesystem type **
+there's no sdcard, ignore dfu 
+[NetUpgrade] ts_1st=0x10b9
+[NetUpgrade] Get Device MacAddr(00:30:1b:ba:02:db)
+NetUpgrade Timeout
+[NetUpgrade] ts_1st=0x10b9, ts_2nd=0x14a6, delt_ts=0x3ed
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+SF: 2490368 bytes @ 0x50000 Read: OK
+##  Booting kernel from Legacy Image at 21000000 ...
+   Image Name:   MVX2##I3ga0c1303KL_LX318####[BR:
+   Image Type:   ARM Linux Kernel Image (lzma compressed)
+   Data Size:    1723184 Bytes = 1.6 MiB
+   Load Address: 20008000
+   Entry Point:  20008000
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... 
+[XZ] !!!reserved 0x21000000 length=0x 1000000 for xz!!
+   XZ: uncompressed size=0x36c9e0, ret=7
+OK
+ERR: Can't find KIMG header and initrd address, 0x00000000
+atags:0x20000000
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x0
+Linux version 3.18.30 (ubuntu@a1d17a412712) (gcc version 4.9.4 (Buildroot 2017.08-gf8e1e38) ) #1 PREEMPT Tue Aug 29 09:53:12 CST 2023
+CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=50c53c7d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+early_atags_to_fdt() success
+Machine model: INFINITY3 MSC000A-S03A-64M
+Reserved memory: created CMA memory pool at 0x22c00000, size 20 MiB
+Reserved memory: initialized node cma0, compatible id shared-dma-pool
+Memory policy: Data cache writeback
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: console=ttyS0,115200n8r init=/linuxrc rootfstype=squashfs root=/dev/mtdblock2 rw isp_flag=0x0
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Memory: 40592K/65536K available (2155K kernel code, 234K rwdata, 1032K rodata, 84K init, 146K bss, 24944K reserved)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xffe00000   (2048 kB)
+    vmalloc : 0xc4800000 - 0xff000000   ( 936 MB)
+    lowmem  : 0xc0000000 - 0xc4000000   (  64 MB)
+    modules : 0xbf800000 - 0xc0000000   (   8 MB)
+      .text : 0xc0008000 - 0xc0324ecc   (3188 kB)
+      .init : 0xc0325000 - 0xc033a000   (  84 kB)
+      .data : 0xc033a000 - 0xc03749e0   ( 235 kB)
+       .bss : 0xc03749e0 - 0xc0399578   ( 147 kB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Preemptible hierarchical RCU implementation.
+	Dump stacks of tasks blocking RCU-preempt GP.
+NR_IRQS:16 nr_irqs:16 16
+Find CLK_cpupll_clk, hook ms_cpuclk_ops
+[ms_cpuclk_init] get dvfs gpio  vid_1
+Architected cp15 timer(s) running at 6.00MHz (virt).
+sched_clock: 56 bits at 6MHz, resolution 166ns, wraps every 2863311527936ns
+Switching to timer-based delay loop, resolution 166ns
+console [ttyS0] enabled
+Calibrating delay loop (skipped), value calculated using timer frequency.. 12.50 BogoMIPS (lpj=20000)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+CPU: Testing write buffer coherency: ok
+Setting up static identity map for 0x20204d90 - 0x20204dc0
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+
+
+Version : MVX2##I3ga0c1303KL_LX318####[BR:HEAD]#XVM
+
+GPIO: probe end[OTG] Mstar_otg_device_init
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+MSYS:  INIT DONE. TICK=0x050532C7
+Advanced Linux Sound Architecture Driver Initialized.
+Switched to clocksource arch_sys_counter
+cfg80211: Calling CRDA to update world regulatory domain
+NET: Registered protocol family 2
+TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+TCP bind hash table entries: 1024 (order: 2, 20480 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+TCP: reno registered
+UDP hash table entries: 256 (order: 1, 12288 bytes)
+UDP-Lite hash table entries: 256 (order: 1, 12288 bytes)
+NET: Registered protocol family 1
+futex hash table entries: 256 (order: 0, 7168 bytes)
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+jffs2: version 2.2. © 2001-2006 Red Hat, Inc.
+msgmni has been set to 119
+io scheduler noop registered
+io scheduler deadline registered (default)
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mstar_ehc_init version:20150512
+Mstar-ehci-2 H.W init
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd286400
+BC disable 
+[USB] soc:Mstar-ehci-2 irq --> 119
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: EHCI Host Controller
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: new USB bus registered, assigned bus number 1
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: irq 119, io mem 0xfd286400
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 3.18.30 ehci_hcd
+usb usb1: SerialNumber: mstar
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Mstar-ehci-1 H.W init
+CHIP_FUNCTION SET. ID=4, param=1
+Can't get power-enable-pad from DTS, set default GPIO(1)
+[mstar_usb_vbus_control] Enable USB VBUS GPIO(81)
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd284800
+BC disable 
+[USB] soc:Mstar-ehci-1 irq --> 95
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: EHCI Host Controller
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: new USB bus registered, assigned bus number 2
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: irq 95, io mem 0xfd284800
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: EHCI Host Controller
+usb usb2: Manufacturer: Linux 3.18.30 ehci_hcd
+usb usb2: SerialNumber: mstar
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+i2c /dev entries driver
+logger: created 256K log 'log_main'
+[ms_uart_probe] uart port 0 use MUX_PM_UART
+1f221000.uart0: ttyS0 at MMIO 0x0 (irq = 98, base_baud = 10750000) is a unknown
+[ms_uart_probe] uart port 1 use MUX_UART1
+1f221200.uart1: ttyS1 at MMIO 0x0 (irq = 99, base_baud = 10750000) is a unknown
+>> [sdmmc] ms_sdmmc Driver Initializing... 
+>> [sdmmc] ms_sdmmc_probe 
+>> [sdmmc_0] Int CDZ use Ext GPIO IRQ: (151)
+>> [sdmmc_0] Get CD => (1)
+>> [sdmmc_0] Probe Platform Devices...(Ret:0) 
+infinity-audio soc:sound: ASoC: CODEC DAI infinity-codec-dai-main not registered
+platform soc:sound: Driver infinity-audio requests probe deferral
+infinity-audio infinity-codec: ASoC: CODEC DAI infinity-codec-dai-main not registered
+platform infinity-codec: Driver infinity-audio requests probe deferral
+netif_napi_add() called with weight 128 on device eth%d
+MSYS: DMEM request: [EMAC_BUFF]:0x00002000
+==20150512==> hub_port_init 1 #0
+Plug in USB Port1
+[EMAC]Init EMAC success! (add delay in reset)
+[HVSP]u32Dropmode on/n
+[VIP]gu32CMDQmode off/nMSYS: DMEM request: [VIP_CMDQ]:0x00004000
+[SCL] SCL init success
+mload_size = 35040
+mload_virt_addr = c2c50000
+mload_dma_addr = 0x22c50000
+>> [sdmmc_0] Set IOS => Clk=48000000 (Real=48000000)
+MSYS: DMEM request: [ISP_base]:0x0001B120
+mmc0: new high speed SDHC card at address 0001
+ShareData_Meminfo phyaddr:0x224ab740, viraddr:0xc24ab740, len:0x38
+mmcblk0: mmc0:0001 SD32G 29.1 GiB 
+AE Base: virt=0xC2C60000 size=0xB400
+ mmcblk0: p1
+AWB Base: virt=0xC2C6B400 size=0x8700
+AF Base: virt=0xC2C73B00 size=0xF0
+HISTO Base: virt=0xC2C73BF0 size=0x2F0
+MOT Base: virt=0xC2C73EE0 size=0x6E40
+RGBIR Base: virt=0xC2C7AD20 size=0x400
+[ISP] register driver success
+[CSI] register driver success[SAR] infinity_sar_probe 
+[JPE, JpeProbe] set base=0xfd264000 irq=93, nClockRate=288000000
+MSYS: DMEM request: [BDMA_FSP_WBUFF]:0x00000100
+[Ser flash] phys=0x22c49000, virt=0xc2c49000, bus=0x02c49000
+[FSP] Flash is detected (0x0709, 0xEF, 0x40, 0x18) ver1.1
+[FSP] 1-2-2 2xIO_READ MODE
+mtd .name = NOR_FLASH, .size = 0x01000000 (16MiB)
+ .erasesize = 0x00010000 .numeraseregions = 0
+MXP_PARTS!!
+usb 2-1: new high-speed USB device number 2 using soc:Mstar-ehci-1
+MXP found at mxp_offset[1]=0x00020000, size=0x1000
+Creating 6 MTD partitions on "NOR_FLASH":
+0x000000000000-0x000000050000 : "BOOT"
+0x000000050000-0x000000260000 : "KERNEL"
+0x000000260000-0x0000009b0000 : "ROOTFS"
+0x0000009b0000-0x000000fe0000 : "DATA"
+0x000000fe0000-0x000000ff0000 : "CONFIG"
+0x000000ff0000-0x000001000000 : "FACTORY"
+MSYS: DMEM request: [AESDMA_ENG]:0x00001000
+MSYS: DMEM request: [AESDMA_ENG1]:0x00001000
+infinity_aes soc:aesdma: MSTAR AES engine enabled.
+cryptodev: driver aesdmadev loaded.
+[ms_cpufreq_init] cpu current clk=796917760
+ms_pwm->pad_ctrl[0]=16
+ms_pwm->pad_ctrl[1]=70
+ms_pwm->pad_ctrl[2]=255
+ms_pwm->pad_ctrl[3]=255
+ms_pwm->pad_ctrl[4]=53
+ms_pwm->pad_ctrl[5]=255
+ms_pwm->pad_ctrl[6]=255
+ms_pwm->pad_ctrl[7]=56
+mstar-i3pwm 1f003400.pwm: probe successful
+mstar notify driver install successfully
+TCP: cubic registered
+NET: Registered protocol family 17
+ThumbEE CPU extension supported.
+MSYS: DMEM request: [pcmC0D0p]:0x00018000
+MSYS: DMEM request: [pcmC0D0c]:0x00014000
+infinity-audio soc:sound: infinity-codec-dai-main <-> infinity-cpu-dai mapping ok
+ALSA device list:
+  #0: infinity_snd_machine
+VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+devtmpfs: mounted
+Freeing unused kernel memory: 84K (c0325000 - c033a000)
+usb 2-1: New USB device found, idVendor=148f, idProduct=7601
+usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
++ source /etc/hooks/pre-init
++ exec chroot . /bin/busybox linuxrc
+devpts: called with bogus options
+mkdir: can't create directory '/system': Read-only file system
+ln: /system/bin: No such file or directory
+ln: /system/etc: No such file or directory
+ln: /system/lib: No such file or directory
+random: property_servic urandom read with 2 bits of entropy available
+init: property_service started...
+init: minit[MVX2####g348e306CM_MINIT#####XVM]
+MSYS: DMEM request: [VENC-49]:0x0001E000
+PHYS=0x22CC0000,KVIRT=0xC2CC0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-48]:0x0001E000
+000
+PHYS=0x22CE0000,KVIRT=0xC2CE0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-32]:0x000CC000
+000
+PHYS=0x22D00000,KVIRT=0xC2D00000, LENGTH=0x000CCMSYS: DMEM request: [S1:VENCDMP1]:0x00069AE0
+000
+PHYS=0x22DD0000,KVIRT=0xC2DD0000, LENGTH=0x00069AE0
+MSYS: DMEM request: [S1:VENCDMP0]:0x00069AE0
+PHYS=0x22E40000,KVIRT=0xC2E40000, LENGTH=0x00069MSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+AE0
+PHYS=0x22EB0000,KVIRT=0xC2EB0000, LENGTH=0x0000A100
+MSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+PHYS=0x22EC0000,KVIRT=0xC2EC0000, LENGTH=0x0007FMSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+800
+PHYS=0x22F40000,KVIRT=0xC2F40000, LENGTH=0x0007FMSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+800
+PHYS=0x22FC0000,KVIRT=0xC2FC0000, LENGTH=0x0000AMSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+800
+PHYS=0x22FD0000,KVIRT=0xC2FD0000, LENGTH=0x00016MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+800
+PHYS=0x22FF0000,KVIRT=0xC2FF0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+000
+PHYS=0x23050000,KVIRT=0xC3050000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+000
+PHYS=0x230B0000,KVIRT=0xC30B0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+000
+PHYS=0x23110000,KVIRT=0xC3110000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B1]:0x0005A000
+000
+PHYS=0x23170000,KVIRT=0xC3170000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B0]:0x0005A000
+000
+PHYS=0x231D0000,KVIRT=0xC31D0000, LENGTH=0x0005AMSYS: DMEM request: [MS-01]:0x00357000
+000
+PHYS=0x23230000,KVIRT=0xC3230000, LENGTH=0x00357000
+MSYS: DMEM request: [MS-00]:0x00357000
+PHYS=0x23590000,KVIRT=0xC3590000, LENGTH=0x00357000
+MSYS: DMEM request: [SCL_MCNR_M]:0x000FF000
+PHYS=0x238F0000,KVIRT=0xC38F0000, LENGTH=0x000FFMSYS: DMEM request: [SCL_MCNR_YC]:0x003FC000
+000
+PHYS=0x239F0000,KVIRT=0xC39F0000, LENGTH=0x003FC000
+MSYS: fix_dmem enabled
+[FB]Set 68
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):8000 
+DNRR OFF
+[FB]Set 57
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):100 
+UNLOCK
+net.ipv4.ip_local_reserved_ports = 54322,54321,54320
+Starting logging: OK
+04:CF:8C:CA:51:69
+mtprealloc: module license 'unspecified' taints kernel.
+Disabling lock debugging due to kernel taint
+==>[0]:PreBuff:0xc205c000, DmaAddr:0x2205c000
+==>[1]:PreBuff:0xc206c000, DmaAddr:0x2206c000
+==>[2]:PreBuff:0xc2060000, DmaAddr:0x22060000
+==>[3]:PreBuff:0xc2078000, DmaAddr:0x22078000
+==>[4]:PreBuff:0xc207c000, DmaAddr:0x2207c000
+==>[5]:PreBuff:0xc2088000, DmaAddr:0x22088000
+==>[6]:PreBuff:0xc208c000, DmaAddr:0x2208c000
+==>[7]:PreBuff:0xc2090000, DmaAddr:0x22090000
+==>[8]:PreBuff:0xc2094000, DmaAddr:0x22094000
+==>[9]:PreBuff:0xc2098000, DmaAddr:0x22098000
+==>[10]:PreBuff:0xc209c000, DmaAddr:0x2209c000
+==>[11]:PreBuff:0xc20a0000, DmaAddr:0x220a0000
+==>[12]:PreBuff:0xc20a4000, DmaAddr:0x220a4000
+==>[13]:PreBuff:0xc20a8000, DmaAddr:0x220a8000
+==>[14]:PreBuff:0xc20ac000, DmaAddr:0x220ac000
+==>[15]:PreBuff:0xc20b0000, DmaAddr:0x220b0000
+==>[16]:PreBuff:0xc20b4000, DmaAddr:0x220b4000
+==>[17]:PreBuff:0xc20b8000, DmaAddr:0x220b8000
+==>[18]:PreBuff:0xc20bc000, DmaAddr:0x220bc000
+==>[19]:PreBuff:0xc20c0000, DmaAddr:0x220c0000
+==>[20]:PreBuff:0xc20c4000, DmaAddr:0x220c4000
+==>[21]:PreBuff:0xc20c8000, DmaAddr:0x220c8000
+==>[22]:PreBuff:0xc20cc000, DmaAddr:0x220cc000
+==>[23]:PreBuff:0xc20d0000, DmaAddr:0x220d0000
+==>[24]:PreBuff:0xc20d4000, DmaAddr:0x220d4000
+==>[25]:PreBuff:0xc20d8000, DmaAddr:0x220d8000
+==>[26]:PreBuff:0xc20dc000, DmaAddr:0x220dc000
+==>[27]:PreBuff:0xc20e0000, DmaAddr:0x220e0000
+==>[28]:PreBuff:0xc20e4000, DmaAddr:0x220e4000
+==>[29]:PreBuff:0xc20e8000, DmaAddr:0x220e8000
+==>[30]:PreBuff:0xc20ec000, DmaAddr:0x220ec000
+==>[31]:PreBuff:0xc20f0000, DmaAddr:0x220f0000
+==>[32]:PreBuff:0xc20f4000, DmaAddr:0x220f4000
+==>[33]:PreBuff:0xc20f8000, DmaAddr:0x220f8000
+==>[34]:PreBuff:0xc20fc000, DmaAddr:0x220fc000
+==>[35]:PreBuff:0xc2100000, DmaAddr:0x22100000
+==>[36]:PreBuff:0xc2104000, DmaAddr:0x22104000
+==>[37]:PreBuff:0xc2108000, DmaAddr:0x22108000
+==>[38]:PreBuff:0xc210c000, DmaAddr:0x2210c000
+==>[39]:PreBuff:0xc2110000, DmaAddr:0x22110000
+==>[40]:PreBuff:0xc2114000, DmaAddr:0x22114000
+==>[41]:PreBuff:0xc2118000, DmaAddr:0x22118000
+==>[42]:PreBuff:0xc211c000, DmaAddr:0x2211c000
+==>[43]:PreBuff:0xc2120000, DmaAddr:0x22120000
+==>[44]:PreBuff:0xc2124000, DmaAddr:0x22124000
+==>[45]:PreBuff:0xc2128000, DmaAddr:0x22128000
+==>[46]:PreBuff:0xc212c000, DmaAddr:0x2212c000
+==>[47]:PreBuff:0xc2130000, DmaAddr:0x22130000
+==>[48]:PreBuff:0xc2134000, DmaAddr:0x22134000
+==>[49]:PreBuff:0xc2138000, DmaAddr:0x22138000
+==>[50]:PreBuff:0xc213c000, DmaAddr:0x2213c000
+==>[51]:PreBuff:0xc2140000, DmaAddr:0x22140000
+==>[52]:PreBuff:0xc2144000, DmaAddr:0x22144000
+==>[53]:PreBuff:0xc2148000, DmaAddr:0x22148000
+==>[54]:PreBuff:0xc214c000, DmaAddr:0x2214c000
+==>[55]:PreBuff:0xc2150000, DmaAddr:0x22150000
+==>[56]:PreBuff:0xc2154000, DmaAddr:0x22154000
+==>[57]:PreBuff:0xc2158000, DmaAddr:0x22158000
+==>[58]:PreBuff:0xc215c000, DmaAddr:0x2215c000
+==>[59]:PreBuff:0xc2160000, DmaAddr:0x22160000
+==>[60]:PreBuff:0xc2164000, DmaAddr:0x22164000
+==>[61]:PreBuff:0xc2168000, DmaAddr:0x22168000
+==>[62]:PreBuff:0xc216c000, DmaAddr:0x2216c000
+==>[63]:PreBuff:0xc2170000, DmaAddr:0x22170000
+==>[64]:PreBuff:0xc2174000, DmaAddr:0x22174000
+==>[65]:PreBuff:0xc2178000, DmaAddr:0x22178000
+==>[66]:PreBuff:0xc217c000, DmaAddr:0x2217c000
+==>[67]:PreBuff:0xc2180000, DmaAddr:0x22180000
+==>[68]:PreBuff:0xc2184000, DmaAddr:0x22184000
+==>[69]:PreBuff:0xc2188000, DmaAddr:0x22188000
+==>[70]:PreBuff:0xc25da000, DmaAddr:0x225da000
+==>[71]:PreBuff:0xc25d8000, DmaAddr:0x225d8000
+==>[72]:PreBuff:0xc2190000, DmaAddr:0x22190000
+==>[73]:PreBuff:0xc2198000, DmaAddr:0x22198000
+==>[74]:PreBuff:0xc21a0000, DmaAddr:0x221a0000
+==>[75]:PreBuff:0xc21a8000, DmaAddr:0x221a8000
+==>[76]:PreBuff:0xc21b0000, DmaAddr:0x221b0000
+==>[77]:PreBuff:0xc21b8000, DmaAddr:0x221b8000
+==>[78]:PreBuff:0xc21c0000, DmaAddr:0x221c0000
+==>[79]:PreBuff:0xc21c8000, DmaAddr:0x221c8000
+==>[80]:PreBuff:0xc2002800, DmaAddr:0x22002800
+install prealloc ok
+rtusb init rt2870 --->
+
+
+=== pAd = c4a4f000, size = 1585200 ===
+
+allocate tx ringidx 0 
+RTMPQMemAddr[0]
+allocate tx ringidx 1 
+RTMPQMemAddr[1]
+allocate tx ringidx 2 
+RTMPQMemAddr[2]
+allocate tx ringidx 3 
+RTMPQMemAddr[3]
+allocate tx ringidx 4 
+RTMPQMemAddr[4]
+allocate tx ringidx 5 
+RTMPQMemAddr[5]
+allocate tx ringidx 6 
+RTMPQMemAddr[6]
+allocate tx ringidx 7 
+RTMPQMemAddr[7]
+allocate tx ringidx 8 
+RTMPQMemAddr[8]
+allocate tx ringidx 9 
+RTMPQMemAddr[9]
+allocate tx ringidx 10 
+RTMPQMemAddr[10]
+allocate tx ringidx 11 
+RTMPQMemAddr[11]
+allocate tx ringidx 12 
+RTMPQMemAddr[12]
+allocate tx ringidx 13 
+RTMPQMemAddr[13]
+allocate tx ringidx 0 
+RTMPQMemAddr[14]
+allocate tx ringidx 1 
+RTMPQMemAddr[15]
+allocate tx ringidx 2 
+RTMPQMemAddr[16]
+allocate tx ringidx 3 
+RTMPQMemAddr[17]
+allocate tx ringidx 4 
+RTMPQMemAddr[18]
+allocate tx ringidx 5 
+RTMPQMemAddr[19]
+allocate tx ringidx 6 
+RTMPQMemAddr[20]
+allocate tx ringidx 7 
+RTMPQMemAddr[21]
+allocate tx ringidx 8 
+RTMPQMemAddr[22]
+allocate tx ringidx 9 
+RTMPQMemAddr[23]
+allocate tx ringidx 10 
+RTMPQMemAddr[24]
+allocate tx ringidx 11 
+RTMPQMemAddr[25]
+allocate tx ringidx 12 
+RTMPQMemAddr[26]
+allocate tx ringidx 13 
+RTMPQMemAddr[27]
+allocate tx ringidx 0 
+RTMPQMemAddr[28]
+allocate tx ringidx 1 
+RTMPQMemAddr[29]
+allocate tx ringidx 2 
+RTMPQMemAddr[30]
+allocate tx ringidx 3 
+RTMPQMemAddr[31]
+allocate tx ringidx 4 
+RTMPQMemAddr[32]
+allocate tx ringidx 5 
+RTMPQMemAddr[33]
+allocate tx ringidx 6 
+RTMPQMemAddr[34]
+allocate tx ringidx 7 
+RTMPQMemAddr[35]
+allocate tx ringidx 8 
+RTMPQMemAddr[36]
+allocate tx ringidx 9 
+RTMPQMemAddr[37]
+allocate tx ringidx 10 
+RTMPQMemAddr[38]
+allocate tx ringidx 11 
+RTMPQMemAddr[39]
+allocate tx ringidx 12 
+RTMPQMemAddr[40]
+allocate tx ringidx 13 
+RTMPQMemAddr[41]
+allocate tx ringidx 0 
+RTMPQMemAddr[42]
+allocate tx ringidx 1 
+RTMPQMemAddr[43]
+allocate tx ringidx 2 
+RTMPQMemAddr[44]
+allocate tx ringidx 3 
+RTMPQMemAddr[45]
+allocate tx ringidx 4 
+RTMPQMemAddr[46]
+allocate tx ringidx 5 
+RTMPQMemAddr[47]
+allocate tx ringidx 6 
+RTMPQMemAddr[48]
+allocate tx ringidx 7 
+RTMPQMemAddr[49]
+allocate tx ringidx 8 
+RTMPQMemAddr[50]
+allocate tx ringidx 9 
+RTMPQMemAddr[51]
+allocate tx ringidx 10 
+RTMPQMemAddr[52]
+allocate tx ringidx 11 
+RTMPQMemAddr[53]
+allocate tx ringidx 12 
+RTMPQMemAddr[54]
+allocate tx ringidx 13 
+RTMPQMemAddr[55]
+RTMPQMemAddr[70]
+RTMPQMemAddr[71]
+RTMPQMemAddr[72]
+RTMPQMemAddr[73]
+RTMPQMemAddr[74]
+RTMPQMemAddr[75]
+RTMPQMemAddr[76]
+RTMPQMemAddr[77]
+RTMPQMemAddr[78]
+RTMPQMemAddr[79]
+RTMPQMemAddr[80]
+<-- RTMPAllocTxRxRingMemory, Status=0
+<-- RTMPAllocAdapterBlock, Status=0
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x8
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x4
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x5
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x6
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x7
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x9
+STA Driver version-JEDI.MP1.mt7601u.v1.12.1.2
+==>WaitForAsicReady MAC_CSR0=0x76010500
+==>WaitForAsicReady MAC_CSR0=0x76010500
+NVM is EFUSE
+Endpoint(8) is for In-band Command
+Endpoint(4) is for WMM0 AC0
+Endpoint(5) is for WMM0 AC1
+Endpoint(6) is for WMM0 AC2
+Endpoint(7) is for WMM0 AC3
+Endpoint(9) is for WMM1 AC0
+Endpoint(84) is for Data-In
+Endpoint(85) is for Command Rsp
+80211> RFICType = 3
+NumOfChan ===> 58
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80211> CurTxPower = 0 dBm
+80211> TxStream = 0
+crda> requlation requestion by core: 00
+80211> CFG80211_Register
+usbcore: registered new interface driver rt2870
+[Mstar GPIO] gpio(98) to irq(152)
+[Mstar GPIO] gpio(99) to irq(153)
+[Mstar GPIO] gpio(100) to irq(154)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[gpio] Set PAD_SR_IO12 as GPIO(controlled by ISP bank)
+[Mstar GPIO] gpio(36) to irq(-1)
+Starting mdev...
+Try copy log from TF card
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /etc/init.d/S12copylog: Unable to copy log fron sdcard
+/dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+Starting watchdog...
+watchdog watchdog0: watchdog did not stop!
+read-only file system detected...done
+Starting network: OK
+Starting wifi ......
+wlan0
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+Entering service runlevel normal
+++++ ok
+ param  =  -  -  
+miio_connect_hid_ssid = 
+ enter STA_SELECT_MASTER
+encrypt old ssid & passwd
+miio_qrcode: set for deactivation
+rescan triggered for deactivation set on 1 service
+fetch_av: set for activation
+rescan triggered for activation set on 1 service
+miio_agent: set for activation
+rescan triggered for activation set on 1 service
+miio_algo: set for activation
+rescan triggered for activation set on 1 service
+miio_client: set for activation
+rescan triggered for activation set on 1 service
+miio_client_helper: set for activation
+rescan triggered for activation set on 1 service
+Connecting Master_ssid
+start_time:
+miio_cloud: set for activation
+rescan triggered for activation set on 1 service
+miio_devicekit: set for activation
+Thu Jan  1 08:00:07 CST 1970
+rescan triggered for activation set on 1 service
+miio_miss: set for activation
+rescan triggered for activation set on 1 service
+ctrl_interface=/var/run/wpa_supplicant
+update_config=1
+network={
+	ssid="alice-2.4G"
+	psk="0926621644"
+	key_mgmt=WPA-PSK
+	proto=WPA WPA2
+	scan_ssid=1
+}
+hostapd  deauth
+miio_nas: set for activation
+rescan triggered for activation set on 1 service
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+killall: udhcpc: no process killed
+killall: wpa_supplicant: no process killed
+killall: hostapd: no process killed
+killall: udhcpd: no process killed
+================> UP : RTMP_SEM_EVENT_WAIT(STA)
+1. LDO_CTR0(6c) = a64799, PMU_OCLEVEL c
+2. LDO_CTR0(6c) = a6478d, PMU_OCLEVEL 6
+==>WaitForAsicReady MAC_CSR0=0x76010500
+FW Version:0.1.00 Build:7640
+Build Time:201511182118____
+ILM Length = 52136(bytes)
+DLM Length = 0(bytes)
+Loading FW....
+miio_ota: set for activation
+rescan triggered for activation set on 1 service
+miio_record: set for activation
+rescan triggered for activation set on 1 service
+miio_sdcard: set for activation
+rescan triggered for activation set on 1 service
+mortox: set for activation
+rescan triggered for activation set on 1 service
+Starting crond...
+Start detecting tf_update.img mount sdcard agagin
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+/mnt/sdcard/tf_update.img not exist
+/mnt/sdcard/tf_all.img not exist
+/mnt/sdcard/tf_all_recovery.img not exist
+Starting netcheck...
+RTMP_TimerListAdd: add timer obj c4b776f4!
+RTMP_TimerListAdd: add timer obj c4b77724!
+RTMP_TimerListAdd: add timer obj c4b77754!
+RTMP_TimerListAdd: add timer obj c4b776c4!
+RTMP_TimerListAdd: add timer obj c4b77634!
+RTMP_TimerListAdd: add timer obj c4b77664!
+RTMP_TimerListAdd: add timer obj c4b0c06c!
+RTMP_TimerListAdd: add timer obj c4af88f0!
+RTMP_TimerListAdd: add timer obj c4af8924!
+RTMP_TimerListAdd: add timer obj c4b0c10c!
+RTMP_TimerListAdd: add timer obj c4afb2a0!
+RTMP_TimerListAdd: add timer obj c4afaae0!
+RTMP_TimerListAdd: add timer obj c4afb26c!
+RTMP_TimerListAdd: add timer obj c4afb5cc!
+RTMP_TimerListAdd: add timer obj c4afb2d4!
+RTMP_TimerListAdd: add timer obj c4afb308!
+RTMP_TimerListAdd: add timer obj c4afb33c!
+RTMP_TimerListAdd: add timer obj c4a53a1c!
+RTMP_TimerListAdd: add timer obj c4a5325c!
+RTMP_TimerListAdd: add timer obj c4a539e8!
+RTMP_TimerListAdd: add timer obj c4a53d48!
+RTMP_TimerListAdd: add timer obj c4a53c6c!
+RTMP_TimerListAdd: add timer obj c4a8ad94!
+RTMP_TimerListAdd: add timer obj c4a8a5d4!
+RTMP_TimerListAdd: add timer obj c4a8ad60!
+RTMP_TimerListAdd: add timer obj c4a8b0c0!
+RTMP_TimerListAdd: add timer obj c4a8adc8!
+RTMP_TimerListAdd: add timer obj c4a8adfc!
+RTMP_TimerListAdd: add timer obj c4a8ae30!
+RTMP_TimerListAdd: add timer obj c4b0c00c!
+RTMP_TimerListAdd: add timer obj c4b0c0dc!
+RTMP_TimerListAdd: add timer obj c4bcf9a0!
+RTMP_TimerListAdd: add timer obj c4bcf9d0!
+RTMP_TimerListAdd: add timer obj c4bcfa00!
+RTMP_TimerListAdd: add timer obj c4bcfa30!
+RTMP_TimerListAdd: add timer obj c4bcfa60!
+RTMP_TimerListAdd: add timer obj c4bcfa94!
+RTMP_TimerListAdd: add timer obj c4b77694!
+RTMP_TimerListAdd: add timer obj c4af790c!
+RTMP_TimerListAdd: add timer obj c4af78dc!
+RTMP_TimerListAdd: add timer obj c4af78ac!
+RTMP_TimerListAdd: add timer obj c4b0c03c!
+P2pGroupTabInit .  
+P2pScanChannelDefault <=== count = 3, Channels are 1, 6,11 separately   
+P2pCfgInit:: 
+WOW Enable 1, WOWFirmware 0
+==>WaitForAsicReady MAC_CSR0=0x76010500
+cfg_mode=9
+cfg_mode=9
+wmode_band_equal(): Band Equal!
+Key1Str is Invalid key length(1) or Type(0)
+Key2Str is Invalid key length(1) or Type(0)
+Key3Str is Invalid key length(1) or Type(0)
+Key4Str is Invalid key length(1) or Type(0)
+###### Force at HT20 (BW_20) mode !!! ########
+WOW_Enable = 1
+WOW_Enable = 1, GPIO = 2
+WOW_Inband = 0
+1. Phy Mode = 14
+2. Phy Mode = 14
+NVM is Efuse and its size =1d[1e0-1fc] 
+Efuse freeblock =[17] 
+ERROR!!! MT7601 E2PROM: WRONG VERSION 0xd, should be 9
+3. Phy Mode = 14
+AntCfgInit: primary/secondary ant 0/1
+---> InitFrequencyCalibration
+InitFrequencyCalibrationMode:Unknow mode = 3
+InitFrequencyCalibration: frequency offset in the EEPROM = 110(0x6e)
+<--- InitFrequencyCalibration
+RTMPSetPhyMode: channel is out of range, use first channel=1 
+MCS Set = ff 00 00 00 00
+<==== STA : rt28xx_init, Status=0
+80211> re-init bands...
+80211> RFICType = 1
+NumOfChan ===> 14
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80211> CurTxPower = 0 dBm
+80211> TxStream = 1
+0x1300 = 00064300
+RTMPDrvOpen(1):Check if PDMA is idle!
+RTMPDrvOpen(2):Check if PDMA is idle!
+<================ UP : RTMP_SEM_EVENT_UP(STA)
+No connection! Set fake rssi= -80!!!
+MSYS: DMEM request: [ISP_MLOAD]:0x000088E0
+Successfully initialized wpa_supplicant
+MSYS: DMEM request: [DLC_MEM]:0x00000400
+[DRVSCLDMA] Double Buffer Status :0
+rfkill: Cannot open RFKILL control device
+80211> CFG80211_OpsPmksaFlush ==>
+Successfully initialized wpa_supplicant
+[HVSP1] Size must be align 16, Vsize=1080, Pitch=1920
+[HVSP1] Buffer is single, Vsize=1080, Pitch=1920
+MSYS: DMEM request: [SCL_MCNR_YC]:0x003FC000
+MSYS: DMEM kept entry found: name=SCL_MCNR_YC, phys=0x239F0000, length=0x003FC000
+MSYS: DMEM request: [SCL_MCNR_M]:0x000FF000
+MSYS: DMEM kept entry found: name=SCL_MCNR_M, phys=0x238F0000, length=0x000FF000
+pIoctlScan->ScanType=0
+No connection! Set fake rssi= -80!!!
+[HVSP1]: MCNR YC: Phy:239f0000  Vir:c39f0000
+[HVSP1]: MCNR CIIR: Phy:0  Vir:0
+MT7601_ChipSwitchChannel: SwitchChannel#1(RF=15, 1T)
+[HVSP1]: MCNR M: Phy:238f0000  Vir:c38f0000
+No connection! Set fake rssi= -80!!!
+MSYS: DMEM request: [VSPL-I0P0B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P0B0, phys=0x231D0000, length=0x0005A000
+MSYS: DMEM request: [VSPL-I0P0B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P0B1, phys=0x23170000, length=0x0005A000
+H2BR@v0.0.00:vsi rq-controller
+MSYS: DMEM request: [MS-00]:0x00357000
+MSYS: DMEM kept entry found: name=MS-00, phys=0x23590000, length=0x00357000
+MT7601_ChipSwitchChannel: SwitchChannel#2(RF=15, 1T)
+MSYS: DMEM request: [MS-01]:0x00357000
+rfkill: Cannot open RFKILL contrMSYS: DMEM kept entry found: name=MS-01, phys=0x23230000, length=0x00357000
+ol device
+MSYS: DMEM request: [VENC-32]:0x000CC000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM kept entry found: name=VENC-32, phys=0x22D00000, length=0x000CC000
+80211> CFG80211_OpsPmksaFlush ==>
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+ctrl_iface existhrqc_set_conf - skip set RQCT_CFG_SEQ
+s and seems to be in use - cannoMSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+MSYS: DMEM kept entry found: name=S0:VENCDMOUT, phys=0x22FC0000, length=0x0000A800
+t override it
+DMSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+elete '/var/run/MSYS: DMEM kept entry found: name=S0:VENCDMP0, phys=0x22F40000, length=0x0007F800
+wpa_supplicant/wMSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+lan0' manually iMSYS: DMEM kept entry found: name=S0:VENCDMP1, phys=0x22EC0000, length=0x0007F800
+f it is not used anymore
+Failed to initialize control interface '/var/run/wpa_sH2BR@v0.0.00:vsi rq-controller
+upplicant'.
+You may have another wpa_supplicant process already running or the file was
+left by an unclean termination of wpa_supplicant in which case you will need
+to manually remove this MSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+file before starting wpa_supplicMSYS: DMEM kept entry found: name=VSPL-I0P1B0, phys=0x23110000, length=0x0005A000
+ant again.
+
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+MT7601_ChipSwitchChannel: SwitchChannel#3(RF=15, 1T)
+
+/mnt/data/bin/wifi_start.sh: line 573: iptables: not found
+/mnt/data/bin/wifi_sMSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+tart.sh: line 573: iptables: not found
+/mnt/data/bin/wifi_start.sh: line 573: iptables: not fouMSYS: DMEM kept entry found: name=VSPL-I0P1B1, phys=0x230B0000, length=0x0005A000
+nd
+MSYS: DMEM request: [VENC-48]:0x0001E000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+MSYS: DMEM kept entry found: name=VENC-48, phys=0x22CE0000, length=0x0001E000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+MSYS: DMEM kept entry found: name=S1:VENCDMOUT, phys=0x22EB0000, length=0x0000A100
+MSYS: DMEM request: [S1:VENCDMP0]:0x00069F00
+MSYS: dmem realloc S1:VENCDMP0
+vhe-return buffer is null
+MSYS: DMEM [S1:VENCDMP0]@0x22E40000 successfully released
+MSYS: DMEM request: [S1:VENCDMP1]:0x00069F00
+MT7601_ChipSwitchChannel: SwitchChannel#4(RF=15, 1T)
+chuangmi_camera_ipc009
+MSYS: dmem realloc S1:VENCDMP1
+MSYS: DMEM [S1:VENCDMP1]@0x22DD0000 successfully released
+udhcpc: started, v1.28.1
+MSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B0, phys=0x23050000, length=0x0005A000
+MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B1, phys=0x22FF0000, length=0x0005A000
+vhe-return buffer is null
+MSYS: DMEM request: [VENC-49]:0x0001E000
+MSYS: DMEM kept entry found: name=VENC-49, phys=0x22CC0000, length=0x0001E000
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#5(RF=15, 1T)
+udhcpc: sending discover
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+[Mstar GPIO] gpio(17) to irq(-1)
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#7(RF=15, 1T)
+No connection! Set fake rssi= -80!!!
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+MT7601_ChipSwitchChannel: SwitchChannel#8(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#9(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#10(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#11(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#12(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#13(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#14(RF=15, 1T)
+No connection! Set fake rssi= -80!!!
+MT7601_ChipSwitchChannel: SwitchChannel#1(RF=15, 1T)
+80211> cfg80211_scan_done
+[1114][Debug][CFG80211OS_ScanEnd] FlgIsAborted = 0
+80211> Connect bssid 68:02:b8:ba:a2:31
+CntlOidSsidProc():CNTL - 1 BSS of 14 BSS match the desire (10)SSID - alice-2.4G
+CntlOidSsidProc: Found BSSID(68:02:b8:ba:a2:31)
+CNTL - iterate BSS 0 of 1
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+PeerBeaconAtJoinAction(): HT-CtrlChannel=6, CentralChannel=>8
+PeerBeaconAtJoinAction(): Set CentralChannel=8
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+cfg80211: Calling CRDA to update world regulatory domain
+!!!Infra LINK UP !!! 
+!!! LINK UP !!! (Density =0, )
+RTMP_TimerListAdd: add timer obj c4bc78b8!
+!!! LINK UP !!!  ClientStatusFlags=f1)
+!!! LINK UP !! (StaActive.bHtEnable =1)
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000002
+RTMP_TimerListAdd: add timer obj c4bc98d8!
+Rcv Wcid(1) AddBAReq
+udhcpc: sending discover
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc993c!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc99a0!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a04!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+udhcpc: sending select for 192.1RTMP_TimerListAdd: add timer obj c4bc9a68!
+68.0.27
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9acc!
+udhcpc: lease of 192.168.0.27 obtained, lease time 604800
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b30!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+deleting routers
+RTMP_TimerListAdd: add timer obj c4bc9b94!
+adding dns 192.168.0.1
+adding dns 203.187.1.1
+adding dns 203.133.1.1
+adding dns 8.8.8.8
+get ip addr :
+192.168.0.27
+network id / ssid / bssid / flags
+0	alice-2.4G	any	[CURRENT]
+end_time:
+Thu Jan  1 08:00:16 CST 1970
+
+^[[A  ��  �� 
+IPL gd156225
+D-01.
+
+HW Reset
+[NOR]
+offset:00010000
+
+size:7fc8 chks:5551a134 ok
+
+IPL_CUST gbf16da4
+
+MXP found at 0x00020000
+
+  decomp_size=0x0004ad64
+
+
+U-Boot 2015.01 (Sep 17 2020 - 11:43:25), Build: jenkins-ipc009_4.0.9_0408-4
+
+Version: I3g1e30514
+DEVINFO: 313E
+[WDT] Enalbe WATCHDOG 60s
+       Watchdog enabled
+I2C:   ready
+DRAM:  64 MiB
+gpio[100] is 1
+WARNING: Caches not enabled
+MMC:   MStar SD/MMC: 0
+nor_flas, 0x18)
+SF: Detected nor0 with total size 16 MiB
+MXP found at mxp_offset[1]=0x00020000, size=0x1000
+env_offset=0x4F000 env_sidefault environment
+
+In:    seal
+Net:   MAC Address 00:30:1B:BA:02:DB
+Auto-Negotiation...
+64MB
+
+BIST0_0001-OK
+
+h_mxp allocated success!!
+Flash is detected (0x0709, 0xEF, 0x40ze=0x1000
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+*** Warning - bad CRC, using rial
+Out:   serial
+Err:   seri-duplex:0
+Status Error!
+mstar_emac
+Warning: mstar_emac using ** Unrecognized filesystem type **
+there's no sdcard, ignore dfu 
+[NetUpgrade] ts_1st=0x10b9
+Detected nor0 with total size 16ARM Linux Kernel Image (lzma compressed)
+   Data Size:    17231ess: 20008000
+   Entry Point:  20008000
+   Verifying Checksum AN failLink Status Speed:10 FullMAC address from net device
+
+[NetUpgrade] Get Device MacAddr(00:30:1b:ba:02:db)
+NetUpgrade Timeout
+[NetUpgrade] ts_1st=0x10b9, ts_2nd=0x14a6, delt_ts=0x3ed
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF:  MiB
+SF: 2490368 bytes @ 0x50000 Read: OK
+##  Booting kernel from Legacy Image at 21000000 ...
+   Image Name:   MVX2##I3ga0c1303KL_LX318####[BR:
+   Image Type:   84 Bytes = 1.6 MiB
+   Load Addr... OK
+   Uncompressing Kernel Image ... 
+[XZ] !!!reserved 0x21000000 length=0x 1000000 for xz!!
+   XZ: uncompressed size=0x36c9e0, ret=7
+OK
+ERR: Can't find KIMG header and initrd address, 0x00000000
+atags:0x20000000
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x0
+Linux version 3.18.30 (ubuntu@a1d17a412712) (gcc version 4.9.4 (Buildroot 2017.08-gf8e1e38) )410fc075] revision 5 (ARMv7), cr=50c53c7d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+early_atags_to_fdt() success
+Machine model: INFINITY3 MSC000A-S03A-64M
+Reserved memory: created CMA memory pool at 0x22c00000, size 20 MiB
+Reserved memory: initialized node cma0, compatible id shared-dma-pool
+Memory policy: Data cache writeback
+Built 1 zonelists5200n8r init=/linuxrc rootfstype=squashfs root=/dev/mtdblock2 rw isp_flag=0x0
+PID hash table entries: 256 (order: -2, 1024 byteies: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entrie
+Memory: 40592K/65536K available (2155K kernel code, 234K rwdata 4 kB)
+    fixmap  : 0xffc00000 - 0xffe00000   (2048 kB)
+    vVFP support v0.3: implementor 417 rev 5
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+
+
+Version : MVX2##I3ga0c1303KL_LX318####[BR:HEAD]#XVM
+
+GPIO: probe end[OTG] Mstar_otg_device_init
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+MSYS:  INIT DONE. TICK=0x05052AE0
+Advanced Linux Soundsys_counter
+cfg80211: Calling CRDA to update world regulatory domain
+NET: Registered protocol family 2
+TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+TCP bind hash table entries: 1024 (order: 2, 20480 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+TCP: reno registered
+UDP hash t88 bytes)
+UDP-Lite hash table entries: 256 (order: 1, 12288 bytes)
+NET: Registered protocol family 1
+futex hash table entries: 256 (order: 0, 7168 bytes)
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+jffs2: versiio scheduler noop registered
+io scheduler deadline registered (50512
+Mstar-ehci-2 H.W init
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd286400
+BC disable 
+[USB] soc:Mstar-ehci-2 irq --> 119
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: EHCI Host Controller
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: new USB bus registered, assignedsoc:Mstar-ehci-2: irq 119, io mem 0xfd286400
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+u Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufactur1 H.W init
+CHIP_FUNCTION SET. ID=4, param=1
+Can't get power-enable-pad from DTS, set default GPIO(1)
+[mstar_usb_vbus_control] Enable USB VBUS GPIO(81)
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd284800
+BC disable 
+[USB] soc:Mstar-ehci-1 irq --> 95
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: EHCI Host Controller
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: new USB bus registered, assigned busd284800
+idVendor=1d6b, idProduct=0002
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: EHCI Host er: Linux 3.18.30 ehci_hcd
+usb usb2: SerialNumber: mstar
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+i2c /dev en6K log 'log_main'
+[ms_uart_prob0 (irq = 98, base_baud = 10750001200.uart1: ttyS1 at MMIO 0x0 (irq =  #1 PREEMPT Tue Aug 29 09:53:12 CST 2023
+CPU: ARMv7 Processor [ in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: console=ttyS0,11s)
+Dentry cache hash table entrs: 4096 (order: 2, 16384 bytes)
+, 1032K rodata, 84K init, 146K bss, 24944K reserved)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (  malloc : 0xc4800000 - 0xff000000   ( 936 MB)
+    lowmem  : 0xc0000000 - 0xc4000000   (  64 MB)
+    modules : 0xbf800000 - 0xc0000000   (   8 MB)
+      .text : 0xc0008000 - 0xc0324ecc   (3188 kB)
+      .init : 0xc0325000 - 0xc033a000   (  84 kB)
+      .data : 0xc033a000 - 0xc03749e0   ( 235 kB)
+       .bss : 0xc03749e0 - 0xc0399578   ( 147 kB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Preemptible hierarchical RCU implementation.
+	Dump stacks of tasks blocking RCU-preempt GP.
+NR_IRQS:16 nr_irqs:16 16
+Find CLK_cpupll_clk, hook ms_cpuclk_ops
+[ms_cpuclk_init] get dvfs gpio  vid_1
+Architected cp15 timer(s) running at 6.00MHz (virt).
+sched_clock: 56 bits at 6MHz, resolution 166ns, wraps every 2863311527936ns
+Switching to timer-based delay loop, resolution 166ns
+console [ttyS0] enabled
+Calibrating delay loop (skipped), value calculated using timer frequency.. 12.50 BogoMIPS (lpj=20000)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+CPU: Testing write buffer coherency: ok
+Setting up static identity map for 0x20204d90 - 0x20204dc0
+devtmpfs: initialized
+ architecture 2 part 30 variant  Architecture Driver Initialized.
+Switched to clocksource arch_able entries: 256 (order: 1, 122on 2.2. © 2001-2006 Red Hat, Inc.
+msgmni has been set to 119
+default)
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mstar_ehc_init version:201 bus number 1
+soc:Mstar-ehci-2 sb usb1: New USB device strings:er: Linux 3.18.30 ehci_hcd
+usb usb1: SerialNumber: mstar
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Mstar-ehci- number 2
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: irq 95, io mem 0xfusb usb2: New USB device found, Controller
+usb usb2: Manufacturtries driver
+logger: created 25e] uart port 0 use MUX_PM_UART
+1f221000.uart0: ttyS0 at MMIO 0x0) is a unknown
+[ms_uart_probe] uart port 1 use MUX_UART1
+1f22 Driver Initializing... 
+>> [sdDriver infinity-audio requests probe deferral
+infinity-audio in00
+[SCL] SCL init success
+mload_size = 35040
+mload_virt_addr = c2c50000
+mload_dma_addr = 0x22c50000
+>> [sdmmc_0] Set IOS => Clk=48000000 (Real=48000000)
+MSYS: DMEM request: [ISP_base]:0x0001B120
+mmc0: new high speed SDHC card at address 0001
+ShareData_Meminfo phyaddr:0x224ab740, viraddr:0xc24ab740, len:0x38
+mmcblk0: mmc0:0001 SD32G 29.1 GiB 
+AE Base: virt=0xC2C60000 size=0xB400
+ mmcblk0: p1
+AWB Base: virt=0xC2C6B400 size=0x8700
+AF Base: virt=0xC2C73B00 size=0xF0
+HISTO Base: virt=0xC2C73BF0 size=0x2F0
+MOT Base: virt=0xC2C73EE0 size=0x6E40
+RGBIR Base: virt=0xC2C7AD20 size=0x400
+[ISP] register driver success
+[CSI] register driver success[SAR] infinity_sar_probe 
+[JPE, JpeProbe] set base=0xfd264000 irq=93, nClockRate=288000000
+MSYS: DMEM request: [BDMA_FSP_WBUFF]:0x00000100
+[Ser flash] phys=0x22c49000, virt=0xc2c49000, bus=0x02c49000
+[FSP] Flash is detected (0x0709, 0xEF, 0x40, 0x18) ver1.1
+[FSP] 1-2-2 2xIO_READ MODE
+ 0x00010000 .numeraseregions = 0
+MXP_PARTS!!
+usb 2-1: new highmxp_offset[1]=0x00020000, size=000050000-0x000000260000 : "KERNEL"
+0x000000260000-0x0000009b0000 : "ROOTFS"
+0x0000009b0000-0x00000-0x000000ff0000 : "CONFIG"
+0x000000ff0000-0x000001000000 : "FACTORY"
+MSYS: DMEM request: [AESDMA_ENG]:0x00001000
+MSYS: DMEM request: [AESDMA_ENG1]:0x00001000
+infinity_aes soc:aesdma: MSTAR AES engine enabled.
+cryptodev: driver aesdmadev loaded.
+[ms_cpufreq_init] cpu current clk=796917760
+ms_pwm->pad_ctrl[0]=16
+ms_pwm->pad_ctrl[1]=70
+ms_pwm->pad_ctrl[2]=255
+ms_pwm->pad_ctrl[3]=255
+ms_pwm->pad_ctrl[4]=53
+ms_pwm->pad_ctrl[5]=255
+ms_pwm->pad_ctrl[6]=255
+ms_pwm->pad_ctrl[7]=56
+mstar-i3pwm 1f003400.pwm: probe successful
+mstar notify driver install successfully
+TCP: cubic registered
+NET: Registered protocol family 17
+ThumbEE CPU extension supported.
+MSYS: DMEM request: [pcmC0D0p]:0x00018000
+MSYS: DMEM request: [pcmC0D0c]:0x00014000
+infinity-audio soc:sound: infinity-codec-dai-main <-> infinity-cpu-dai mapping ok
+ALSA device list:
+  #0: infinity_snd_machine
+VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+devtmpfs: mounted
+Freeing unused kernel memory: 84K (c0325000 - c033a000)
+3
+ directory
+ln: /system/etc: No such file or directory
+ln: /system/lib: No such file or directory
+h 2 bits of entropy available
+init: minit[MVX2####g348e306CM_MINIT#####XVM]
+00
+000
+PHYS=0x22CE0000,KVIRT=0xC2CE0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-32]:0x000CC000
+000
+PHYS=0x22D00000,KVIRT=0xC2D00000, LENGTH=0x000CCMSYS: DMEM request: [S1:VENCDMP1]:0x00069AE0
+000
+PHYS=0x22DD0000,KVIRT=0xC2DD0000, LENGTH=0x00069MSYS: DMEM request: [S1:VENCDMP0]:0x00069AE0
+AE0
+PHYS=0x22E40000,KVIRT=0xC2E40000, LENGTH=0x00069MSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+AE0
+PHYS=0x22EB0000,KVIRT=0xC2EB0000, LENGTH=0x0000A100
+MSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+PHYS=0x22EC0000,KVIRT=0xC2EC0000, LENGTH=0x0007FMSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+800
+PHYS=0x22F40000,KVIRT=0xC2F40000, LENGTH=0x0007FMSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+800
+PHYS=0x22FC0000,KVIRT=0xC2FC0000, LENGTH=0x0000A800
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+PHYS=0x22FD0000,KVIRT=0xC2FD0000, LENGTH=0x00016MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+800
+PHYS=0x22FF0000,KVIRT=0xC2FF0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+000
+PHYS=0x23050000,KVIRT=0xC3050000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+000
+PHYS=0x230B0000,KVIRT=0xC30B0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+000
+PHYS=0x23110000,KVIRT=0xC3110000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B1]:0x0005A000
+000
+PHYS=0x23170000,KVIRT=0xC3170000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B0]:0x0005A000
+000
+PHYS=0x231D0000,KVIRT=0xC31D0000, LENGTH=0x0005AMSYS: DMEM request: [MS-01]:0x00357000
+000
+PHYS=0x23230000,KVIRT=0xC3230000, LENGTH=0x00357000
+MSYS: DMEM request: [MS-00]:0x00357000
+PHYS=0x23590000,KVIRT=0xC3590000, LENGTH=0x00357000
+MSYS: DMEM request: [SCL_MCNR_M]:0x000FF000
+PHYS=0x238F0000,KVIRT=0xC38F0000, LENGTH=0x000FFMSYS: DMEM request: [SCL_MCNR_YC]:0x003FC000
+000
+PHYS=0x239F0000,KVIRT=0xC39F0000, LENGTH=0x003FC000
+MSYS: fix_dmem enabled
+[FB]Set 68
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):8000 
+DNRR OFF
+[FB]Set 57
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):100 
+UNLOCK
+net.ipv4.ip_local_reserved_ports = 54322,54321,54320
+Starting logging: mtprealloc: module license 'unspecified' taints kernel.
+Disabling lock debugging due to kernel taint
+==>[0]:PreBuff:0xc206c000, DmaAddr:0x2206c000
+==>[1]:PreBuff:0xc2078000, DmaAddr:0x22078000
+==>[2]:PreBuff:0xc2070000, DmaAddr:0x22070000
+==>[3]:PreBuff:0xc203c000, DmaAddr:0x2203c000
+==>[4]:PreBuff:0xc2080000, DmaAddr:0x22080000
+==>[5]:PreBuff:0xc208c000, DmaAddr:0x2208c000
+==>[6]:PreBuff:0xc2090000, DmaAddr:0x22090000
+==>[7]:PreBuff:0xc2094000, DmaAddr:0x22094000
+==>[8]:PreBuff:0xc2098000, DmaAddr:0x22098000
+==>[9]:PreBuff:0xc209c000, DmaAddr:0x2209c000
+==>[10]:PreBuff:0xc20a0000, DmaAddr:0x220a0000
+==>[11]:PreBuff:0xc20a4000, DmaAddr:0x220a4000
+==>[12]:PreBuff:0xc20a8000, DmaAddr:0x220a8000
+==>[13]:PreBuff:0xc20ac000, DmaAddr:0x220ac000
+==>[14]:PreBuff:0xc20b0000, DmaAddr:0x220b0000
+==>[15]:PreBuff:0xc20b4000, DmaAddr:0x220b4000
+==>[16]:PreBuff:0xc20b8000, DmaAddr:0x220b8000
+==>[17]:PreBuff:0xc20bc000, DmaAddr:0x220bc000
+==>[18]:PreBuff:0xc20c0000, DmaAddr:0x220c0000
+==>[19]:PreBuff:0xc20c4000, DmaAddr:0x220c4000
+==>[20]:PreBuff:0xc20c8000, DmaAddr:0x220c8000
+==>[21]:PreBuff:0xc20cc000, DmaAddr:0x220cc000
+==>[22]:PreBuff:0xc20d0000, DmaAddr:0x220d0000
+==>[23]:PreBuff:0xc20d4000, DmaAddr:0x220d4000
+==>[24]:PreBuff:0xc20d8000, DmaAddr:0x220d8000
+==>[25]:PreBuff:0xc20dc000, DmaAddr:0x220dc000
+=99, base_baud = 10750000) is a unknown
+>> [sdmmc] ms_sdmmcmmc] ms_sdmmc_probe 
+>> [sdmmc_0] Int CDZ use Ext GPIO IRQ: (151)
+>> [sdmmc_0] Get CD => (1)
+>> [sdmmc_0] Probe Platform Devices...(Ret:0) 
+infinity-audio soc:sound: ASoC: CODEC DAI infinity-codec-dai-main not registered
+platform soc:sound: finity-codec: ASoC: CODEC DAI infinity-codec-dai-main not registered
+platform infinity-codec: Driver infinity-audio requests probe deferral
+netif_napi_add() called with weight 128 on device eth%d
+MSYS: DMEM request: [EMAC_BUFF]:0x00002000
+==20150512==> hub_port_init 1 #0
+Plug in USB Port1
+[EMAC]Init EMAC success! (add delay in reset)
+[HVSP]u32Dropmode on/n
+[VIP]gu32CMDQmode off/nMSYS: DMEM request: [VIP_CMDQ]:0x000040mtd .name = NOR_FLASH, .size = 0x01000000 (16MiB)
+ .erasesize =-speed USB device number 2 using soc:Mstar-ehci-1
+MXP found at x1000
+Creating 6 MTD partitions on "NOR_FLASH":
+0x000000000000-0x000000050000 : "BOOT"
+0x000000000fe0000 : "DATA"
+0x000000feusb 2-1: New USB device found, idVendor=148f, idProduct=7601
+usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=+ source /etc/hooks/pre-init
++ exec chroot . /bin/busybox linuxrc
+devpts: called with bogus options
+mkdir: can't create directory '/system': Read-only file system
+ln: /system/bin: No such file orrandom: ueventd urandom read witinit: property_service started...
+MSYS: DMEM request: [VENC-49]:0x0001E000
+PHYS=0x22CC0000,KVIRT=0xC2CC0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-48]:0x0001E0OK
+04:CF:8C:CA:51:69
+[44]:PreBuff:0xc2128000, DmaAddr:0x22128000
+==>[45]:PreBuff:0xc212c000, DmaAddr:0x2212c000
+==>[46]:PreBuff:0xc2130000, DmaAddr2154000, DmaAddr:0x22154000
+==>[56]:PreBuff:0xc2158000, DmaAddr:0x22158000
+==>[57]:PreBuff:0xc215c000, DmaAddr:0x2215c000
+==>[58]:PreBuff:0xc2160000, DmaAddr:0x22160000
+==>[59]:PreBuff:0xc2164000, DmaAddr:0x22164000
+==>:0x22168000
+==>[61]:PreBuff:0xc216c000, DmaAddr:0x2216c000
+==>[62]:PreBuff:0xc2170000, DmaAddr:0x22170000
+==>[63]:PreBuff:0xc2174000, DmaAddr:0x22174000
+==>:0x22190000
+==>[73]:PreBuff:0xc2198000, DmaAddr:0x22198000
+==>[74]:PreBuff:0xc21a0000, DmaAddr:0x221a0000
+==>[75]:PreBuff:0xc21a8000, DmaAddr:0x221a8000
+==>==>[78]:PreBuff:0xc21c0000, DmaAddr:0x221c0000
+==>[79]:PreBuff:0xc21c8000, DmaAddr:0x221c8000
+==>[80]:PreBuff:0xc2000800, DmaAddr:0x22000800
+install prealloc ok
+rtusb init rt2870 --->
+
+
+=== pAd = c4a4f000, size = 1585200 ===
+
+allocate tx ringidx 0 
+RT
+RTMPQMemAddr[17]
+allocate tx ringidx 4 
+RTMPQMemAddr[18]
+allocate tx ringidx 5 
+RTMPQMemAddr[19]
+allocate tx ringidx 6 
+RTMPQMemAddr[20]
+allocate tx ringidx 7 
+RTMPQMemAddr[21]
+allocate tx ringidx 8 
+RTMPQMemAddr[22]
+allocate tx ringidx 9 
+RTMPQMemAddr[23]
+allocate tx ringidx 10 
+RTMPQMemAddr[24]
+allocTMPQMemAddr[26]
+allocate tx ringidx 13 
+RTMPQMemAddr[27]
+allocate tx ringidx 0 
+RTMPQMemAddr[28]
+allocate tx ringidx 1 
+RTMPQMemAddr[29]
+allocate tx ringidx 2 
+RTMPQMemAddr[30]
+allocaQMemAddr[32]
+allocate tx ringidx 5 
+RTMPQMemAddr[33]
+allocate tx ringidx 6 
+RTMPQMemAddr[34]emAddr[35]
+allocate tx ringidx 8 
+RTMPQMemAddr[36]
+allocate tx ringidx 9 
+RTMPQMemAddr[37]
+allocate tx ringidx 10 
+RTMPQMemAddr[38]
+allocate tx ringidx 1
+allocate tx ringidx 13 
+RTMPQMemAddr[41]
+allocate tx ringidx x ringidx 1 
+RTMPQMemAddr[43]
+allocate tx ringidx 2 
+RTMPQMemAddr[44]
+allocate tx ringidx 3 
+RTMPQMemAddr[45]
+allocate tx ringidx 4 
+RTMPQMemAddr[46]
+allocate tx ringidx 5 
+RTMPQMemAddr[47]
+allocate tx ringidx 6 
+RTMPQMemAddr[48]
+allocate tx ringidx 7 
+RTMPQMemAddr[49]
+allocate tx ringidx 8 
+RTMPQMemAddr[50]
+allocate tx ringidx 9 
+RTMPQMemAddr[51]
+allocate tx ringidx 10 
+RTMPQMemAddr[52]
+allocate tx ringidx 11 
+RTMPQMemAddr[53]
+allocate tx ringidx 12 
+RTMPQMemAddr[54]
+allocate tx ringidx 13 
+RTMPQMemAddr[55]
+RTMPQMemAddr[70]
+RTMPQMemAddr[71]
+=>[26]:PreBuff:0xc20e0000, DmaAddr:0x220e0000
+==>[27]:PreBuff:0xc20e4000, DmaAddr:0x220e4000
+==>[28]:PreBuff:0xc20e8000, DmaAddr:0x220e8000
+==>[29]:PreBuff:0xc20ec000, DmaAddr:0x220ec000
+==>[30]:PreBuff:0xc20f0000, DmaAddr:0x220f0000
+==>[31]:PreBuff:0xc20f4000, DmaAddr:0x220f4000
+==>[32]:PreBuff:0xc20f8000, DmaAddr:0x220f8000
+==>[33]:PreBuff:0xc20fc000, DmaAddr:0x220fc000
+==>[34]:PreBuff:0xc2100000, DmaAddr:0x22100000
+==>[35]:PreBuff:0xc2104000, DmaAddr:0x22104000
+==>[36]:PreBuff:0xc2108000, DmaAddr:0x22108000
+==>[37]:PreBuff:0xc210c000, DmaAddr:0x2210c000
+==>[38]:PreBuff:0xc2110000, DmaAddr:0x22110000
+==>[39]:PreBuff:0xc2114000, DmaAddr:0x22114000
+==>[40]:PreBuff:0xc2118000, DmaAddr:0x22118000
+==>[41]:PreBuff:0xc211c000, DmaAddr:0x2211c000
+==>[42]:PreBuff:0xc2120000, DmaAddr:0x22120000
+==>[43]:PreBuff:0xc2124000, DmaAddr:0x22124000
+==>:0x22130000
+==>[47]:PreBuff:0xc2134000, DmaAddr:0x22134000
+==>[48]:PreBuff:0xc2138000, DmaAddr:0x22138000
+==>[49]:PreBuff:0xc213c000, DmaAddr:0x2213c000
+==>[50]:PreBuff:0xc2140000, DmaAddr:0x22140000
+==>[51]:PreBuff:0xc2144000, DmaAddr:0x22144000
+==>[52]:PreBuff:0xc2148000, DmaAddr:0x22148000
+==>[53]:PreBuff:0xc214c000, DmaAddr:0x2214c000
+==>[54]:PreBuff:0xc2150000, DmaAddr:0x22150000
+==>[55]:PreBuff:0xc[60]:PreBuff:0xc2168000, DmaAddr[64]:PreBuff:0xc2178000, DmaAddr:0x22178000
+==>[65]:PreBuff:0xc217c000, DmaAddr:0x2217c000
+==>[66]:PreBuff:0xc2180000, DmaAddr:0x22180000
+==>[67]:PreBuff:0xc2184000, DmaAddr:0x22184000
+==>[68]:PreBuff:0xc2188000, DmaAddr:0x22188000
+==>[69]:PreBuff:0xc218c000, DmaAddr:0x2218c000
+==>[70]:PreBuff:0xc25d8000, DmaAddr:0x225d8000
+==>[71]:PreBuff:0xc25d9000, DmaAddr:0x225d9000
+==>[72]:PreBuff:0xc2190000, DmaAddr[76]:PreBuff:0xc21b0000, DmaAddr:0x221b0000
+==>[77]:PreBuff:0xc21b8000, DmaAddr:0x221b8000
+MPQMemAddr[0]
+allocate tx ringidx 1 
+RTMPQMemAddr[1]
+allocate tx ringidx 2 
+RTMPQMemAddr[2]
+allocate tx ringidx 3 
+RTMPQMemAddr[3]
+allocate tx ringidx 4 
+RTMPQMemAddr[4]
+allocate tx ringidx 5 
+RTMPQMemAddr[5]
+allocate tx ringidx 6 
+RTMPQMemAddr[6]
+allocate tx ringidx 7 
+RTMPQMemAddr[7]
+allocate tx ringidx 8 
+RTMPQMemAddr[8]
+allocate tx ringidx 9 
+RTMPQMemAddr[9]
+allocate tx ringidx 10 
+RTMPQMemAddr[10]
+allocate tx ringidx 11 
+RTMPQMemAddr[11]
+allocate tx ringidx 12 
+RTMPQMemAddr[12]
+allocate tx ringidx 13 
+RTMPQMemAddr[13]
+allocate tx ringidx 0 
+RTMPQMemAddr[14]
+allocate tx ringidx 1 
+RTMPQMemAddr[15]
+allocate tx ringidx 2 
+RTMPQMemAddr[16]
+allocate tx ringidx 3 ate tx ringidx 11 
+RTMPQMemAddr[25]
+allocate tx ringidx 12 
+Rte tx ringidx 3 
+RTMPQMemAddr[31]
+allocate tx ringidx 4 
+RTMP
+allocate tx ringidx 7 
+RTMPQM1 
+RTMPQMemAddr[39]
+allocate tx ringidx 12 
+RTMPQMemAddr[40]
+0 
+RTMPQMemAddr[42]
+allocate tRTMPQMemAddr[72]
+RTMPQMemAddr[73]
+RTMPQMemAddr[74]
+RTMPQMemAddr[75]
+RTMPQMemAddr[76]
+RTMPQMemAddr[77]
+RTMPQMemAddr[78]
+RTMPQMemAddr[79]
+RTMPQMemAddr[80]
+<-- RTMPAllocTxRxRingMemory, Status=0
+<-- RTMPAllocAdapterBlock, Status=0
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x8
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x4
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x5
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x6
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x7
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x9
+STA Driver version-JEDI.MP1.mt7601u.v1.12.1.2
+==>WaitForAsicReady MAC_CSR0=0x76010500
+==>WaitForAsicReady MAC_CSR0=0x76010500
+NVM is EFUSE
+Endpoint(8) is for In-band Command
+Endpoint(4) is for WMM0 AC0
+Endpoint(5) is for WMM0 AC1
+Endpoint(6) is for WMM0 AC2
+Endpoint(7) is for WMM0 AC3
+Endpoint(9) is for WMM1 AC0
+Endpoint(84) is for Data-In
+Endpoint(85) is for Command Rsp
+80211> RFICType = 3
+NumOfChan ===> 58
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80211> CurTxPower = 0 dBm
+80211> TxStream = 0
+crda> requlation requestion by core: 00
+80211> CFG80211_Register
+usbcore: registered new interface driver rt2870
+[Mstar GPIO] gpio(98) to irq(152)
+[Mstar GPIO] gpio(99) to irq(153)
+[Mstar GPIO] gpio(100) to irq(154)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[gpio] Set PAD_SR_IO12 as GPIO(controlled by ISP bank)
+[Mstar GPIO] gpio(36) to irq(-1)
+Starting mdev...
+Try copy log from TF card
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /etc/init.d/S12copylog: Unable to copy log fron sdcard
+/dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+Starting watchdog...
+watchdog watchdog0: watchdog did not stop!
+read-only file system detected...done
+Starting network: OK
+Starting wifi ......
+wlan0
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+miio_connect_hid_ssid = 
+ enterssid & passwd
+miio_qrcode: set for deactivation
+rescan triggered for deactivation set on 1 service
+fetch_av: set for activation
+set on 1 service
+miio_client_helper: set for activation
+rescan triggered for activation ion set on 1 service
+Thu Jan  1 08:00:07 CST 1970
+miio_miss: set for activation
+rescan triggered for activation set on 1 service
+miio_nas: set for activation
+rescan triggered for activation set on 1 service
+ctrl_interface=/var/run/wpa_supplicant
+update_config=1
+network={
+	ssid="alice-2.4G"
+	psk="0926621644"
+	key_mgmt=WPA-PSK
+	proto=WPA WPA2
+	scan_ssid=1
+}
+hostapd  deauth
+miio_ota: set for activation
+rescan triggered for activation set on 1 service
+miio_record: set for activation
+rescan triggered for activation set on 1 service
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+killall: udhcpc: no process killed
+killall: wpa_supplicant: no process killed
+killall: hostapd: no process killed
+killall: udhcpd: no process killed
+Build Time:201511182118____
+ILM Length = 52136(bytes)
+DLM Length = 0(bytes)
+Loading FW....
+miio_sdcard: set for activation
+rescan triggered for activation set on 1 service
+mortox: set for activation
+rescan triggered for activation set on 1 service
+Starting crond...
+Start detecting tf_update.img mount sdcard agagin
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /dev/mmcblk0 on /mnt/sdcard failed: Invalid argument
+/mnt/sdcard/tf_update.img not exist
+/mnt/sdcard/tf_all.img not exist
+/mnt/sdcard/tf_all_recovery.img not exist
+Starting netcheck...
+RTMP_TimerListAdd: add timer obj c4b776f4!
+RTMP_TimerListAdd: add timer obj c4b77724!
+RTMP_TimerListAdd: add timer obj c4b77754!
+RTMP_TimerListAdd: add timer obj c4b776c4!
+RTMP_TimerListAdd: add timer obj c4b77634!
+RTMP_TimerListAdd: add timer obj c4b77664!
+RTMP_TimerListAdd: add timer obj c4b0c06c!
+RTMP_TimerListAdd: add timer obj c4af88f0!
+RTMP_TimerListAdd: add timer obj c4af8924!
+RTMP_TimerListAdd: add timer obj c4b0c10c!
+RTMP_TimerListAdd: add timer obj c4afb2a0!
+RTMP_TimerListAdd: add timer obj c4afaae0!
+RTMP_TimerListAdd: add timer obj c4afb26c!
+RTMP_TimerListAdd: add timer obj c4afb5cc!
+RTMP_TimerListAdd: add timer obj c4afb2d4!
+RTMP_TimerListAdd: add timer obj c4afb308!
+RTMP_TimerListAdd: add timer obj c4afb33c!
+RTMP_TimerListAdd: add timer obj c4a53a1c!
+RTMP_TimerListAdd: add timer obj c4a5325c!
+RTMP_TimerListAdd: add timer obj c4a539e8!
+RTMP_TimerListAdd: add timer obj c4a53d48!
+RTMP_TimerListAdd: add timer obj c4a53c6c!
+Entering service runlevel normal
+++++ ok
+ param  =  -  -  
+ STA_SELECT_MASTER
+encrypt old rescan triggered for activation miio_agent: set for activation
+rescan triggered for activation set on 1 service
+miio_algo: set for activation
+rescan triggered for activation set on 1 service
+miio_client: set for activation
+rescan triggered for activation set on 1 service
+set on 1 service
+miio_cloud: set for activation
+rescan triggered for activation set on 1 service
+miio_devicekit: set for activation
+rescan triggered for activatConnecting Master_ssid
+start_time:
+================> UP : RTMP_SEM_EVENT_WAIT(STA)
+1. LDO_CTR0(6c) = a64799, PMU_OCLEVEL c
+2. LDO_CTR0(6c) = a6478d, PMU_OCLEVEL 6
+==>WaitForAsicReady MAC_CSR0=0x76010500
+FW Version:0.1.00 Build:7640
+RTMP_TimerListAdd: add timer obj c4a8adc8!
+RTMP_TimerListAdd: add timer obj c4a8adfc!
+RTMP_TimerListAdd: add timer objP2pGroupTabInit .  
+P2pScanChannelDefault <=== count = 3, Channels are 1, 6,11 separately   
+P2pCfgInit:: 
+WOW Enable 1, WOWFirmware 0
+==>WaitForAsicReady MAC_CSR0=0x76010500
+cfg_mode=9
+cfg_mode=9
+wmode_band_equal(): Band Equal!
+Key1Str is Invalid key length(1) or Type(0)
+Key2Str is Invalid key length(1) or Type(0)
+Key3Str is Invalid key length(1) or Type(0)
+Key4Str is Invalid key length(1) or Type(0)
+###### Force at HT20 (BW_20) mode !!! ########
+WOW_Enable = 1
+WOW_Enable = 1, GPIO = 2
+WOW_Inband = 0
+1. Phy Mode = 14
+2. Phy Mode = 14
+NVM is Efuse and its size =1d[1e0-1fc] 
+Efuse freeblock =[17] 
+ERROR!!! MT7601 E2PROM: WRONG VERSION 0xd, should be 9
+3. Phy Mode = 14
+AntCfgInit: primary/secondary ant 0/1
+---> InitFrequencyCalibration
+InitFrequencyCalibrationMode:Unknow mode = 3
+InitFrequencyCalibration: frequency offset in the EEPROM = 110(0x6e)
+<--- InitFrequencyCalibration
+RTMPSetPhyMode: channel is out of range, use first channel=1 
+MCS Set = ff 00 00 00 00
+<==== STA : rt28xx_init, Status=0
+80211> re-init bands...
+80211> RFICType = 1
+NumOfChan ===> 14
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80211> CurTxPower = 0 dBm
+80211> TxStream = 1
+0x1300 = 00064300
+RTMPDrvOpen(1):Check if PDMA is idle!
+RTMPDrvOpen(2):Check if PDMA is idle!
+<================ UP : RTMP_SEM_EVENT_UP(STA)
+MSYS: DMEM request: [ISP_MLOAD]:0x000088E0
+No connection! Set fake rssi= -80!!!
+Successfully initialized wpa_supplicant
+MSYS: DMEM request: [DLC_MEM]:0x00000400
+[DRVSCLDMA] Double Buffer Status :0
+rfkill: Cannot open RFKILL control device
+80211> CFG80211_OpsPmksaFlush ==>
+[HVSP1] Size must be align 16, Vsize=1080, Pitch=1920
+[HVSP1] Buffer is single, Vsize=1080, Pitch=1920
+Successfully initialized wpa_supplicant
+MSYS: DMEM request: [SCL_MCNR_YC]:0x003FC000
+MSYS: DMEM kept entry found: name=SCL_MCNR_YC, phys=0x239F0000, length=0x003FC000
+MSYS: DMEM request: [SCL_MCNR_M]:0x000FF000
+pIoctlScan->ScanType=0
+No connection! Set fake rssi= -80!!!
+MSYS: DMEM kept entry found: name=SCL_MCNR_M, phys=0x238F0000, length=0x000FF000
+MT7601_ChipSwitchChannel: SwitchChannel#1(RF=15, 1T)
+[HVSP1]: MCNR YC: Phy:239f0000  Vir:c39f0000
+[HVSP1]: MCNR CIIR: Phy:0  Vir:0
+[HVSP1]: MCNR M: Phy:238f0000  Vir:c38f0000
+MSYS: DMEM request: [VSPL-I0P0B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P0B0, phys=0x231D0000, length=0x0005A000
+MT7601_ChipSwitchChannel: SwitchChannel#2(RF=15, 1T)
+MSYS: DMEM request: [VSPL-I0P0B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P0B1, phys=0x23170000, length=0x0005A000
+H2BR@v0.0.00:vsi rq-controller
+No connection! Set fake rssi= -80!!!
+MSYS: DMEM request: [MS-00]:0x00357000
+MSYS: DMEM kept entry found: name=MS-00, phys=0x23590000, length=0x00357000
+MSYS: DMEM request: [MS-01]:0x00357000
+MT7601_ChipSwitchChannel: SwitchChannel#3(RF=15, 1T)
+MSYS: DMEM kept entry found: name=MS-01, phys=0x23230000, length=0x00357000
+MSYS: DMEM request: [VENC-32]:0x000CC000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM kept entry found: name=VENC-32, phys=0x22D00000, length=0x000CC000
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+rfkill: Cannot open RFKILL control device
+MSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+MSYS: DMEM kept entry found: name=S0:VENCDMOUT, phys=0x22FC0000, length=0x0000A800
+80211> CFG80211_OpsPmksaFlush ==>
+ctrl_iface exists and seems to be in use - cannot override it
+Delete '/var/run/wpa_supplicant/wMSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+lan0' manually iMSYS: DMEM kept entry found: name=S0:VENCDMP0, phys=0x22F40000, length=0x0007F800
+f it is not used anymore
+FailedMSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+ to initialize cMSYS: DMEM kept entry found: name=S0:VENCDMP1, phys=0x22EC0000, length=0x0007F800
+ontrol interface '/var/run/wpa_supplicant'.
+You may have another wpa_supplicant process already running or the H2BR@v0.0.00:vsi rq-controller
+file was
+left bMT7601_ChipSwitchChannel: SwitchChannel#4(RF=15, 1T)
+y an unclean termination of wpa_supplicant in which case you will need
+ore starting wpa_supplicant again.
+
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+MSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P1B0, phys=0x23110000, length=0x0005A000
+/mnt/data/bin/wifi_start.sh: line 573: iptables:MSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+ not found
+/mnt/data/bin/wifi_start.sh: line 57vhe-return buffer is null
+3: iptables: not found
+/mnt/data/bin/wifi_startMSYS: DMEM kept entry found: name=VSPL-I0P1B1, phys=0x230B0000, length=0x0005A000
+.sh: line 573: iptables: not found
+MSYS: DMEM request: [VENC-48]:0x0001E000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+MSYS: DMEM kept entry found: name=VENC-48, phys=0x22CE0000, length=0x0001E000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+MSYS: DMEM kept entry found: name=S1:VENCDMOUT, phys=0x22EB0000, length=0x0000A100
+MT7601_ChipSwitchChannel: SwitchChannel#5(RF=15, 1T)
+MSYS: DMEM request: [S1:VENCDMP0]:0x00069F00
+MSYS: dmem realloc S1:VENCDMP0
+MSYS: DMEM [S1:VENCDMP0]@0x22E40000 successfully released
+MSYS: DMEM request: [S1:VENCDMP1]:0x00069F00
+chuangmi_camera_ipc009
+MSYS: dmem realloc S1:VENCDMP1
+MSYS: DMEM [S1:VENCDMP1]@0x22DD0000 successfully released
+udhcpc: started, v1.28.1
+vhe-return buffer is null
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+MSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B0, phys=0x23050000, length=0x0005A000
+MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B1, phys=0x22FF0000, length=0x0005A000
+MSYS: DMEM request: [VENC-49]:0x0001E000
+MSYS: DMEM kept entry found: name=VENC-49, phys=0x22CC0000, length=0x0001E000
+MSYS: DMEM request: [VSPL-I0P3B0MT7601_ChipSwitchChannel: SwitchChannel#8(RF=15, 1T)
+[Mstar GPIO] gpio(17) to irq(-1)
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+Channel#11(RF=15, 1T)
+Channel#12(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#13(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#14(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#1(RF=15, 1T)
+80211> cfg80211_scan_done
+[1114][Debug][CFG80211OS_ScanEnd] Flg0!!!
+80211> Connect bssid 68:02:b8:ba:a2:31
+CntlOidSsidProc():CNTL - 1 BSS of 18 BSS match the desirNK UP !!! (Density =0, )
+RTMP_TimerListAdd: add timer obj c4bc78b8!
+!!! LINK UP !!!  ClientStatusFla!!! LINK UP !! (StaActive.bHtEnable =1)
+RTMP_TimerListAdd: add timer obj c4a8ad94!
+RTMP_TimerListAdd: add timer obj c4a8a5d4!
+RTMP_TimerListAdd: add timer obj c4a8ad60!
+RTMP_TimerListAdd: add timer obj c4a8b0c0!
+RTMP_TimerListAdd: add timer obj c4a8ae30!
+ c4b0c00c!
+RTMP_TimerListAdd: add timer obj c4b0c0dc!
+RTMP_TimerListAdd: add timer obj c4bcf9a0!
+RTMP_TimerListAdd: add timer obj c4bcf9d0!
+RTMP_TimerListAdd: add timer obj c4bcfa00!
+RTMP_TimerListAdd: add timer obj c4bcfa30!
+RTMP_TimerListAdd: add timer obj c4bcfa60!
+RTMP_TimerListAdd: add timer obj c4bcfa94!
+RTMP_TimerListAdd: add timer obj c4b77694!
+RTMP_TimerListAdd: add timer obj c4af790c!
+RTMP_TimerListAdd: add timer obj c4af78dc!
+RTMP_TimerListAdd: add timer obj c4af78ac!
+RTMP_TimerListAdd: add timer obj c4b0c03c!
+to manually remove this file bef]:0x00016800
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#7(RF=15, 1T)
+udhcpc: sending discover
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+No connection! Set fake rssi= -80!!!
+MT7601_ChipSwitchChannel: SwitchChannel#9(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#10(RF=15, 1T)
+MT7601_ChipSwitchChannel: Switch[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+MT7601_ChipSwitchChannel: SwitchIsAborted = 0
+No connection! Set fake rssi= -8e (10)SSID - alice-2.4G
+CntlOidSsidProc: Found BSSID(68:02:b8:ba:a2:31)
+CNTL - iterate BSS 0 of 1
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+PeerBeaconAtJoinAction(): HT-CtrlChannel=6, CentralChannel=>8
+PeerBeaconAtJoinAction(): Set CentralChannel=8
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+!!!Infra LINK UP !!! 
+cfg80211: Calling CRDA to update world regulatory domain
+!!! LIgs=f1)
+ListAdd: add timer obj c4bc98d8!ListAdd: add timer obj c4bc993c!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc99a0!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a04!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a68!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+udhcpc: sending RTMP_TimerListAdd: add timer obj c4bc9acc!
+discover
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b30!
+udhcpc: performing DHCP renew
+udhcpc: sending discover
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b94!
+[Mstar GPIO] gpio(18) to irq(-1)
+[Mstar GPIO] gpio(83) to irq(166)
+udhcpc: sending select for 192.1[Mstar GPIO] gpio(78) to irq(182)
+68.0.27
+udhcpc: lease of 192.168.0.27 obtained, lease time 604800
+deleting routers
+adding dns 192.168.0.1
+adding dns 203.187.1.1
+adding dns 203.133.1.1
+adding dns 8.8.8.8
+get ip addr :
+192.168.0.27
+network id / ssid / bssid / flags
+0	alice-2.4G	any	[CURRENT]
+end_time:
+Thu Jan  1 08:00:15 CST 1970
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000002
+RTMP_Timer
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_Timer
+ size:7fc8 chks:5551a134 ok
+
+IPL
+DEVINFO: 313E
+[WDT] Enalbe WAMMC:   MStar SD/MMC: 0
+nor_flash_mxp allocated success!!
+Flash is detected (0x0709, 0xEF, 0x40total size 16 MiB
+MXP found at x1000
+env_offset=0x4F000 env_size=0x1000
+Flash is detected (0xu 
+[NetUpgrade] ts_1st=0x10b9
+[NetUpgrade] Get Device MacAddr(00:30:1b:ba:02:db)
+NetUpgrade Timeout
+[NetUpgrade] ts_1st=0x10b9, ts_2nd=0x14a6, delt_ts=0x3ed
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: 000 length=0x 1000000 for xz!!
+   XZ: uncompressed size=0x36c9e0, ret=7
+OK
+ERR: Can't find KIMG header and initrd address, 0x00000000
+atags:0x20000000
+
+Starting kernel ...
+
+0
+Linux version 3.18.30 (ubuntu@a1d17a412712) (gcc version 4.9.4 (Buildroot 2017.08-gf8e1e38) ) #1 PREEMPT Tue Aug 29 09:53:12 CST 2023
+CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), crg instruction cache
+early_atags_to_fdt() success
+Machine model: INFINITY3 MSC000A-S03A-64M
+Reg on.  Total pages: 16256
+Kernel command line: console=ttyS0,115200n8r init=/linuxrc rootfstype=squashfs root=/dev/mtdblock2 rwtries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes - 0xffe00000   (2048 kB)
+    v000000 - 0xc4000000   (  64 MB)
+    modules : 0xbf800000 - 0xc0000000   (   8 MB)
+      .text : 0xc0008000 - 0xc0324ecc   (3188 kB)
+      .init : 0xc0325000 - 0xc033a000   (  84 kB)
+      .data : 0xc033a000 - 0xc03749e0   ( 235 kB)
+       .bss : 0xc03749e0 - 0xc0399578   ( 147 kB)
+Objects=0, CPUs=1, Nodes=1
+Preemptible hierarchical RCU implementation.
+	Dump stacks of tasks blocking RCU-preempt GP.
+NR_IRQS:16 nr_irqs:16 16
+Find CLK_cpupll_clk, hook ms_cpuclk_ops
+[ms_cpuclk_init] get dvfs gpio  vid_1
+Architected cp15 timer(s) running at 6.00MHz (virt).
+sched_clock: 56 bits at 6MHz, resolution 166ns, wraps every 2863311527936ns
+Switching to timer-based delay loop, resolution 166ns
+console [ttyS0] enabled
+Calibrating delay loop (skipped), value c)
+CPU: Testing write buffer coherency: ok
+Setting up static identity map for 0x20204d90 - 0x20VFP support v0.3: implementor 41 architecture 2 part 30 variant ered
+platform infinity-codec: Driver infinity-audio requests probe deferral
+netif_napi_add() called 
+Plug in USB Port1
+[EMAC]Init EM
+[HVSP]u32Dropmode on/n00
+[SCL] SCL init success
+mload_size = 35040
+mload_virt_addr = c2c50000
+mload_dma_addr = 0x22c50000
+>> [sdmmc_0] Set IOS => Clk=48000000 (Real=48000000)
+MSYS: DMEM request: [ISP_base]:0x0001B120
+mmc0: new high speed SDHC P]Drv_HVSP_SetFbManageConfig(645):8000 
+DNRR OFF
+[FB]Set 57
+[UNLOCK
+==>[65]:PreBuff:0xc2178000, DmaAddr:0x22178000
+==>[66]:PreBuff:0xc217c000, DmaAddr:0x2217c000
+==>[67]:PreBuff:0xc2180000, DmaAddr:0x22180000
+==>[68]:PreBuff:0xc2184000, DmaAddr:0x22184000
+==>[75]:PreBuff:0xc21a8000, DmaAre: 00
+80211> CFG80211_Register for activation
+set on 1 service
+
+1. LDO_CTR0(6c) = a64799, PMU_OCRTMP_TimerListAdd: add timer obj c4b0c10c!
+RTMP_TimerListAdd: add timer obj c4afb2a0!
+RTMP_TimerListAdd: add timer obj c4afaae0!
+RTMP_TimerListAdd: add timer obj c4afb26c!
+RTMP_TimerListAdd: add timer obj c4afb5cc!
+RTMP_TimerListAdd: add timer obj c4afb2d4!
+RTMP_TimerListAdd: add timer obj c4afb308!
+RTMP_TimerListAdd: add timer obj c4afb33c!
+RTMP_TimerListAdd: add timer obj c4a53a1c!
+RTMP_TimerListAdd: add timer obj c4a5325c!
+ c4a539e8!
+RTMP_TimerListAdd: add timer obj c4a53d48!
+RTMP_TimerListAdd: add timer obj c4a53c6c!
+RTMP_TimerListAdd: add timer obj c4a8ad94!
+RTMP_TimerListAdd: add timer objlength=0x0005A000
+cfg80211: Calling CRDA to updatedd timer obj c4bc993c!
+ c4bc99a0!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_Timerudhcpc: sending Rcv Wcid(1) AddBAReq
+discover
+Start Seq = 0000** Unrecognized filesystem type **
+there's no sdcard, ignore dfu 
+[NetUpgrade] ts_1st=0x10b9
+[NetUpgrade] Get Device MacAddr(00:30:1b:ba:02:db)
+ ts_1st=0x10b9, ts_2nd=0x14a6, delt_ts=0x3ed
+Flash is detected Detected nor0 with total size 16 MiB
+SF: 2490368 bytes @ 0x50000 ReadARM Linux Kernel Image (lzma compressed)
+   Data Size:    1723184 Bytes = 1.6 MiB
+   Load Address: 20008000
+   Entry Point:  20008000
+   Verifying Checksum ... OK
+   Uncompressing Kernel Imagng delay loop (skipped), value calculated using timer frequency.. 12.50 BogoMIPS (lpj=20000)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+CPU: Testing write buffer coherency: ok
+Setting up static identity map for 0x20204d90 - 0x20204dc0
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+
+
+Version : MVX2##I3ga0c1303KL_LX318####[BR:HEAD]#XVM
+
+GPIO: probe end[OTG] Mstar_otg_device_init
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+MSYS:  INIT DONE. TICK=0x05052AFB
+Advanced Linux Sound Architecture Driver Initialized.
+Switched to clocksource arch_sys_counter
+cfg80211: Calling CRDA to update world regulatory domain
+NET: Registered protocol family 2
+TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+TCP bind hash table entries: 1024 (order: 2, 20480 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+TCP: reno registered
+UDP hash table entries: 256 (order: 1, 122on 2.2. © 2001-2006 Red Hat, Inc.
+msgmni has been set to 119
+io scheduler noop registered
+io scheduler deadline registered (default)
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mstar_ehc_init version:20150512
+Mstar-ehci-2 H.W init
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd286400
+BC disable 
+[USB] soc:Mstar-ehci-2 irq --> 119
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: EHCI Host Controller
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: new USB bus registered, assigned bus number 1
+soc:Mstar-ehci-2 m 0xfd286400
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 3.18.30 ehci_hcd
+usb usb1: SerialNumber: mstar
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Mstar-ehci-1 H.W init
+CHIP_FUNCTION SET. ID=4, param=1
+Can't get power-enable-pad from DTS, set default GPIO(1)
+[mstar_usb_vbus_control] Enable USB VBUS GPIO(81)
+Titania3_series_start_ehc start
+enable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound address subtraction
+[USB] worring.... no platform_data
+hcd->rsrc_start:0xfd284800
+BC disable 
+[USB] soc:Mstar-ehci-1 irq --> 95
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: EHCI Host Controller
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: new USB bus registered, assigned bus number 2
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: irq 95, io mem 0xfd284800
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: EHCI Host Controller
+usb usb2: Manufacturer: Linux 3.18.30 ehci_hcd
+usb usb2: SerialNumber: mstar
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+i2c /dev entries driver
+logger: created 256K log 'log_main'
+[ms_uart_probe] uart port 0 use MUX_PM_UART
+1f221000.uart0: ttyS0 at MMIO 0x0 (irq = 98, base_baud = 10750001200.uart1: ttyS1 at MMIO 0x0 (irq = 99, base_baud = 10750000) is a unknown
+>> [sdmmc] ms_sdmmcmmc] ms_sdmmc_probe 
+Driver infinity-audio requests probe deferral
+infinity-audio infinity-codec: ASoC: CODEC DAI infinity-codec-dai-main not registered
+platform infinity-codec: Driver ferral
+netif_napi_add() called with weight 128 on device eth%d
+MSYS: DMEM request: [EMAC_BUFF]:0x00002000
+==20150512==> hub_port_init 1 #0
+Plug in USB Port1
+[EMAC]Init EMAC success! (add delay in reset)
+[HVSP]u32Dropmode on/n
+[VIP]gu32CMDQmode off/nMSYS: DMEM request: [VIP_CMDQ]:0x00004000
+[SCL] SCL init success
+mload_size = 35040
+mload_virt_addr = c2c50000
+mload_dma_addr = 0x22c50000
+>> [sdmmc_0] Set IOS => Clk=48000000 (Real=48000000)
+MSYS: DMEM request: [ISP_base]:0x0001B120
+mmc0: new high speed SDHC 0: mmc0:0001 SD32G 29.1 GiB 
+AE Base: virt=0xC2C60000 size=0xB4-2 2xIO_READ MODE
+mtd .name = NOR_FLASH, .size = 0-speed USB device number 2 using soc:Mstar-ehci-1
+MXP found at -0x000000050000 : "BOOT"
+0x000000050000-0x000000260000 : "KERNEL"
+0x000000260000-0x0000009b0000 : "ROOTFS"
+0x0000009b0000-0x000000fe0000 : "DATA"
+0x000000fe0000-0x000000ff0000 : "CONFIG"
+0x000000ff0000-0x000001000000 : "FACTORY"
+MSYS: DMEM request: [AESDMA_ENG]:0x00001000
+MSYS: DMEM request: [AESDMA_ENG1]:0x00001000
+infinity_aes soc:aesdma: MSTAR AES engine enabled.
+cryptodev: driver aesdmadev loaded.
+[ms_cpufreq_init] cpu current clk=796917760
+ms_pwm->pad_ctrl[0]=16
+ms_pwm->pad_ctrl[1]=70
+ms_pwm->pad_ctrl[2]=255
+ms_pwm->pad_ctrl[3]=255
+ms_pwm->pad_ctrl[4]=53
+ms_pwm->pad_ctrl[5]=255
+ms_pwm->pad_ctrl[6]=255
+ms_pwm->pad_ctrl[7]=56
+mstar-i3pwm 1f003400.pwm: probe successful
+mstar notify driver install successfully
+TCP: cubic registered
+NET: Registered protocol family 17
+ThumbEE CPU extension supported.
+MSYS: DMEM request: [pcmC0D0p]:0x00018000
+MSYS: DMEM request: [pcmC0D0c]:0x00014000
+infinity-audio soc:sound: infinity-codec-dai-main <-> infinity-cpu-dai mapping ok
+ALSA device list:
+  #0: infinity_snd_machine
+VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+devtmpfs: mounted
+Freeing unused kernel memory: 84K (c0325000 - c033a000)
+usb 2-1: New USB device found, idVendor=148f, idProduct=7601
+usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
++ source /etc/hooks/pre-init
++ exec chroot . /bin/busybox linuxrc
+devpts: called with bogus options
+mkdir: can't create directory '/system': Read-only file system
+ln: /system/bin: No such file or directory
+ln: /system/etc: No such file or directory
+ln: /system/lib: No such file or directory
+random: ueventd urandom read with 2 bits of entropy available
+init: property_service started...
+init: minit[MVX2####g348e306CM_MINIT#####XVM]
+MSYS: DMEM request: [VENC-49]:0x0001E000
+PHYS=0x22CC0000,KVIRT=0xC2CC0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-48]:0x0001E000
+000
+PHYS=0x22CE0000,KVIRT=0xC2CE0000, LENGTH=0x0001EMSYS: DMEM request: [VENC-32]:0x000CC000
+000
+PHYS=0x22D00000,KVIRT=0xC2D00000, LENGTH=0x000CCMSYS: DMEM request: [S1:VENCDMP1]:0x00069AE0
+000
+PHYS=0x22DD0000,KVIRT=0xC2DD0000, LENGTH=0x00069MSYS: DMEM request: [S1:VENCDMP0]:0x00069AE0
+AE0
+PHYS=0x22E40000,KVIRT=0xC2E40000, LENGTH=0x00069AE0
+MSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+PHYS=0x22EB0000,KVIRT=0xC2EB0000, LENGTH=0x0000AMSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+100
+PHYS=0x22EC0000,KVIRT=0xC2EC0000, LENGTH=0x0007F800
+MSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+PHYS=0x22F40000,KVIRT=0xC2F40000, LENGTH=0x0007FMSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+800
+PHYS=0x22FC0000,KVIRT=0xC2FC0000, LENGTH=0x0000A800
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+PHYS=0x22FD0000,KVIRT=0xC2FD0000, LENGTH=0x00016MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+800
+PHYS=0x22FF0000,KVIRT=0xC2FF0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+000
+PHYS=0x23050000,KVIRT=0xC3050000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+000
+PHYS=0x230B0000,KVIRT=0xC30B0000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+000
+PHYS=0x23110000,KVIRT=0xC3110000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B1]:0x0005A000
+000
+PHYS=0x23170000,KVIRT=0xC3170000, LENGTH=0x0005AMSYS: DMEM request: [VSPL-I0P0B0]:0x0005A000
+000
+PHYS=0x231D0000,KVIRT=0xC31D0000, LENGTH=0x0005AMSYS: DMEM request: [MS-01]:0x00357000
+000
+PHYS=0x23230000,KVIRT=0xC3230000, LENGTH=0x00357MSYS: DMEM request: [MS-00]:0x00357000
+000
+PHYS=0x23590000,KVIRT=0xC3590000, LENGTH=0x00357000
+MSYS: DMEM request: [SCL_MCNR_M]:0x000FF000
+PHYS=0x238F0000,KVIRT=0xC38F0000, LENGTH=0x000FFMSYS: DMEM request: [SCL_MCNR_YC]:0x003FC000
+000
+PHYS=0x239F0000,KVIRT=0xC39F0000, LENGTH=0x003FC000
+MSYS: fix_dmem enabled
+[FB]Set 68
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):8000 
+DNRR OFF
+[FB]Set 57
+[DRVHVSP]Drv_HVSP_SetFbManageConfig(645):100 
+UNLOCK
+net.ipv4.ip_local_reserved_ports = 54322,54321,54320
+Starting logging: OK
+mtprealloc: module license 'unsptaint
+==>[0]:PreBuff:0xc206c000, DmaAddr:0x2206c000
+==>[1]:PreBuff:0xc207c000, DmaAddr:0x2207c000
+==>[2]:PreBuff:0xc205c000, DmaAddr:0x2205c000
+==>[3]:PreBuff:0xc2080000, DmaAddr:0x22080000
+==>[4]:PreBuff:0xc2084000, DmaAddr:0x22084000
+==>[5]:PreBuff:0xc2088000, DmaAddr:0x22088000
+==>[6]:PreBuff:0xc208c000, DmaAddr:0x2208c000
+==>[7]:PreBuff:0xc2090000, DmaAddr:0x22090000
+==>[8]:PreBuff:0xc2094000, DmaAddr:0x22094000
+==>[9]:PreBuff:0xc2098000, DmaAddr:0x22098000
+==>[10]:PreBuff:0xc209c000, DmaAddr:0x2209c000
+==>[11]:PreBuff:0xc20a0000, DmaAddr:0x220a0000
+==>[12]:PreBuff:0xc20a4000, DmaAddr:0x220a4000
+==>[13]:PreBuff:0xc20a8000, DmaAddr:0x220a8000
+==>[14]:PreBuff:0xc20ac000, DmaAddr:0x220ac000
+==>[15]:PreBuff:0xc20b0000, DmaAddr:0x220b0000
+==>[16]:PreBuff:0xc20b4000, DmaAddr:0x220b4000
+==>[17]:PreBuff:0xc20b8000, DmaAddr:0x220b8000
+==>[18]:PreBuff:0xc20bc000, DmaAddr:0x220bc000
+==>[19]:PreBuff:0xc20c0000, DmaAddr:0x220c0000
+==>[20]:PreBuff:0xc20c4000, DmaAddr:0x220c4000
+==>[21]:PreBuff:0xc20c8000, DmaAddr:0x220c8000
+==>[22]:PreBuff:0xc20cc000, DmaAddr:0x220cc000
+==>[23]:PreBuff:0xc20d0000, DmaAddr:0x220d0000
+==>[24]:PreBuff:0xc20d4000, DmaAddr:0x220d4000
+==>[25]:PreBuff:0xc20d8000, DmaAddr:0x220d8000
+==>[26]:PreBuff:0xc20dc000, DmaAddr:0x220dc000
+==>[27]:PreBuff:0xc20e0000, DmaAddr:0x220e0000
+==>[28]:PreBuff:0xc20e4000, DmaAddr:0x220e4000
+==>[29]:PreBuff:0xc20e8000, DmaAddr:0x220e8000
+==>[30]:PreBuff:0xc20ec000, DmaAddr:0x220ec000
+==>[31]:PreBuff:0xc20f0000, DmaAddr:0x220f0000
+==>[32]:PreBuff:0xc20f4000, DmaAddr:0x220f4000
+==>[33]:PreBuff:0xc20f8000, DmaAddr:0x220f8000
+==>[34]:PreBuff:0xc20fc000, DmaAddr:0x220fc000
+==>[35]:PreBuff:0xc2100000, DmaAddr:0x22100000
+==>[36]:PreBuff:0xc2104000, DmaAddr:0x22104000
+==>[37]:PreBuff:0xc2108000, DmaAddr:0x22108000
+==>[38]:PreBuff:0xc210c000, DmaAddr:0x2210c000
+==>[39]:PreBuff:0xc2110000, DmaAddr:0x22110000
+==>[40]:PreBuff:0xc2114000, DmaAddr:0x22114000
+==>[41]:PreBuff:0xc2118000, DmaAddr:0x22118000
+==>[42]:PreBuff:0xc211c000, DmaAddr:0x2211c000
+==>[43]:PreBuff:0xc2120000, DmaAddr:0x22120000
+==>[44]:PreBuff:0xc2124000, DmaAddr:0x22124000
+==>[45]:PreBuff:0xc2128000, DmaAddr:0x22128000
+==>[46]:PreBuff:0xc212c000, DmaAddr:0x2212c000
+==>[47]:PreBuff:0xc2130000, DmaAddr:0x22130000
+==>[48]:PreBuff:0xc2134000, DmaAddr:0x22134000
+==>[49]:PreBuff:0xc2138000, DmaAddr:0x22138000
+==>[50]:PreBuff:0xc213c000, DmaAddr:0x2213c000
+==>[51]:PreBuff:0xc2140000, DmaAddr:0x22140000
+==>[52]:PreBuff:0xc2144000, DmaAddr:0x22144000
+==>[53]:PreBuff:0xc2148000, DmaAddr:0x22148000
+==>[54]:PreBuff:0xc214c000, DmaAddr:0x2214c000
+==>[55]:PreBuff:0xc2150000, DmaAddr:0x22150000
+==>[56]:PreBuff:0xc2154000, DmaAddr:0x22154000
+==>[57]:PreBuff:0xc2158000, DmaAddr:0x22158000
+==>[58]:PreBuff:0xc215c000, DmaA0xc2168000, DmaAddr:0x22168000
+==>[62]:PreBuff:0xc216c000, DmaAddr:0x2217c000
+==>[67]:PreBuff:ddr:0x225d9000
+==>[71]:PreBuff:0xc25da000, DmaAddr:0x225da000
+0xc2198000, DmaAddr:0x22198000
+==>[74]:PreBuff:0xc21a0000, DmaAddr:0x221a0000
+==>[75]:PreBuff:0xc21a8000, DmaAddr:0x221a8000
+==>[76]:PreBuff:0xc21b0000, DmaAddr:0x221b0000
+==>[77]:PreBuff:0xc21b8000, DmaAddr:0x221b8000
+==>[78]:PreBuff:0xc21c0000, DmaAddr:0x221c0000
+==>[79]:PreBuff:0xc21c8000, DmaAddr:0x221c8000
+==>[80]:PreBuff:0xc2000800, DmaAddr:0x22000800
+install prealloc ok
+rtusb init rt2870 --->
+
+
+=== pAd = c4a4f000, size = 1585200 ===
+
+allocate tx ringidx 0 
+RTMPQMemAddr[0]
+allocate tx ringidx 1 
+RTMPQMemAddr[1]
+allocate tx ringidx 2 
+RTMPQMemAddr[2]
+0 
+RTMPQMemAddr[42]
+allocate tx ringidx 1 
+RTMPQMemAddr[43]
+allocate tx ringidx 2 
+RTMPQMemAddr[44]
+allocate tx ringidx 3 dr[47]
+allocate tx ringidx 6 
+RTMPQMemAddr[48]
+allocate tx ricate tx ringidx 8 
+RTMPQMemAddr[50]
+allocate tx ringidx 9 
+RTMPQMemAddr[51]
+allocate tx ringate tx ringidx 11 
+RTMPQMemAddr[53]
+allocate tx ringidx 12 
+Rdr[75]
+RTMPQMemAddr[76]
+RTMPQMemAddr[77]
+RTMPQMemAddr[78]
+RTMPQMemAddr[79]
+RTMPQMemAddr[80]
+<-- RTMPAllocTxRxRingMemory, Status=0
+<-- RTMPAllocAdapterBlock, Status=0
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x8
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x4
+RTMP_COM_IoctlHandleCOM_IoctlHandle():pAd->BulkOutEpAddr=0x6
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x7
+RTMP_COM_IoctlHandle():pAd->BulkOutEpAddr=0x9
+STA Driver version-JEDI.MP1.mt7601u.v1.12.1.2
+==>WaitForAsicReady MAC_CSR0=0x76010500
+==>WaitForAsicReady MAC_CSR0=0x76010500
+NVM is EFUSE
+Endpoint(8) is for In-band Command
+Endpoint(4) is for WMM0 AC0
+Endpoint(5) is for WMM0 AC1
+Endpoint(6) is for WMM0 AC2
+Endpoint(7) is for WMM0 AC3
+Endpoint(9) is for WMM1 AC0
+Endpoint(84) is for Data-In
+Endpoint(85) is for Command Rsp
+80211> RFICType = 3
+NumOfChan ===> 58
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80211> CurTxPower = 0 dBm
+80211> TxStream = 0
+crda> requlation requestion by core: 00
+80211> CFG80211_Register
+usbcore: registered new interface driver rt2870
+[Mstar GPIO] gpio(98) to irq(152)
+[Mstar GPIO] gpio(99) to irq(153)
+[Mstar GPIO] gpio(100) to irq(154)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[gpio] Set PAD_SR_IO12 as GPIO(controlled by ISP bank)
+[Mstar GPIO] gpio(36) to irq(-1)
+Try copy log from TF card
+mount: mounting /dev/mmcblk0p1 o not stop!
+read-only file system detected..set on 1 service
+miio_algo: set for activation
+rescan triggered for activation set on 1 service
+miio_devicekit: set for activatictrl_interface=/var/run/wpa_supplicant
+update_config=1
+network={
+	ssid="alice-2.4G"
+	psk="0926621644"
+	key_mgmt=WPA-PSK
+	proto=WPA WPA2
+	scan_ssid=1
+}
+hostapd  deauth
+et on 1 service
+miio_nas: set for activation
+ret on 1 service
+miio_ota: set for activation
+82118____
+ILM Length = 52136(bytes)
+DLM Length = 0(bytes)
+rescan triggered for activation ment
+/mnt/sdcard/tf_update.img not exRTMP_TimerListAdd: add timer obj c4b77664!
+RTMP_TimerListAdd: add timer obj c4b0c06c!
+ c4b0c10c!
+RTMP_TimerListAdd: add timer objRTMP_TimerListAdd: add timer obj c4afb33c!
+RTMP_TimerListAdd: add timer objRTMP_TimerListAdd: add timer obj c4a53c6c!
+RTMP_TimerListAdd: add timer obj c4a8ad94!
+RTMP_TimerListAdd: add timer obj c4a8a5d4!
+RTMP_TimerListAdd: add timer obj c4a8ad60!
+RTMP_TimerListAdd: add timer obj c4a8adfc!
+RTMP_TimerListAdd: add timer obj c4a8ae30!
+RTMP_TimerListAdd: add timer obj c4b0c00c!
+RTMP_TimerListAdd: add timer obj c4b0c0dc!
+RTMP_TimerListAdd: add timer obj c4bcf9a0!
+RTMP_TimerListAdd: add timer obj c4bcfa00!
+RTMP_TimerListAdd: add timer obj c4bcfa30!
+RTMP_TimerListAdd: add timer objRTMP_TimerListAdd: add timer obj c4b77694!
+ c4af790c!
+ c4af78dc!
+RTMP_TimerListAdd: add timer obj c4af78ac!
+RTMP_TimerListAdd: add timer obj c4b0c03c!
+RTMPDrvOpen(2):Check if PDMA is ]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P0B1, phys=0x23170000, length=0x0005A000
+H2BR@v0.0.00:vsi rq-controller
+MSYS: DMEM request: [MS-00]:0x00357000
+MSYS: DMEM kept entry found: name=MS-00, phys=0x23590000, length=0x00357000
+MSYS: DMEM request: [MS-01]:0x00357000
+MSYS: DMEM kept entry found: name=MS-01, phys=0x23230000, length=0x00357000
+rfkill: Cannot open RFKILL contrMT7601_ChipSwitchChannel: SwitchChannel#3(RF=15, 1T)
+ol device
+MSYS: DMEM request: [VENC-32]:0x000CC000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM kept entry found: name=VENC-32, phys=0x22D00000, length=0x000CC000
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+80211> CFG80211_OpsPmksaFlush ==>
+MSYS: DMEM kept entry found: name=S0:VENCDMOUT, phys=0x22FC0000, length=0x0000A800
+ctrl_iface existMSYS: DMEM request: [S0:VENCDMP0]:0x0007F800
+s and seems to bMSYS: DMEM kept entry found: name=S0:VENCDMP0, phys=0x22F40000, length=0x0007F800
+e in use - cannoMSYS: DMEM request: [S0:VENCDMP1]:0x0007F800
+t override it
+DMSYS: DMEM kept entry found: name=S0:VENCDMP1, phys=0x22EC0000, length=0x0007F800
+elete '/var/run/wpa_supplicant/wlan0' manually if it is not used anymore
+FailedH2BR@v0.0.00:vsi rq-controller
+ to initialize control interface '/var/run/wpa_supplicant'.
+You may have another wpa_supplicant process already running or the file was
+left by an unclean terMSYS: DMEM request: [VSPL-I0P1B0]:0x0005A000
+mination of wpa_MSYS: DMEM kept entry found: name=VSPL-I0P1B0, phys=0x23110000, length=0x0005A000
+supplicant in which case you will need
+to manually remove this MSYS: DMEM request: [VSPL-I0P1B1]:0x0005A000
+file before starting wpa_supplicMSYS: DMEM kept entry found: name=VSPL-I0P1B1, phys=0x230B0000, length=0x0005A000
+ant again.
+
+nl80211: deinit ifname=wlan0 disabMSYS: DMEM request: [VENC-48]:0x0001E000
+led_11b_rates=0
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+MSYS: DMEM kept entry found: name=VENC-48, phys=0x22CE0000, length=0x0001E000
+No connection! Set fake rssi= -80!!!
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+/mnt/data/bin/wiMSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+fi_start.sh: line 573: iptables: not found
+/mnt/data/bin/wifi_sMT7601_ChipSwitchChannel: SwitchChannel#4(RF=15, 1T)
+tart.sh: line 573: iptables: notvhe-return buffer is null
+ found
+/mnt/data/bin/wifi_start.sh: line 573: iMSYS: DMEM kept entry found: name=S1:VENCDMOUT, phys=0x22EB0000, length=0x0000A100
+ptables: not found
+MSYS: DMEM request: [S1:VENCDMP0]:0x00069F00
+MSYS: dmem realloc S1:VENCDMP0
+MSYS: DMEM [S1:VENCDMP0]@0x22E40000 successfully released
+MSYS: DMEM request: [S1:VENCDMP1]:0x00069F00
+MSYS: dmem realloc S1:VENCDMP1
+MSYS: DMEM [S1:VENCDMP1]@0x22DD0000 successfully released
+]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B0, phys=0x23050000, length=0x0005A000
+chuangmi_camera_ipc009
+MT7601_ChipSwitchChannel: SwitchChannel#5(RF=15, 1T)
+MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B1, phys=0x22FF0000, length=0x0005A000
+udhcpc: started, v1.28.1
+MSYS: DMEM request: [VENC-49]:0x0001E000
+vhe-return buffer is null
+MSYS: DMEM kept entry found: name=VENC-49, phys=0x22CC0000, length=0x0001E000
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+Channel#6(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#7(RF=15, 1T)
+udhcpc: sending discover
+[Mstar GPIO] gpio(17) to irq(-1)
+try found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#8(RF=15, 1T)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Duty=0x0
+MT7601_ChipSwitchChannel: SwitchChannel#9(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchNo connection! Set fake rssi= -80!!!
+Channel#11(RF=15, 1T)
+Channel#12(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#13(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#14(RF=15, 1T)
+MT7601_ChipSwitchChannel: SwitchChannel#1(RF=15, 1T)
+][Debug][CFG80211OS_ScanEnd] FlgIsAborted = 0
+80211> Connect bssid 68:02:b8:ba:a2:31
+CntlOidSsidProc():CNTL - 1 BSS of 19 BSS match the desire (10)SSID - alice-2.4G
+CntlOidSsidProc: Found BSSID(68:02:b8:ba:a2:31)
+CNTL - iterate BSS 0 of tchChannel#6(RF=15, 1T)
+PeerBeaconAtJoinAction(): HT-CtrlChannel=6, CentralChannel=>8
+PeerBeaconAtJoinAction(): Set CentralChannel=8
+MT7601_ChipSwitchChannel: SwitchChannel#6(RF=15, 1T)
+gulatory domain
+!!! LINK UP !!!!!! LINK UP !! (StaActive.bHtEnable =1)
+Rcv Wcid(1) AddBAReq
+RTMP_TimerListAdd: add timer obj c4bc98d8!
+Rcv Wcid(1) AddBAReq
+Start Seq RTMP_TimerListAdd: add timer obj c4bc993c!
+Rcv Wcid(1) AddBAReq
+Start Seq  c4bc99a0!
+= 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a04!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a68!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_Timerending discover
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b30!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj68.0.27
+udhcpc: lease of 192.168.0.27 obtained, lease time 604800
+deleting routers
+ns 203.187.1.1
+adding dns 203.133.1.1
+adding dns 8.8.8.8
+ ��  �� 
+IPL gd156225
+D-01.
+
+HW Reset
+64MB
+
+BIST0_0001-OK
+
+Boot 2015.01 (Sep 17 2020 - 11:4led
+I2C:   ready
+DRAM:  64 MiB
+h_mxp allocated success!!
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with  ��  �� 
+IPL gd156225
+D-01.
+
+HW Reset
+size:7fc8 chks:5551a134 ok
+
+IPL  decomp_size=0x0004ad64
+
+
+U-Boot 2015.01 (Sep 17 2020 - 11:43:25), Build: jenkins-ipc009_4.0.9_0408-4
+
+Version: I3g1e30514
+DEVINFO: 313E
+[WDT] Enalbe WATCHDOG 60s
+       Watchdog enabled
+I2C:   ready
+DRAM:  64 MiB
+gpio[100] is 1
+WARNING: Caches not enabled
+MMC:   MStar SD/MMC: 0
+nor_flash_mxp allocated success!!
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+MXP found at mxp_offset[1]=0x00020000, size=0x1000
+env_offset=0x4F000 env_size=0x1000
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   MAC Address 00:30:1B:BA:02:DB
+Auto-Negotiation...
+16
+ms_pwm->pad_ctrl[1]=70
+ms_pwm->pad_ctrl[2]=255
+ms_pwm->pad_ctrl[3]=255
+ms_pwm->pad_ctrl[4]=53
+ms_pwm->pad_ctrl[5]=255
+ms_pwm->pad_ctrl[6]=255
+ms_pwm->pad_ctrl[7]=56
+mstar-i3pwm 1f003400.pwm: probe successful
+mstar notify driver install successfully
+TCP: cubic registered
+NET: Registered protocol family 17
+ThumbEE CPU extension supported.
+MSYS: DMEM request: [pcmC0D0p]:0x00018000
+MSYS: DMEM request: [pcmC0D0c]:0x00014000
+infinity-audio soc:sound: infinity-codec-dai-main <-> infinity-cpu-dai mapping ok
+ALSA device list:
+  #0: infinity_snd_machine
+VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+devtmpfs: mounted
+Freeing unused kernel memory: 84K (c0325000 - c033a000)
+dVendor=148f, idProduct=7601
+ Mfr=1, Product=2, SerialNumber=3
+AN failLink Status Speed:10 FullRTMP_TimerListAdd: add timer obj c4af88f0!
+RTMP_TimerListAdd: add timer obj c4af8924!
+ or Type(0)
+ow mode = 3
+InitFrequencyCalibration: frequency offset in the EEPROM = 110(0x6e)
+<--- InitFrequencyCalibration
+RTMPSetPhyMode: channel is out of range, use first channel=1 
+MCS Set = ff 00 00 00 00
+<==== STA : rt28xx_init, Status=0
+80211> re-init bands...
+80211> RFICType = 1
+80211> Number of channel = 0x44
+80211> Number of rate = 12
+80210x1300 = 00064300
+RTMPDrvOpen(1):Check if PDMA is idle!
+RTMPDrvOpen(2):Check if PDMA is EVENT_UP(STA)
+0!!!
+80211> CFG80211_OpsPmksaFlush ==>
+ctrl_iface exists and seems to be in use - cannot override it
+DMSYS: DMEM request: [DLC_MEM]:0x00000400
+elete '/var/run/wpa_supplicant/wlan0' manually if it is not used anymore
+Failed to initialize control interface[DRVSCLDMA] Double Buffer Status :0
+ '/var/run/wpa_supplicant'.
+You may have another wpa_supplicant process already running or the MT7601_ChipSwitchChannel: SwitchChannel#3(RF=15, 1T)
+file was
+left by an unclean termination ofit ifname=wlan0 disabled_11b_rates=0
+e=SCL_MCNR_M, phys=0x238F0000, length=0x000FF000
+[HVSP1]: MCNR YC: Phy:239f0000  Vir:c39f0000
+MT7601_ChipSwitchChannel: SwitchChannel#4(RF=15, 1T)
+[HVSP1]: MCNR CIIR: Phy:0  Vir:0
+try found: name=VENC-48, phys=0x22CE0000, length=0x0001E000
+vhe-return buffer is null
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM request: [S1:VENCDMOUT]:0x0000A100
+MSYS: DMEM request: [VSPL-I0P2B0]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B0, phys=0x23050000, length=0x0005A000
+MSYS: DMEM request: [VSPL-I0P2B1]:0x0005A000
+MSYS: DMEM kept entry found: name=VSPL-I0P2B1, phys=0x22FF0000, length=0x0005A000
+MSYS: DMEM request: [VENC-49]:0x0001E000
+MSYS: DMEM kept entry found: nam]:0x00016800
+MSYS: DMEM kept enMT7601_ChipSwitchChannel: SwitchChannel#8(RF=15, 1T)
+[Mstar GPIO] gpio(17) to irq(-1)
+No connection! Set fake rssi= -80!!!
+MSYS: DMEM request: [VSPL-I0P3B0]:0x00016800
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#9(RF=15, 1T)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, per[PWN] mstar_pwm_config duty_ns=0UP !!! (Density =0, )
+RTMP_TimerListAdd: add timer obj c4bc78b8!
+Start Seq = 00000002
+ c4bc98d8!
+Rcv Wcid(1) AddBAReq
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc99a0!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a04!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9a68!
+Rcv Wcid(1) AddBAReq
+udhcpc: performiStart Seq = 00000000
+ng DHCP renew
+udhcpc: sending dRTMP_TimerListAdd: add timer obj c4bc9acc!
+iscover
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b30!
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000000
+RTMP_TimerListAdd: add timer obj c4bc9b94!
+udhcpc: sending select for 192.168.0.27
+udhcpc: lease of 192.168.0.27 obtained, lease time 604800
+[Mstar GPIO] gpio(18) to irq(-1)
+deleting routers
+[Mstar GPIO] gpio(83) to irq(166)
+[Mstar GPIO] gpio(78) to irq(182)
+adding dns 192.168.0.1
+adding dns 203.187.1.1
+adding dns 203.133.1.1
+adding dns 8.8.8.8
+get ip addr :
+Thu Jan  1 08:00:15 CST 1970
+_CUST gbf16da4
+
+MXP found at 0x0  decomp_size=0x0004ad64
+
+
+U-Boot 2015.01 (Sep 17 2020 - 11:4ze=0x1000
+Flash is detected (0x0709, 0xEF, 0x40, 0x18)
+SF: Detected nor0 with total size 16 MiB
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   MAC Address 00:30:1B:BA:02:DB
+Auto-Negotiation...
+pressed)
+   Data Size:    1723184 Bytes = 1.6 MiB
+   Load Address: 20008000
+   Entry Point:  0, ret=7
+OK
+ERR: Can't find KI00000000
+atags:0x20000000
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x0
+Linux version 3.18.30 (ubuntu isp_flag=0x0
+PID hash table entries: 256 (order: -2, 1024 byte : 0xffff0000 - 0xffff1000   (   - 0xffe00000   (2048 kB)
+    vmalloc : 0xc4800000 - 0xff000000   ( 936 MB)
+    lowmem  : 0xc0000000 - 0xc4000000   (  64 MB)
+    modules : 0xbf800000 - 0xc0000000   (   8 MB)
+      .text : 0xc0008000 - 0xc0324ecc   (3188 kB)
+      .init : 0xc0325000 - 0xc033a000   (  84 kB)
+      .data : 0xc033a000 - 0xc03749e0 SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Preentation.
+	Dump stacks of tasks blocking RCU-preempt GP.
+NR_IRQS:16 nr_irqs:16 16
+Find CLK_cpupll_clk, hook ms_cpuclk_ops
+[ms_cpuclk_init] get dvfs gpio  vid_1
+Architected cp15 timer(s) ruerency: ok
+Setting up static identity map for 0x20204d90 - 0x20204dc0
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+NET: Registered protocol family 03KL_LX318####[BR:HEAD]#XVM
+
+GPIO: probe end[OTG] Mstar_otg_device_init
+usbcore: registered new interfacred new interface driver hub
+usbcore: registered new device driver usb
+MSYS:  INIT DONE. TICK=family 2
+TCP established hash table entries: 1024 (order: 0, 40nable USB function
+[USB] config miu select [1] [ef] [ef] ][ef]
+[USB] enable miu lower bound ad_start:0xfd286400
+BC disable 
+[USB] soc:Mstar-ehci-2 irq --> 1:Mstar-ehci-2 soc:Mstar-ehci-2: new USB bus registered, assigned bus number 1
+soc:Mstar-ehci-2 soc:Mstar-ehci-2: irq 119, io mesb usb1: New USB device strings:usb1: SerialNumber: mstar
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Mstar-ehci-D=4, param=1
+Can't get power-enPIO(1)
+[mstar_usb_vbus_control]u select [1] [ef] [ef] ][ef]
+[Usoc:Mstar-ehci-1 soc:Mstar-ehci-1: EHCI Host Controller
+soc:Mstar-ehci-1 soc:Mstar-ehci-1: new >> [sdmmc_0] Int CDZ use Ext GPIO IRQ: (151)
+>> [sdmmc_0] Get CD => (1)
+>> [sdmmc_0] Probe Pla DMEM request: [ISP_base]:0x0001B120
+mmc0: new high speed SDHC card at address 0001
+ShareData_00000fe0000 : "DATA"
+0x000000feusb 2-1: New USB device found, idVendor=148f, idProduct=7601
+us+ source /etc/hooks/pre-init
+uxrc
+system': Read-only file system
+ln: /system/bin: No such file or directory
+ln: /system/etc: No such file or directory
+ln: /system/lib: No such file or directory
+random: ueventd urandom read with 2 bits of entropy available
+init: property_service started...
+init: minit[MVX2####g348e306CM_MINIT#####XVM]
+MSYS: DMEM request: [VENC-49]:0x0001E000
+PHYS=0x22CC0000,KVIRT=0xC2CC0000, LENGTH=0x0001EMSYS: 0
+PHYS=0x23050000,KVIRT=0xC3050
+000
+PHYS=0x230B0000,KVIRT=0xC30B0000, LENGTH=0x0005AMSYS: DMEMPHYS=0x239F0000,KVIRT=0xC39F0000, LENGTH=0x003FC000
+MSYS: fix_dStarting logging: OK
+04:CF:8C:CA:51:69
+ecified' taints kernel.
+Disabling lock debugging due to kernel taint
+==>[0]:PreBuff:0xc2058000, DmaAddr:0x22058000
+==>[1]:PreBuff:0xc2078000, DmaAddr:0x22078000
+==>[2]:PreBuff:0xc207c000, DmaAddr:0x2207c000
+==>[3]:PreBuff:0xc2080000, DmaAddr:0x22080000
+==>[4]:PreBuff:0xc2084000, DmaAddr:0x22084000
+==>[5]:PreBuff
+==>[6]:PreBuff:0xc208c000, DmaA=>[8]:PreBuff:0xc2094000, DmaAddr:0x22094000
+==>[9]:PreBuff:0xc2098000, DmaAddr:0x22098000
+==>[10]:PreBuff:0xc209c000, DmaAddr:0x2209c000
+==>[11]:PreBuff:0xc20a0000, DmaAddr:0x220a0000
+==>:0x220cc000
+==>[23]:PreBuff:0xc20d0000, DmaAddr:0x220d0000
+==>[24]:PreBuff:0xc20d4000, DmaAddr:0x220d4000
+==>[25]:PreBuff:0xc20d8000, DmaAddr:0x220d8000
+==>[26]:PreBuff:0xc20dc000, DmaAddr:0x220dc000
+==>[27]:PreBuff:0xc20e0000, DmaAddr:0x220e0000
+==>[28]:PreBuff:0xc20e4000, DmaAddr:0x220e4000
+==>[29]:PreBuff:0xc[30]:PreBuff:0xc20ec000, DmaAddr:0x220ec000
+==>[31]:PreBuff:0xc:0x220f4000
+==>[33]:PreBuff:0xc[34]:PreBuff:0xc20fc000, DmaAddr:0x220fc000
+==>[35]:PreBuff:0xc2100000, DmaAddr:0x22100000
+==>[36]:PreBuff:0xc2104000, DmaAddr:0x22104000
+==>[37]:PreBuff:0xc2108000, DmaAddr:0x22108000
+==>[40]:PreBuff:0xc2114000, DmaAddr:0x22114000
+==>[41]:PreBuff:0xc2118000, DmaAddr:0x22118000
+==>[42]:PreBuff:0xc211c000, DmaAddr:0x2211c000
+==>[43]:PreBuff:0xc2120000, DmaAddr:0x22120000
+==>[44]:PreBuff:0xc2124000, DmaAddr:0x22124000
+==>[45]:PreBuff:0xc2128000, DmaAddr:0x22128000
+==>[46]:PreBuff:0xc212c000, DmaAddr:0x2212c000
+==>[47]:PreBuff:0xc2130000, DmaAddr:0x22130000
+==>:0x2215c000
+==>[59]:PreBuff:0xc2160000, DmaAddr:0x22160000
+==>[60]:PreBuff:0xc2164000, DmaAddr[22]
+allocate tx ringidx 9 
+RTx ringidx 12 
+RTMPQMemAddr[40]
+allocate tx ringidx 13 
+RTMPQMn /mnt/sdcard failed: Invalid argument
+mount: mounting /etc/init.d/S12copylog: Unable to copy lOK
+Starting wifi ......
+wlan0
+mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid argument
+mount: mounting /dev/mmcblk0 on /mnt/sdcard failed: Invalid arguEntering service runlevel normal
+++++ ok
+ param  =  -  -  
+miio_connect_hid_ssid = 
+ enter STA_SELECT_MASTER
+encrypt old ssid & passwd
+miio_qrcode: set for deactivation
+rescan triggered for deactivation set on 1 service
+fetch_av: set for activation
+rescan triggered for activation set on 1 service
+miio_agent: set for activation
+rescan triggered for activation set on 1 service
+miio_algo: set for activation
+rmiio_client: set for activation
+rescan triggered for activation set on 1 service
+miio_ota: set for activation
+ret on 1 service
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+killall: udhcpc: no process killed
+1. LDO_CTR0(6c) = a64799, PMU_OCLEVEL c
+2. LDO_CTR0(6c) = a6478d, PMU_OCLEVEL 6
+==>WaitForAsicReady MAC_CSR0=0x76010500
+FW Version:0.1.00 Build:7640
+Build Time:201511182118____
+ILM Length = 52136(bytes)
+DLM Length = 0(bytes)
+Loading FW.an triggered for activation set mount: mounting /dev/mmcblk0p1 on /mnt/sdcard failed: Invalid ar/mnt/sdcard failed: Invalid argument
+/mnt/sdcard/tf_update.img not exry.img not exist
+Starting netcheck...
+RTMP_TimerListAdd: add timer obj c4b776f4!
+RTMP_TimerListAdd: add timer objRTMP_TimerListAdd: add timer obj c4b77754!
+RTMP_TimerListAdd: add timer obj c4b0c06c!
+ c4af88f0!
+RTMP_TimerListAdd: add timer objRTMP_TimerListAdd: add timer obj c4a53a1c!
+RTMP_TimerListAdd: add timer obj c4a5325c!
+RTMP_TimerListAdd: add timer obj c4a539e8!
+RTMP_TimerListAdd: add timer obj c4a53d48!
+RTMP_TimerListAdd: add timer obj c4af78ac!
+ately   
+P2pCfgInit:: 
+WOW Enable 1, WOWFirmware 0
+Key4Str is Invalid key length(1) or Type(0)
+###### Force at HT20 (BW_20) mode !!! ########
+WOW_Enable = 1
+WOW_Enable = 1, GPIO = 2
+14
+NVM is Efuse and its size =1d[1e0-1fc] 
+Efuse freeblock =[17] 
+ERROR!!! MT7601 E2PROM: WRONG VE3. Phy Mode = 14
+AntCfgInit: primary/secondary ant 0/1
+length=0x0005A000
+H2BR@v0.0.00:vsi rq-controller
+MSYS: DMEM request: [MS-00]:0x00357000
+MSYS: DMEM kept entry found: name=MS-00, phys=0x23590000, length=0x00357000
+MSYS: DMEM request: [MS-01]:0x00357000
+MSYS: DMEM kept entry found: name=MS-01, phys=0x23230000, length=0x00357000
+MSYS: DMEM request: [VENC-32]:0x000CC000
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM kept entry found: name=VENC-32, phys=0x22D00000, length=0x000CC000
+vhe-skip set RQCT_CFG_FPS(30720/1024)
+hrqc_set_conf - skip set RQCT_CFG_SEQ
+MSYS: DMEM request: [S0:VENCDMOUT]:0x0000A800
+MSYS: DMEM kept entry found: name=S0:VENCDMOUT, phys=0x22FC0000, length=0x0000A800
+No connection! Set fake rssi= -80!!!
+MSYS: DMEM kept entry found: name=S0:VENCDMP0, phys=0x22F40000, length=0x0007F800
+>
+ctrl_iface existMSYS: DMEM requentry found: name=S1:VENCDMOUT, phe file was
+left bMSYS: DMEM relMSYS: dmem realloc S1:VENCDMP0l need
+to manua
+vhe-return buffer is null
+lly remove this MT76D0000 successfully released
+MSYS: DMEM kept entry found: name=VSPL-I0P3B0, phys=0x22FD0000, amera_ipc009
+length=0x00016800
+MT7601_ChipSwitchChannel: SwitchChannel#9(RF=15, 1T)
+[PWN] mstar_pwm_config duty_ns=0, period_ns=120000
+reg=0x1F003410 clk=12000000, period=0x64
+reg=0x1F003408 clk=12000000, u32Dureg=0x1F003408 clk=12000000, u32MT7601_ChipSwitchChannel: Switch80211> Connect bssid 68:02:b8:ba:a2:31
+CntlOidSsidProc():CNTL - 1 BSS of 15 BSS match the desire (10)SSID - alice-2.4G
+CntlOideerBeaconAtJoinAction(): Set Cen!!! LINK UP !!!  ClientStatusFlags=f1)
+!!! LINK UP !! (StaActive.bHtEna

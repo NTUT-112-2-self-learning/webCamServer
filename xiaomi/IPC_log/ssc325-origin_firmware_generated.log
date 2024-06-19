@@ -1,0 +1,353 @@
+IPL 46f4be6
+D-01
+
+64MB
+
+BIST0_0001-OK
+
+Load IPL_CUST from NOR
+MXP found at 0x0000f000
+
+offset:00010000
+
+Checksum OK
+
+IPL_CUST 46f4be6
+
+MXP found at 0x0000f000
+
+runUBOOT()
+[SPI_NOR]
+offset:00020000
+
+ -Verify CRC32 passed!
+ -Decompress XZ
+  u32HeaderSize=0x00000040
+  u32Loadsize=0x0001b95c
+  decomp_size=0x0004b214
+Disable MMU and D-cache before jump to UBOOT
+
+
+U-Boot 2015.01 (Jun 02 2024 - 15:00:46)
+
+Version: I698723e0#
+I2C:   ready
+DRAM:  
+WARNING: Caches not enabled
+MMC:   MStar SD/MMC: 0
+nor_flash_mxp allocated success!!
+Flash is detected (0x090F, 0x1C, 0x70, 0x18)
+SF: Detected nor0 with total size 16 MiB
+MXP found at mxp_offset[2]=0x0000F000, size=0x1000
+env_offset=0x40000 env_size=0x10000
+Flash is detected (0x090F, 0x1C, 0x70, 0x18)
+SF: Detected nor0 with total size 16 MiB
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   MAC Address 00:00:23:34:45:66
+Auto-Negotiation...
+AN failLink Status Speed:10 Full-duplex:0
+Status Error!
+sstar_emac
+Warning: sstar_emac using MAC address from net device
+
+MMC Device 1 not found
+Flash is detected (0x090F, 0x1C, 0x70, 0x18)
+SF: Detected nor0 with total size 16 MiB
+Saving Environment to SPI Flash...
+env_offset=0x40000 env_size=0x10000
+Flash is detected (0x090F, 0x1C, 0x70, 0x18)
+SF: Detected nor0 with total size 16 MiB
+Erasing SPI flash..._spi_flash_erase: addr 0x40000, len 0x10000     100%(cost 151 ms)
+Writing to SPI flash..._spi_flash_write to 0x40000, len 0x10000 from 0x239cfd20     100%(cost 107 ms)
+done
+Flash is detected (0x090F, 0x1C, 0x70, 0x18)
+SF: Detected nor0 with total size 16 MiB
+SF: 2097152 bytes @ 0x50000 Read: OK (cost 459 ms)
+##  Booting kernel from Legacy Image at 21000000 ...
+   Image Name:   Linux-4.9.84-ssc325
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    1943048 Bytes = 1.9 MiB
+   Load Address: 20008000
+   Entry Point:  20008000
+   Verifying Checksum ... OK
+   Loading Kernel Image ... OK
+atags:0x20000000
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x0
+Linux version 4.9.84 (james@debian) (buildroot-gcc-13.2.0) #2 PREEMPT Mon Jun 17 01:24:30 HKT 2024
+CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=50c53c7d
+CPU: div instructions available: patching division code
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+early_atags_to_fdt() success
+OF: fdt:Machine model: INFINITY6 SSC009A-S01A QFN88
+LXmem is 0x3fc6000 PHYS_OFFSET is 0x20000000
+Add mem start 0x20000000 size 0x3fc6000!!!!
+
+LX_MEM  = 0x20000000, 0x3fc6000
+LX_MEM2 = 0x0, 0x0
+LX_MEM3 = 0x0, 0x0
+EMAC_LEN= 0x0
+DRAM_LEN= 0x0
+deal_with_reserve_mma_heap memblock_reserve success mma_config[0].reserved_start=
+0x21fc6000
+
+cma: Reserved 2 MiB at 0x21c00000
+Memory policy: Data cache writeback
+CPU: All CPU(s) started in SVC mode.
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16198
+Kernel command line: console=ttyS0,115200 panic=20 root=/dev/mtdblock3 init=/init mtdparts=NOR_FLASH:256k(boot),64k(env),2048k(kernel),5120k(rootfs),-(rootfs_data) LX_MEM=0x3FC6000 mma_heap=mma_heap_name0,miu=0,sz=0x2000000 cma=2M
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Memory: 25684K/65304K available (2244K kernel code, 220K rwdata, 1144K rodata, 124K init, 141K bss, 37572K reserved, 2048K cma-reserved)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xc4000000 - 0xff800000   ( 952 MB)
+    lowmem  : 0xc0000000 - 0xc3fc6000   (  63 MB)
+    modules : 0xbf800000 - 0xc0000000   (   8 MB)
+      .text : 0xc0008000 - 0xc0239278   (2245 kB)
+      .init : 0xc0379000 - 0xc0398000   ( 124 kB)
+      .data : 0xc0398000 - 0xc03cf298   ( 221 kB)
+       .bss : 0xc03d1000 - 0xc03f45d4   ( 142 kB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Preemptible hierarchical RCU implementation.
+	Build-time adjustment of leaf fanout to 32.
+NR_IRQS:16 nr_irqs:16 16
+ms_init_main_intc: np->name=ms_main_intc, parent=gic
+ms_init_pm_intc: np->name=ms_pm_intc, parent=ms_main_intc
+ss_init_gpi_intc: np->name=ms_gpi_intc, parent=ms_main_intc
+Find CLK_cpupll_clk, hook ms_cpuclk_ops
+arm_arch_timer: Architected cp15 timer(s) running at 6.00MHz (virt).
+clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x1623fa770, max_idle_ns: 440795202238 ns
+sched_clock: 56 bits at 6MHz, resolution 166ns, wraps every 4398046511055ns
+Switching to timer-based delay loop, resolution 166ns
+console [ttyS0] enabled
+Calibrating delay loop (skipped), value calculated using timer frequency.. 12.00 BogoMIPS (lpj=60000)
+pid_max: default: 4096 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+CPU: Testing write buffer coherency: ok
+Setting up static identity map for 0x200081c0 - 0x200081f0
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 16 (order: -4, 448 bytes)
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+
+
+Version : MVX2##I6g#######KL_LX409####[BR:g]#XVM
+
+GPIO: probe end[ss_gpi_intc_domain_alloc] hw:42 -> v:51
+[MS_PM_INTC] hw:20 -> v:53
+hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+hw-breakpoint: maximum watchpoint size is 8 bytes.
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+MSYS:  INIT DONE. TICK=0x052F7C81
+clocksource: Switched to clocksource arch_sys_counter
+NET: Registered protocol family 2
+TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+TCP bind hash table entries: 1024 (order: 2, 20480 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+UDP hash table entries: 128 (order: 0, 6144 bytes)
+UDP-Lite hash table entries: 128 (order: 0, 6144 bytes)
+NET: Registered protocol family 1
+hw perfevents: enabled with armv7_cortex_a7 PMU driver, 5 counters available
+workingset: timestamp_bits=30 max_order=13 bucket_order=0
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+io scheduler noop registered
+io scheduler deadline registered (default)
+loop: module loaded
+libphy: Fixed MDIO Bus: probed
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mstar_ehc_init version:20180309
+Sstar-ehci-1 H.W init
+CHIP_FUNCTION SET. ID=4, param=1
+Get power-enable-pad from DTS GPIO(65535)
+Failed to request USB0-power-enable GPIO(255)
+Titania3_series_start_ehc start
+[USB] config miu select [70] [e8] [ef] [ef]
+[USB] enable miu lower bound address subtraction
+[USB] init squelch level 0x2
+[USB] no platform_data, device tree coming
+[USB][EHC] dma coherent_mask 0xffffffffffffffff mask 0xffffffffffffffff
+BC disable 
+[USB] soc:Sstar-ehci-1 irq --> 45
+Sstar-ehci-1 soc:Sstar-ehci-1: EHCI Host Controller
+Sstar-ehci-1 soc:Sstar-ehci-1: new USB bus registered, assigned bus number 1
+Sstar-ehci-1 soc:Sstar-ehci-1: irq 45, io mem 0xfd284800
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 4.9.84 ehci_hcd
+usb usb1: SerialNumber: mstar
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+i2c /dev entries driver
+1f221000.uart0: ttyS0 at MMIO 0x0 (irq = 39, base_baud = 10800000) is a unknown
+1f221200.uart1: ttyS1 at MMIO 0x0 (irq = 40, base_baud = 10800000) is a unknown
+URDMA rx_buf=0xC1C45000(phy:0x21C45000) tx_buf=0xC1C46000(phy:0x21C46000) size=0x1000
+1f220400.uart2: ttyS2 at MMIO 0x0 (irq = 42, base_baud = 10800000) is a unknown
+>> [sdmmc] ms_sdmmc Driver Initializing... 
+>> [sdmmc] ms_sdmmc_probe 
+>> [sdmmc_0] MIE IRQ: 48
+>> [sdmmc_0] CDZ IRQ: 50
+>> [sdmmc_0] Enable SDIO Interrupt Mode! 
+>> [sdmmc_0] Get CD => (0)
+
+>> [sdmmc_0] CDZ... (EJT) OK!
+>> [sdmmc_0] Get CD => (0)
+>> [sdmmc_0] Int CDZ use Ext GPIO IRQ: (50)
+>> [sdmmc_0] Probe Platform Devices...(Ret:0) 
+MSYS: DMEM request: [emac0_buff]:0x00000812
+MSYS: DMEM request: [emac0_buff]:0x00000812 success, CPU phy:@0x21C48000, virt:@0xC1C48000
+libphy: mdio: probed
+mdio_bus mdio-bus@emac0: /soc/emac0/mdio-bus/ethernet-phy@0 has invalid PHY address
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 0
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 1
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 2
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 3
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 4
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 5
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 6
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 7
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 8
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 9
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 10
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 11
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 12
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 13
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 14
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 15
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 16
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 17
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 18
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 19
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 20
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 21
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 22
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 23
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 24
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 25
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 26
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 27
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 28
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 29
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 30
+mdio_bus mdio-bus@emac0: scan phy ethernet-phy at address 31
+[emac_phy_connect][3100] connected mac emac0 to PHY at mdio-bus@emac0:00 [uid=11112222, driver=SStar 10/100 Ethernet Phy]
+ms_rtc 1f002400.rtc: rtc core: registered 1f002400.rtc as rtc0
+[ms_rtc_probe]: rtc setup, frequency=12000000
+[ms_gpioi2c] sda-gpio=8, scl-gpio=9
+[__infinity_wdt_get_clk_rate] of_clk_get failed
+check_osc_clk get much clk error from DTS
+[SAR] infinity_sar_probe 
+MSYS: DMEM request: [BDMA_FSP_WBUFF]:0x00010040
+MSYS: DMEM request: [BDMA_FSP_WBUFF]:0x00010040 success, CPU phy:@0x21C50000, virt:@0xC1C50000
+[Ser flash] phys=0x21c50000, virt=0xc1c50000, bus=0x01c50000 len:0x10040
+[FSP] Unknown flash type (0xFF, 0xFF, 0xFF) and use default flash type 0x0000
+[FSP] 1-1-4 QUAD_READ MODE
+mtd .name = NOR_FLASH, .size = 0x01000000 (16MiB)
+ .erasesize = 0x00010000 .numeraseregions = 0
+MXP_PARTS!!
+MXP found at mxp_offset[2]=0x0000F000, size=0x1000
+5 cmdlinepart partitions found on MTD device NOR_FLASH
+Creating 5 MTD partitions on "NOR_FLASH":
+0x000000000000-0x000000040000 : "boot"
+0x000000040000-0x000000050000 : "env"
+0x000000050000-0x000000250000 : "kernel"
+0x000000250000-0x000000750000 : "rootfs"
+0x000000750000-0x000001000000 : "rootfs_data"
+MSYS: DMEM request: [AESDMA_ENG]:0x00001000
+MSYS: DMEM request: [AESDMA_ENG]:0x00001000 success, CPU phy:@0x21C49000, virt:@0xC1C49000
+MSYS: DMEM request: [AESDMA_ENG1]:0x00001000
+MSYS: DMEM request: [AESDMA_ENG1]:0x00001000 success, CPU phy:@0x21C4A000, virt:@0xC1C4A000
+infinity_aes soc:aesdma: MSTAR AES engine enabled.
+cryptodev: driver aesdmadev loaded.
+[ms_cpufreq_init] cpu current clk=796917760
+[ms_pwm_probe][118] 0xc1716c90
+NET: Registered protocol family 17
+ThumbEE CPU extension supported.
+ms_rtc 1f002400.rtc: setting system clock to 1970-01-01 00:00:00 UTC (0)
+OF: fdt:not creating '/sys/firmware/fdt': CRC check failed
+VFS: Mounted root (squashfs filesystem) readonly on device 31:3.
+devtmpfs: mounted
+Freeing unused kernel memory: 124K
+This architecture does not have kernel memory protection.
+Sun Jun 16 17:26:11 GMT 2024
+random: seedrng: uninitialized urandom read (256 bytes read)
+Saving 2048 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting rngd: OK
+Loading modules...
+Starting mdev...
+Starting network...
+udhcpc: started, v1.36.1
+udhcpc: broadcasting discover
+udhcpc: broadcasting discover
+udhcpc: broadcasting discover
+udhcpc: broadcasting discover
+udhcpc: broadcasting discover
+udhcpc: no lease, forking to background
+Starting ntpd: OK
+Starting dropbear: OK
+Starting crond: OK
+Loading vendor modules...
+OpenIPC: [1;33mAutodetect sensor[0m
+OpenIPC: [1;32mSensor assigned - gc2053[0m
+Starting majestic: OK
+
+
+Welcome to OpenIPC
+
+openipc-ssc325 login: root
+Password: 
+[1;34m
+   .d88888b.                             8888888 8888888b.   .d8888b.
+  d88P" "Y88b                              888   888   Y88b d88P  Y88b
+  888     888                              888   888    888 888    888
+  888     888 88888b.   .d88b.  88888b.    888   888   d88P 888
+  888     888 888 "88b d8P  Y8b 888 "88b   888   8888888P"  888
+  888     888 888  888 88888888 888  888   888   888        888    888
+  Y88b. .d88P 888 d88P Y8b.     888  888   888   888        Y88b  d88P
+   "Y88888P"  88888P"   "Y8888  888  888 8888888 888         "Y8888P"
+              888
+              888
+              888[0m[1;32m                            local+build, 2024-06-17[0m[1;37m
+
+ Please help the OpenIPC Project to cover the cost of development and
+ long-term maintenance of what we believe is going to become a stable,
+ flexible Open IP Network Camera Framework for users worldwide.
+
+ Your contributions could help us to advance the development and keep
+ you updated on improvements and new features more regularly.
+
+ Please visit https://openipc.org/sponsor/ to learn more. Thank you.
+
+[0mroot@openipc-ssc325:~# lsusb
+Bus 001 Device 001: ID 1d6b:0002
+root@openipc-ssc325:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN qlen 1000
+    link/ether 00:00:23:34:45:66 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.10/24 brd 192.168.1.255 scope global eth0
+       valid_lft forever preferred_lft forever
+root@openipc-ssc325:~# 
