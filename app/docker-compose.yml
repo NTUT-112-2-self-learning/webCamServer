@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    image: node:14
+    container_name: node-app
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  ffmpeg:
+    image: jrottenberg/ffmpeg:latest
+    container_name: ffmpeg
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
