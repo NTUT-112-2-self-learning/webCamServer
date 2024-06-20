@@ -8,6 +8,8 @@ services:
     container_name: node-app
     ports:
       - "8000:8000"
+    volumes:
+      - ./node:/usr/src/app
     networks:
       - app-network
 
