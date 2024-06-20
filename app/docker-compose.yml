@@ -29,7 +29,9 @@ services:
       - app-network
 
   ffmpeg:
-    image: jrottenberg/ffmpeg:latest
+    build:
+      context: ./ffmpeg
+      dockerfile: Dockerfile
     container_name: ffmpeg
     volumes:
       - ./hls:/mnt/hls
