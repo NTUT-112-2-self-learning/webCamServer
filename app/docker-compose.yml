@@ -10,6 +10,7 @@ services:
       - "8000:8000"
     volumes:
       - ./node:/usr/src/app
+      - ./hls:/usr/src/app/hls
     networks:
       - app-network
 
@@ -18,12 +19,17 @@ services:
     container_name: nginx
     ports:
       - "8080:8080"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./hls:/mnt/hls
     networks:
       - app-network
 
   ffmpeg:
     image: jrottenberg/ffmpeg:latest
     container_name: ffmpeg
+    volumes:
+      - ./hls:/mnt/hls
     networks:
       - app-network
 
