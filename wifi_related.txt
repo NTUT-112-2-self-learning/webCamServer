@@ -1,1 +1,0 @@
-webcam/firmware/test_data/1/xiaomi_MJXSJ05CM_backup.bin_extract/10158080-16646144.jffs2_new_extract/bin/wifi_start.sh
