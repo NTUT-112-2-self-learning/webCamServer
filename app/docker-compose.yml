@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   app:
-    image: node:14
+    build:
+      context: ./node
+      dockerfile: Dockerfile
     container_name: node-app
     ports:
       - "8000:8000"
