@@ -2,7 +2,8 @@
 #ssc333 or ssc325
 chip=ssc325
 # flavor=origin_firmware_generated
-flavor=with_mt76
+# flavor=with_mt76
+flavor=without_majestic
 
 uboot=u-boot-$chip-nor.bin
 uImage=uImage.$chip
@@ -19,17 +20,31 @@ else
 fi
 
 
-if [ -f "u-boot_downloaded/$uboot" ] && [ -f "$flavor/$uImage" ] && [ -f "$flavor/$rootfs" ]; then
-    echo "U-Boot, uImage, and rootfs images exist."
+if [ -f "u-boot_downloaded/$uboot" ]; then
+    echo "U-Boot image exists."
 else
-    echo "One or more of the images is missing."
+    echo "U-Boot image is missing."
+    exit 1
+fi
+
+if [ -f "$flavor/$uImage" ]; then
+    echo "uImage exists."
+else
+    echo "uImage is missing."
+    exit 1
+fi
+
+if [ -f "$flavor/$rootfs" ]; then
+    echo "Rootfs image exists."
+else
+    echo "Rootfs image is missing."
     exit 1
 fi
 
 dd if=/dev/zero bs=1K count=8192 status=none | tr '\000' '\377' > $release
 dd if=u-boot_downloaded/$uboot of=$release bs=1K seek=0 conv=notrunc status=none
-dd if=$flavor/$uImage of=$release bs=1K seek=320 conv=notrunc status=none
-dd if=$flavor/$rootfs of=$release bs=1K seek=2368 conv=notrunc status=none
+dd if=br/$flavor/$uImage of=$release bs=1K seek=320 conv=notrunc status=none
+dd if=br/$flavor/$rootfs of=$release bs=1K seek=2368 conv=notrunc status=none
 
 echo "Created: $release"
 
